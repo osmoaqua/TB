@@ -3653,6 +3653,34 @@
               "markers" : [ {
                 "dsType" : "device",
                 "dsLabel" : "",
+                "dsDeviceId" : "ec8f0930-3578-11f0-a851-d98fa5765a83",
+                "dsEntityAliasId" : null,
+                "dsFilterId" : null,
+                "additionalDataSources" : null,
+                "additionalDataKeys" : null,
+                "label" : {
+                  "show" : true,
+                  "type" : "pattern",
+                  "pattern" : "${entityName}"
+                },
+                "tooltip" : {
+                  "show" : true,
+                  "trigger" : "click",
+                  "autoclose" : true,
+                  "type" : "pattern",
+                  "pattern" : "<b>${entityName}</b><br/><br/><b>Latitude:</b> ${latitude:7}<br/><b>Longitude:</b> ${longitude:7}<br/><b>Temperature:</b> ${temperature} °C<br/><small>See tooltip settings for details</small>",
+                  "offsetX" : 0,
+                  "offsetY" : -1
+                },
+                "click" : {
+                  "type" : "doNothing"
+                },
+                "groups" : null,
+                "edit" : {
+                  "enabledActions" : [ ],
+                  "attributeScope" : "SERVER_SCOPE",
+                  "snappable" : true
+                },
                 "xKey" : {
                   "name" : "latitude",
                   "label" : "latitude",
@@ -3692,9 +3720,8 @@
                 },
                 "markerOffsetX" : 0.5,
                 "markerOffsetY" : 1,
-                "positionFunction" : "return {x: origXPos, y: origYPos};",
                 "markerClustering" : {
-                  "enable" : false,
+                  "enable" : true,
                   "zoomOnClick" : true,
                   "maxZoom" : null,
                   "maxClusterRadius" : 80,
@@ -3705,37 +3732,14 @@
                   "lazyLoad" : true,
                   "useClusterMarkerColorFunction" : false,
                   "clusterMarkerColorFunction" : null
-                },
-                "label" : {
-                  "show" : true,
-                  "type" : "pattern",
-                  "pattern" : "${entityName}"
-                },
-                "tooltip" : {
-                  "show" : true,
-                  "trigger" : "click",
-                  "autoclose" : true,
-                  "type" : "pattern",
-                  "pattern" : "<b>${entityName}</b><br/><br/><b>Latitude:</b> ${latitude:7}<br/><b>Longitude:</b> ${longitude:7}<br/><b>Temperature:</b> ${temperature} °C<br/><small>See tooltip settings for details</small>",
-                  "offsetX" : 0,
-                  "offsetY" : -1
-                },
-                "click" : {
-                  "type" : "doNothing"
-                },
-                "edit" : {
-                  "enabledActions" : [ ],
-                  "attributeScope" : "SERVER_SCOPE",
-                  "snappable" : false
-                },
-                "dsDeviceId" : "ec8f0930-3578-11f0-a851-d98fa5765a83"
+                }
               } ],
               "polygons" : [ ],
               "circles" : [ ],
               "additionalDataSources" : [ ],
-              "controlsPosition" : "topleft",
+              "controlsPosition" : "bottomright",
               "zoomActions" : [ "scroll", "doubleClick", "controlButtons" ],
-              "scales" : [ ],
+              "scales" : [ "metric" ],
               "dragModeButton" : false,
               "fitMapBounds" : true,
               "useDefaultCenterPosition" : false,
@@ -3769,7 +3773,7 @@
             },
             "pageSize" : 1024,
             "noDataDisplayMessage" : "",
-            "configMode" : "basic",
+            "configMode" : "advanced",
             "titleFont" : null,
             "titleColor" : null,
             "margin" : "0px",
@@ -3778,7 +3782,7 @@
             "titleIcon" : "map",
             "iconColor" : "#1F6BDD",
             "actions" : { },
-            "enableDataExport" : false
+            "enableDataExport" : true
           },
           "row" : 0,
           "col" : 0,
