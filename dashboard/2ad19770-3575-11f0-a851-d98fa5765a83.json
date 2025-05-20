@@ -3637,21 +3637,18 @@
               "mapType" : "geoMap",
               "layers" : [ {
                 "label" : "{i18n:widgets.maps.layer.roadmap}",
-                "provider" : "google",
-                "layerType" : "roadmap",
-                "apiKey" : "AIzaSyDoEx2kaGz3PxwbI9T7ccTSg5xjdw8Nw8Q",
+                "provider" : "openstreet",
+                "layerType" : "CartoDB.Positron",
                 "referenceLayer" : null
               }, {
                 "label" : "{i18n:widgets.maps.layer.satellite}",
-                "provider" : "google",
-                "layerType" : "roadmap",
-                "apiKey" : "AIzaSyDoEx2kaGz3PxwbI9T7ccTSg5xjdw8Nw8Q",
+                "provider" : "openstreet",
+                "layerType" : "Esri.WorldStreetMap",
                 "referenceLayer" : null
               }, {
                 "label" : "{i18n:widgets.maps.layer.hybrid}",
-                "provider" : "google",
-                "layerType" : "roadmap",
-                "apiKey" : "AIzaSyDoEx2kaGz3PxwbI9T7ccTSg5xjdw8Nw8Q",
+                "provider" : "openstreet",
+                "layerType" : "Esri.WorldImagery",
                 "referenceLayer" : "openstreetmap_hybrid"
               } ],
               "imageSource" : null,
