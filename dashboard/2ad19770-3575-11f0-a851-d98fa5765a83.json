@@ -4019,8 +4019,8 @@
             "main" : {
               "widgets" : {
                 "88863980-1efd-ee76-2ef4-2f7a4b327952" : {
-                  "sizeX" : 8,
-                  "sizeY" : 6,
+                  "sizeX" : 25,
+                  "sizeY" : 13,
                   "row" : 0,
                   "col" : 0
                 }
