@@ -20,22 +20,22 @@
     },
     "deviceProfileId" : {
       "entityType" : "DEVICE_PROFILE",
-      "id" : "1412e100-3576-11f0-a851-d98fa5765a83"
+      "id" : "cf8d11e0-3575-11f0-a851-d98fa5765a83"
     },
     "externalId" : null,
     "firmwareId" : null,
     "id" : {
       "entityType" : "DEVICE",
-      "id" : "3fb5f650-3579-11f0-a851-d98fa5765a83"
+      "id" : "054f3f80-3579-11f0-a851-d98fa5765a83"
     },
-    "label" : "wifi_peñafiel",
-    "name" : "wifi_peñafiel",
+    "label" : "cloro_peñafiel",
+    "name" : "cloro_peñafiel",
     "ownerId" : null,
     "softwareId" : null,
-    "type" : "wifi"
+    "type" : "cloro"
   },
   "credentials" : {
-    "credentialsId" : "eiuf35xk6pa6ofqmchtg",
+    "credentialsId" : "t98och3sbg3063i4lxl6",
     "credentialsType" : "ACCESS_TOKEN",
     "credentialsValue" : null
   },
@@ -46,7 +46,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1747745532529,
+      "lastUpdateTs" : 1747745434568,
       "longValue" : null,
       "strValue" : null
     } ],
