@@ -1,0 +1,32 @@
+{
+  "entityType" : "DASHBOARD",
+  "entity" : {
+    "title" : "pruebas reportes",
+    "image" : "tb-image;/api/images/tenant/logo_fin-removebg-blanco.png",
+    "mobileHide" : false,
+    "mobileOrder" : null,
+    "configuration" : {
+      "description" : ""
+    },
+    "name" : "pruebas reportes",
+    "resources" : null,
+    "assignedCustomers" : null,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "76fb36f0-357b-11f0-a851-d98fa5765a83"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "DASHBOARD",
+      "id" : "0f802bf0-3596-11f0-a851-d98fa5765a83"
+    },
+    "ownerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "76fb36f0-357b-11f0-a851-d98fa5765a83"
+    }
+  },
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  },
+  "calculatedFields" : [ ]
+}
