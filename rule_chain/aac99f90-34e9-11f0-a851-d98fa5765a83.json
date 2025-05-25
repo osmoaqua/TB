@@ -4,10 +4,13 @@
     "additionalInfo" : null,
     "configuration" : null,
     "debugMode" : false,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "aac99f90-34e9-11f0-a851-d98fa5765a83"
+    },
     "firstRuleNodeId" : {
       "entityType" : "RULE_NODE",
-      "id" : "aad81e80-34e9-11f0-a851-d98fa5765a83"
+      "id" : "132f13e0-357a-11f0-a851-d98fa5765a83"
     },
     "id" : {
       "entityType" : "RULE_CHAIN",
@@ -106,7 +109,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "aacd9730-34e9-11f0-a851-d98fa5765a83"
+        "id" : "132c54c0-357a-11f0-a851-d98fa5765a83"
       },
       "name" : "Save Timeseries",
       "queueName" : null,
@@ -133,7 +136,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "aace8190-34e9-11f0-a851-d98fa5765a83"
+        "id" : "132ca2e0-357a-11f0-a851-d98fa5765a83"
       },
       "name" : "Save Attributes",
       "queueName" : null,
@@ -154,7 +157,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "aacef6c0-34e9-11f0-a851-d98fa5765a83"
+        "id" : "132cc9f0-357a-11f0-a851-d98fa5765a83"
       },
       "name" : "Message Type Switch",
       "queueName" : null,
@@ -177,7 +180,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "aacf9300-34e9-11f0-a851-d98fa5765a83"
+        "id" : "132d6630-357a-11f0-a851-d98fa5765a83"
       },
       "name" : "Log RPC from Device",
       "queueName" : null,
@@ -200,7 +203,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "aacfe120-34e9-11f0-a851-d98fa5765a83"
+        "id" : "132db450-357a-11f0-a851-d98fa5765a83"
       },
       "name" : "Log Other",
       "queueName" : null,
@@ -221,7 +224,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "aad119a0-34e9-11f0-a851-d98fa5765a83"
+        "id" : "132e2980-357a-11f0-a851-d98fa5765a83"
       },
       "name" : "RPC Call Request",
       "queueName" : null,
@@ -242,7 +245,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "aad27930-34e9-11f0-a851-d98fa5765a83"
+        "id" : "132e5090-357a-11f0-a851-d98fa5765a83"
       },
       "name" : "Is Entity Group",
       "queueName" : null,
@@ -263,7 +266,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "aad3b1b0-34e9-11f0-a851-d98fa5765a83"
+        "id" : "132e9eb0-357a-11f0-a851-d98fa5765a83"
       },
       "name" : "Post attributes or RPC request",
       "queueName" : null,
@@ -285,7 +288,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "aad5d490-34e9-11f0-a851-d98fa5765a83"
+        "id" : "132ec5c0-357a-11f0-a851-d98fa5765a83"
       },
       "name" : "Duplicate To Group Entities",
       "queueName" : null,
@@ -308,7 +311,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "aad81e80-34e9-11f0-a851-d98fa5765a83"
+        "id" : "132f13e0-357a-11f0-a851-d98fa5765a83"
       },
       "name" : "Device Profile Node",
       "queueName" : null,
@@ -331,7 +334,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "aad9f340-34e9-11f0-a851-d98fa5765a83"
+        "id" : "132f6200-357a-11f0-a851-d98fa5765a83"
       },
       "name" : "Generate Report",
       "queueName" : null,
@@ -354,7 +357,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "a677f310-3575-11f0-a851-d98fa5765a83"
+        "id" : "132f8910-357a-11f0-a851-d98fa5765a83"
       },
       "name" : "ph",
       "queueName" : null,
@@ -377,7 +380,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "a6784130-3575-11f0-a851-d98fa5765a83"
+        "id" : "132fb020-357a-11f0-a851-d98fa5765a83"
       },
       "name" : "cloro",
       "queueName" : null,
@@ -400,7 +403,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "a6786840-3575-11f0-a851-d98fa5765a83"
+        "id" : "132fb021-357a-11f0-a851-d98fa5765a83"
       },
       "name" : "turbidez",
       "queueName" : null,
@@ -423,7 +426,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "a6788f50-3575-11f0-a851-d98fa5765a83"
+        "id" : "132fd730-357a-11f0-a851-d98fa5765a83"
       },
       "name" : "temperatura",
       "queueName" : null,
@@ -442,11 +445,15 @@
       },
       "configurationVersion" : 1,
       "createdTime" : 0,
-      "debugSettings" : null,
+      "debugSettings" : {
+        "allEnabled" : false,
+        "allEnabledUntil" : 1748196089035,
+        "failuresEnabled" : false
+      },
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "a678b660-3575-11f0-a851-d98fa5765a83"
+        "id" : "132fd731-357a-11f0-a851-d98fa5765a83"
       },
       "name" : "wifi",
       "queueName" : null,
@@ -456,8 +463,8 @@
     } ],
     "ruleChainConnections" : null
   },
-  "relations" : [ ],
   "attributes" : {
     "SERVER_SCOPE" : [ ]
-  }
+  },
+  "calculatedFields" : [ ]
 }
