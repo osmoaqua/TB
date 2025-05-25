@@ -238,17 +238,17 @@
         "layoutY" : 283
       },
       "configuration" : {
-        "defaultTTL" : 0,
-        "useServerTs" : false,
         "processingSettings" : {
           "type" : "ON_EVERY_MESSAGE"
-        }
+        },
+        "defaultTTL" : 0,
+        "useServerTs" : false
       },
       "configurationVersion" : 1,
       "createdTime" : 0,
       "debugSettings" : {
         "allEnabled" : false,
-        "allEnabledUntil" : 1745357249714,
+        "allEnabledUntil" : 1748196050607,
         "failuresEnabled" : false
       },
       "externalId" : null,
