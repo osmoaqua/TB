@@ -6,10 +6,13 @@
     },
     "configuration" : null,
     "debugMode" : false,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "667d0340-3575-11f0-a851-d98fa5765a83"
+    },
     "firstRuleNodeId" : {
       "entityType" : "RULE_NODE",
-      "id" : "6692ae20-3575-11f0-a851-d98fa5765a83"
+      "id" : "1315e690-357a-11f0-a851-d98fa5765a83"
     },
     "id" : {
       "entityType" : "RULE_CHAIN",
@@ -33,14 +36,6 @@
       "toIndex" : 3,
       "type" : "True"
     }, {
-      "fromIndex" : 2,
-      "toIndex" : 10,
-      "type" : "True"
-    }, {
-      "fromIndex" : 2,
-      "toIndex" : 12,
-      "type" : "False"
-    }, {
       "fromIndex" : 3,
       "toIndex" : 4,
       "type" : "Success"
@@ -54,27 +49,15 @@
       "type" : "Success"
     }, {
       "fromIndex" : 6,
-      "toIndex" : 8,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 8,
       "toIndex" : 0,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 10,
-      "toIndex" : 9,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 12,
-      "toIndex" : 11,
       "type" : "Success"
     } ],
     "firstNodeIndex" : 6,
     "nodes" : [ {
       "additionalInfo" : {
         "description" : null,
-        "layoutX" : 235,
-        "layoutY" : 484
+        "layoutX" : 200,
+        "layoutY" : 472
       },
       "configuration" : {
         "originatorTypes" : [ "ASSET", "DEVICE" ]
@@ -83,13 +66,13 @@
       "createdTime" : 0,
       "debugSettings" : {
         "allEnabled" : false,
-        "allEnabledUntil" : 1745357249714,
+        "allEnabledUntil" : 1748195678980,
         "failuresEnabled" : false
       },
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "66914e90-3575-11f0-a851-d98fa5765a83"
+        "id" : "1314d520-357a-11f0-a851-d98fa5765a83"
       },
       "name" : "es dispositivo",
       "queueName" : null,
@@ -99,8 +82,8 @@
     }, {
       "additionalInfo" : {
         "description" : null,
-        "layoutX" : 415,
-        "layoutY" : 367
+        "layoutX" : 447,
+        "layoutY" : 381
       },
       "configuration" : {
         "tellFailureIfAbsent" : false,
@@ -121,7 +104,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "66919cb0-3575-11f0-a851-d98fa5765a83"
+        "id" : "1314fc30-357a-11f0-a851-d98fa5765a83"
       },
       "name" : "obtener atributo active",
       "queueName" : null,
@@ -136,20 +119,20 @@
       },
       "configuration" : {
         "scriptLang" : "JS",
-        "jsScript" : "/* filtro: pasa a True si\r\n   - active = false\r\n   - send   no es true (false o ausente) */\r\n\r\nfunction toBool(v) {\r\n  if (v === undefined || v === null)   return null;\r\n  if (typeof v === 'boolean')          return v;\r\n  if (typeof v === 'string') {\r\n    v = v.trim().toLowerCase();\r\n    if (v === 'true'  || v === '1') return true;\r\n    if (v === 'false' || v === '0') return false;\r\n  }\r\n  if (typeof v === 'number') return v !== 0;\r\n  return null;\r\n}\r\n\r\nvar activo  = toBool(metadata.ss_active);     // atributo server\r\nvar enviado = toBool(metadata.shared_send);   // atributo shared\r\n\r\nreturn (activo === false) && (enviado !== true);\r\n",
+        "jsScript" : "/* filtro: pasa a True si\r\n   - active = false\r\n   - send   no es true (false o ausente) */\r\n\r\nfunction toBool(v) {\r\n  if (v === undefined || v === null)   return null;\r\n  if (typeof v === 'boolean')          return v;\r\n  if (typeof v === 'string') {\r\n    v = v.trim().toLowerCase();\r\n    if (v === 'true'  || v === '1') return true;\r\n    if (v === 'false' || v === '0') return false;\r\n  }\r\n  if (typeof v === 'number') return v !== 0;\r\n  return null;\r\n}\r\n\r\nvar activo  = toBool(metadata.ss_active);     // atributo server\r\n\r\n\r\nreturn (activo === false);\r\n",
         "tbelScript" : ""
       },
       "configurationVersion" : 0,
       "createdTime" : 0,
       "debugSettings" : {
         "allEnabled" : false,
-        "allEnabledUntil" : 1745357150070,
+        "allEnabledUntil" : 1748195678980,
         "failuresEnabled" : false
       },
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "6691ead0-3575-11f0-a851-d98fa5765a83"
+        "id" : "13152340-357a-11f0-a851-d98fa5765a83"
       },
       "name" : "es desconectado",
       "queueName" : null,
@@ -159,8 +142,8 @@
     }, {
       "additionalInfo" : {
         "description" : null,
-        "layoutX" : 650,
-        "layoutY" : 184
+        "layoutX" : 689,
+        "layoutY" : 152
       },
       "configuration" : {
         "detailsList" : [ "EMAIL" ],
@@ -170,13 +153,13 @@
       "createdTime" : 0,
       "debugSettings" : {
         "allEnabled" : false,
-        "allEnabledUntil" : 1745357249714,
+        "allEnabledUntil" : 1748195678980,
         "failuresEnabled" : false
       },
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "669211e0-3575-11f0-a851-d98fa5765a83"
+        "id" : "13157160-357a-11f0-a851-d98fa5765a83"
       },
       "name" : "get email",
       "queueName" : null,
@@ -202,13 +185,13 @@
       "createdTime" : 0,
       "debugSettings" : {
         "allEnabled" : false,
-        "allEnabledUntil" : 1745357249714,
+        "allEnabledUntil" : 1748195678980,
         "failuresEnabled" : false
       },
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "66926000-3575-11f0-a851-d98fa5765a83"
+        "id" : "13159870-357a-11f0-a851-d98fa5765a83"
       },
       "name" : "crear email desconexión",
       "queueName" : null,
@@ -235,13 +218,13 @@
       "createdTime" : 0,
       "debugSettings" : {
         "allEnabled" : false,
-        "allEnabledUntil" : 1745357249714,
+        "allEnabledUntil" : 1748195678980,
         "failuresEnabled" : false
       },
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "66928710-3575-11f0-a851-d98fa5765a83"
+        "id" : "1315bf80-357a-11f0-a851-d98fa5765a83"
       },
       "name" : "enviar email",
       "queueName" : null,
@@ -251,8 +234,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 158,
-        "layoutY" : 221
+        "layoutX" : 60,
+        "layoutY" : 283
       },
       "configuration" : {
         "defaultTTL" : 0,
@@ -271,7 +254,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "6692ae20-3575-11f0-a851-d98fa5765a83"
+        "id" : "1315e690-357a-11f0-a851-d98fa5765a83"
       },
       "name" : "times",
       "queueName" : null,
@@ -281,8 +264,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1150,
-        "layoutY" : 392
+        "layoutX" : 1163,
+        "layoutY" : 400
       },
       "configuration" : {
         "scriptLang" : "TBEL",
@@ -303,176 +286,24 @@
       "createdTime" : 0,
       "debugSettings" : {
         "allEnabled" : false,
-        "allEnabledUntil" : 1745357249714,
+        "allEnabledUntil" : 1748195678980,
         "failuresEnabled" : false
       },
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "6692d530-3575-11f0-a851-d98fa5765a83"
+        "id" : "13160da0-357a-11f0-a851-d98fa5765a83"
       },
       "name" : "desconectado",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.action.TbCreateAlarmNode"
-    }, {
-      "additionalInfo" : {
-        "description" : "",
-        "layoutX" : 71,
-        "layoutY" : 381
-      },
-      "configuration" : {
-        "tellFailureIfAbsent" : true,
-        "fetchTo" : "METADATA",
-        "clientAttributeNames" : [ ],
-        "sharedAttributeNames" : [ "send" ],
-        "serverAttributeNames" : [ ],
-        "latestTsKeyNames" : [ ],
-        "getLatestValueWithTs" : false
-      },
-      "configurationVersion" : 1,
-      "createdTime" : 0,
-      "debugSettings" : {
-        "allEnabled" : false,
-        "allEnabledUntil" : 1745357249714,
-        "failuresEnabled" : false
-      },
-      "externalId" : null,
-      "id" : {
-        "entityType" : "RULE_NODE",
-        "id" : "66932350-3575-11f0-a851-d98fa5765a83"
-      },
-      "name" : "send",
-      "queueName" : null,
-      "ruleChainId" : null,
-      "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.metadata.TbGetAttributesNode"
-    }, {
-      "additionalInfo" : {
-        "description" : "",
-        "layoutX" : 1034,
-        "layoutY" : 579
-      },
-      "configuration" : {
-        "scope" : "SHARED_SCOPE",
-        "notifyDevice" : false,
-        "sendAttributesUpdatedNotification" : false,
-        "updateAttributesOnlyOnValueChange" : false,
-        "processingSettings" : {
-          "type" : "ON_EVERY_MESSAGE"
-        }
-      },
-      "configurationVersion" : 3,
-      "createdTime" : 0,
-      "debugSettings" : {
-        "allEnabled" : false,
-        "allEnabledUntil" : 1745357249714,
-        "failuresEnabled" : false
-      },
-      "externalId" : null,
-      "id" : {
-        "entityType" : "RULE_NODE",
-        "id" : "66934a60-3575-11f0-a851-d98fa5765a83"
-      },
-      "name" : "guarda el true",
-      "queueName" : null,
-      "ruleChainId" : null,
-      "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.telemetry.TbMsgAttributesNode"
-    }, {
-      "additionalInfo" : {
-        "description" : "",
-        "layoutX" : 713,
-        "layoutY" : 484
-      },
-      "configuration" : {
-        "scriptLang" : "JS",
-        "jsScript" : "/* Normaliza ss_active a texto en minúscula para aceptar\n   booleanos y cadenas \"true\"/\"false\" */\nvar estado = (metadata.ss_active || \"\").toString().trim().toLowerCase();\n\nif (estado === \"false\" || estado === \"0\") {      // equipo inactivo\n    msg = { send: true };\n    return { msg: msg };;\n}\n\n// no hay cambios\nreturn null;\n",
-        "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
-      },
-      "configurationVersion" : 0,
-      "createdTime" : 0,
-      "debugSettings" : {
-        "allEnabled" : false,
-        "allEnabledUntil" : 1745357249714,
-        "failuresEnabled" : false
-      },
-      "externalId" : null,
-      "id" : {
-        "entityType" : "RULE_NODE",
-        "id" : "66937170-3575-11f0-a851-d98fa5765a83"
-      },
-      "name" : "cambio send",
-      "queueName" : null,
-      "ruleChainId" : null,
-      "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
-    }, {
-      "additionalInfo" : {
-        "description" : "",
-        "layoutX" : 996,
-        "layoutY" : 97
-      },
-      "configuration" : {
-        "scope" : "SHARED_SCOPE",
-        "notifyDevice" : false,
-        "sendAttributesUpdatedNotification" : false,
-        "updateAttributesOnlyOnValueChange" : false,
-        "processingSettings" : {
-          "type" : "ON_EVERY_MESSAGE"
-        }
-      },
-      "configurationVersion" : 3,
-      "createdTime" : 0,
-      "debugSettings" : {
-        "allEnabled" : false,
-        "allEnabledUntil" : 1745357249714,
-        "failuresEnabled" : false
-      },
-      "externalId" : null,
-      "id" : {
-        "entityType" : "RULE_NODE",
-        "id" : "6693e6a0-3575-11f0-a851-d98fa5765a83"
-      },
-      "name" : "guarda el true",
-      "queueName" : null,
-      "ruleChainId" : null,
-      "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.telemetry.TbMsgAttributesNode"
-    }, {
-      "additionalInfo" : {
-        "description" : "",
-        "layoutX" : 707,
-        "layoutY" : 35
-      },
-      "configuration" : {
-        "scriptLang" : "JS",
-        "jsScript" : "var estado = (metadata.ss_active || \"\").toString().trim().toLowerCase();\n\nif (estado === \"true\" || estado === \"1\") {       // equipo activo\n    msg = { send: false };\n    return { msg: msg };;\n}\n\nreturn null;\n",
-        "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
-      },
-      "configurationVersion" : 0,
-      "createdTime" : 0,
-      "debugSettings" : {
-        "allEnabled" : false,
-        "allEnabledUntil" : 1745357249714,
-        "failuresEnabled" : false
-      },
-      "externalId" : null,
-      "id" : {
-        "entityType" : "RULE_NODE",
-        "id" : "66940db0-3575-11f0-a851-d98fa5765a83"
-      },
-      "name" : "cambio send",
-      "queueName" : null,
-      "ruleChainId" : null,
-      "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
     } ],
     "ruleChainConnections" : null
   },
-  "relations" : [ ],
   "attributes" : {
     "SERVER_SCOPE" : [ ]
-  }
+  },
+  "calculatedFields" : [ ]
 }
