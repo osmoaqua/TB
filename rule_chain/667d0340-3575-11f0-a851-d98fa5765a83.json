@@ -82,8 +82,8 @@
     }, {
       "additionalInfo" : {
         "description" : null,
-        "layoutX" : 447,
-        "layoutY" : 381
+        "layoutX" : 475,
+        "layoutY" : 393
       },
       "configuration" : {
         "tellFailureIfAbsent" : false,
