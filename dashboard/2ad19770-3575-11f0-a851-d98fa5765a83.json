@@ -614,8 +614,8 @@
               "selectedTab" : 0,
               "realtime" : {
                 "realtimeType" : 0,
-                "interval" : 600000,
-                "timewindowMs" : 86400000,
+                "interval" : 15000,
+                "timewindowMs" : 3600000,
                 "quickInterval" : "CURRENT_DAY",
                 "hideInterval" : false,
                 "hideLastInterval" : false,
@@ -1989,8 +1989,8 @@
               "selectedTab" : 0,
               "realtime" : {
                 "realtimeType" : 0,
-                "interval" : 300000,
-                "timewindowMs" : 86400000,
+                "interval" : 10000,
+                "timewindowMs" : 3600000,
                 "quickInterval" : "CURRENT_DAY",
                 "hideInterval" : false,
                 "hideLastInterval" : false,
@@ -2744,7 +2744,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "2e03e800-24d4-11f0-b616-2f1615c16aca",
+              "deviceId" : "1dd37e40-3579-11f0-a851-d98fa5765a83",
               "dataKeys" : [ {
                 "name" : "temperatura",
                 "type" : "timeseries",
@@ -3168,7 +3168,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "69576fd0-24d4-11f0-b616-2f1615c16aca",
+              "deviceId" : "3fb5f650-3579-11f0-a851-d98fa5765a83",
               "dataKeys" : [ {
                 "name" : "wifi",
                 "type" : "timeseries",
