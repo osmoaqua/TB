@@ -93,10 +93,10 @@
             },
             "showTitle" : true,
             "backgroundColor" : "rgba(119, 185, 210, 0.83)",
-            "color" : null,
+            "color" : "#8BC34A",
             "padding" : "0",
             "settings" : {
-              "autoScale" : true,
+              "autoScale" : false,
               "showSubtitle" : true,
               "subtitle" : "${entityName}",
               "subtitleFont" : {
@@ -127,13 +127,13 @@
               "showChart" : true,
               "background" : {
                 "type" : "color",
-                "imageUrl" : null,
                 "color" : "#00BCAB65",
                 "overlay" : {
                   "enabled" : false,
                   "color" : "rgba(255,255,255,0.72)",
                   "blur" : 3
-                }
+                },
+                "imageUrl" : null
               },
               "padding" : "18px"
             },
@@ -166,7 +166,7 @@
             "noDataDisplayMessage" : "",
             "useDashboardTimewindow" : false,
             "displayTimewindow" : true,
-            "decimals" : 0,
+            "decimals" : 2,
             "timewindowStyle" : {
               "showIcon" : true,
               "iconSize" : "24px",
