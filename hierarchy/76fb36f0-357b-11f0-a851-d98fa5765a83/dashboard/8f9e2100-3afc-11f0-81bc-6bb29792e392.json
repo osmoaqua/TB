@@ -110,8 +110,8 @@
               "subtitleColor" : "rgba(0, 0, 0, 0.38)",
               "showDate" : true,
               "dateFormat" : {
-                "format" : null,
-                "lastUpdateAgo" : true,
+                "format" : "MMM dd yyyy HH:mm:ss",
+                "lastUpdateAgo" : false,
                 "custom" : false,
                 "auto" : false
               },
@@ -127,13 +127,13 @@
               "showChart" : true,
               "background" : {
                 "type" : "color",
-                "imageUrl" : null,
                 "color" : "#00BCAB",
                 "overlay" : {
                   "enabled" : false,
                   "color" : "rgba(255,255,255,0.72)",
                   "blur" : 3
-                }
+                },
+                "imageUrl" : null
               },
               "padding" : "18px"
             },
@@ -159,7 +159,7 @@
               "lineHeight" : "24px"
             },
             "iconSize" : "24px",
-            "titleTooltip" : "",
+            "titleTooltip" : "Porcentaje ",
             "widgetStyle" : { },
             "widgetCss" : "",
             "pageSize" : 1024,
@@ -185,7 +185,8 @@
             },
             "titleColor" : "rgba(0, 0, 0, 0.87)",
             "borderRadius" : null,
-            "enableDataExport" : true
+            "enableDataExport" : true,
+            "units" : "%"
           },
           "row" : 0,
           "col" : 0,
