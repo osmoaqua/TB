@@ -7,7 +7,10 @@
     "configuration" : null,
     "debugMode" : false,
     "externalId" : null,
-    "firstRuleNodeId" : null,
+    "firstRuleNodeId" : {
+      "entityType" : "RULE_NODE",
+      "id" : "5315d170-3d67-11f0-9584-abfdb9c61187"
+    },
     "id" : {
       "entityType" : "RULE_CHAIN",
       "id" : "52f79b10-3d67-11f0-9584-abfdb9c61187"
@@ -17,9 +20,283 @@
     "type" : "CORE"
   },
   "metaData" : {
-    "connections" : null,
-    "firstNodeIndex" : null,
-    "nodes" : [ ],
+    "connections" : [ {
+      "fromIndex" : 0,
+      "toIndex" : 1,
+      "type" : "True"
+    }, {
+      "fromIndex" : 1,
+      "toIndex" : 2,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 2,
+      "toIndex" : 3,
+      "type" : "True"
+    }, {
+      "fromIndex" : 3,
+      "toIndex" : 4,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 4,
+      "toIndex" : 5,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 4,
+      "toIndex" : 7,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 6,
+      "toIndex" : 0,
+      "type" : "Success"
+    } ],
+    "firstNodeIndex" : 6,
+    "nodes" : [ {
+      "additionalInfo" : {
+        "description" : null,
+        "layoutX" : 200,
+        "layoutY" : 472
+      },
+      "configuration" : {
+        "originatorTypes" : [ "ASSET", "DEVICE" ]
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugSettings" : {
+        "allEnabled" : false,
+        "allEnabledUntil" : 1748618343306,
+        "failuresEnabled" : false
+      },
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "5312eb40-3d67-11f0-9584-abfdb9c61187"
+      },
+      "name" : "es dispositivo",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.filter.TbOriginatorTypeFilterNode"
+    }, {
+      "additionalInfo" : {
+        "description" : null,
+        "layoutX" : 475,
+        "layoutY" : 393
+      },
+      "configuration" : {
+        "tellFailureIfAbsent" : false,
+        "fetchTo" : "METADATA",
+        "clientAttributeNames" : [ ],
+        "sharedAttributeNames" : [ ],
+        "serverAttributeNames" : [ "active" ],
+        "latestTsKeyNames" : [ ],
+        "getLatestValueWithTs" : false
+      },
+      "configurationVersion" : 1,
+      "createdTime" : 0,
+      "debugSettings" : {
+        "allEnabled" : false,
+        "allEnabledUntil" : 1748618343306,
+        "failuresEnabled" : false
+      },
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "53138780-3d67-11f0-9584-abfdb9c61187"
+      },
+      "name" : "obtener atributo active",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.metadata.TbGetAttributesNode"
+    }, {
+      "additionalInfo" : {
+        "description" : null,
+        "layoutX" : 366,
+        "layoutY" : 187
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "/* filtro: pasa a True si\n   - active = false\n   - send   no es true (false o ausente) */\n\nfunction toBool(v) {\n  if (v === undefined || v === null)   return null;\n  if (typeof v === 'boolean')          return v;\n  if (typeof v === 'string') {\n    v = v.trim().toLowerCase();\n    if (v === 'true'  || v === '1') return true;\n    if (v === 'false' || v === '0') return false;\n  }\n  if (typeof v === 'number') return v !== 0;\n  return null;\n}\n\nvar activo  = toBool(metadata.active !== undefined ? metadata.active : metadata.ss_active);\nreturn (activo === false);\n",
+        "tbelScript" : ""
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugSettings" : {
+        "allEnabled" : false,
+        "allEnabledUntil" : 1748618343306,
+        "failuresEnabled" : false
+      },
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "5313d5a0-3d67-11f0-9584-abfdb9c61187"
+      },
+      "name" : "es desconectado",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.filter.TbJsFilterNode"
+    }, {
+      "additionalInfo" : {
+        "description" : null,
+        "layoutX" : 689,
+        "layoutY" : 152
+      },
+      "configuration" : {
+        "detailsList" : [ "EMAIL" ],
+        "fetchTo" : "METADATA"
+      },
+      "configurationVersion" : 1,
+      "createdTime" : 0,
+      "debugSettings" : {
+        "allEnabled" : false,
+        "allEnabledUntil" : 1748618343306,
+        "failuresEnabled" : false
+      },
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "531423c0-3d67-11f0-9584-abfdb9c61187"
+      },
+      "name" : "get email",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.metadata.TbGetCustomerDetailsNode"
+    }, {
+      "additionalInfo" : {
+        "description" : null,
+        "layoutX" : 874,
+        "layoutY" : 278
+      },
+      "configuration" : {
+        "fromTemplate" : "control@aquafilter.es",
+        "toTemplate" : "${customer_email}",
+        "ccTemplate" : "control@aquafilter.es",
+        "bccTemplate" : "",
+        "subjectTemplate" : "Dispositivo ${deviceName} desconectado",
+        "mailBodyType" : "false",
+        "bodyTemplate" : "El dispositivo ${deviceName} tiene el atributo 'active' en estado falso.\n\nPuede indicar una desconexión. Por favor, revise el estado del equipo o contacte con el servicio técnico.\n\nGracias."
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugSettings" : {
+        "allEnabled" : false,
+        "allEnabledUntil" : 1748618343306,
+        "failuresEnabled" : false
+      },
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "531498f0-3d67-11f0-9584-abfdb9c61187"
+      },
+      "name" : "crear email desconexión",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.mail.TbMsgToEmailNode"
+    }, {
+      "additionalInfo" : {
+        "description" : null,
+        "layoutX" : 1176,
+        "layoutY" : 193
+      },
+      "configuration" : {
+        "useSystemSmtpSettings" : true,
+        "smtpProtocol" : "smtp",
+        "smtpHost" : "localhost",
+        "smtpPort" : 25,
+        "timeout" : 10000,
+        "enableTls" : false,
+        "tlsVersion" : "TLSv1.2",
+        "enableProxy" : false
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugSettings" : {
+        "allEnabled" : false,
+        "allEnabledUntil" : 1748618343306,
+        "failuresEnabled" : false
+      },
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "53153530-3d67-11f0-9584-abfdb9c61187"
+      },
+      "name" : "enviar email",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.mail.TbSendEmailNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 60,
+        "layoutY" : 283
+      },
+      "configuration" : {
+        "processingSettings" : {
+          "type" : "ON_EVERY_MESSAGE"
+        },
+        "defaultTTL" : 0,
+        "useServerTs" : false
+      },
+      "configurationVersion" : 1,
+      "createdTime" : 0,
+      "debugSettings" : {
+        "allEnabled" : false,
+        "allEnabledUntil" : 1748618343306,
+        "failuresEnabled" : false
+      },
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "5315d170-3d67-11f0-9584-abfdb9c61187"
+      },
+      "name" : "times",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.telemetry.TbMsgTimeseriesNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1163,
+        "layoutY" : 400
+      },
+      "configuration" : {
+        "scriptLang" : "TBEL",
+        "alarmDetailsBuildJs" : "var details = {};\nif (metadata.prevAlarmDetails) {\n    details = JSON.parse(metadata.prevAlarmDetails);\n    //remove prevAlarmDetails from metadata\n    delete metadata.prevAlarmDetails;\n    //now metadata is the same as it comes IN this rule node\n}\n\n\nreturn details;",
+        "alarmDetailsBuildTbel" : "var details = {};\nif (metadata.prevAlarmDetails != null) {\n    details = JSON.parse(metadata.prevAlarmDetails);\n    //remove prevAlarmDetails from metadata\n    metadata.remove('prevAlarmDetails');\n    //now metadata is the same as it comes IN this rule node\n}\n\n\nreturn details;",
+        "useMessageAlarmData" : false,
+        "overwriteAlarmDetails" : false,
+        "alarmType" : "General Alarm",
+        "severity" : "CRITICAL",
+        "propagate" : false,
+        "relationTypes" : [ ],
+        "propagateToOwner" : false,
+        "propagateToOwnerHierarchy" : false,
+        "propagateToTenant" : false,
+        "dynamicSeverity" : false
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugSettings" : {
+        "allEnabled" : false,
+        "allEnabledUntil" : 1748618343306,
+        "failuresEnabled" : false
+      },
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "5316e2e0-3d67-11f0-9584-abfdb9c61187"
+      },
+      "name" : "desconectado",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.action.TbCreateAlarmNode"
+    } ],
     "ruleChainConnections" : null
   },
   "attributes" : {
