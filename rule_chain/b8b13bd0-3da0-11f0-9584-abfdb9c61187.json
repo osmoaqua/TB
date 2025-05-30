@@ -251,7 +251,7 @@
       "configuration" : {
         "scriptLang" : "TBEL",
         "jsScript" : "return msg.temperature > 20;",
-        "tbelScript" : "msg.lastTelemetry = Date.now();\r\nreturn msg;\r\n"
+        "tbelScript" : "msg.lastTelemetry = Date.now();\r\nreturn true;\r\n"
       },
       "configurationVersion" : 0,
       "createdTime" : 0,
@@ -274,7 +274,16 @@
       },
       "configuration" : {
         "processingSettings" : {
-          "type" : "ON_EVERY_MESSAGE"
+          "attributes" : {
+            "type" : "ON_EVERY_MESSAGE"
+          },
+          "webSockets" : {
+            "type" : "ON_EVERY_MESSAGE"
+          },
+          "calculatedFields" : {
+            "type" : "ON_EVERY_MESSAGE"
+          },
+          "type" : "ADVANCED"
         },
         "scope" : "SERVER_SCOPE",
         "notifyDevice" : false,
