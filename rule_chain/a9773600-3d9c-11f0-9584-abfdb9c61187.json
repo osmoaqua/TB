@@ -35,7 +35,7 @@
     }, {
       "fromIndex" : 2,
       "toIndex" : 7,
-      "type" : "False"
+      "type" : "True"
     }, {
       "fromIndex" : 3,
       "toIndex" : 4,
@@ -47,7 +47,7 @@
     }, {
       "fromIndex" : 4,
       "toIndex" : 7,
-      "type" : "Success"
+      "type" : "Created"
     }, {
       "fromIndex" : 5,
       "toIndex" : 6,
@@ -243,30 +243,32 @@
       "type" : "org.thingsboard.rule.engine.mail.TbSendEmailNode"
     }, {
       "additionalInfo" : {
-        "description" : "Actualiza el último timestamp en atributos de servidor",
-        "layoutX" : 1191,
-        "layoutY" : 501
+        "description" : "",
+        "layoutX" : 992,
+        "layoutY" : 525
       },
       "configuration" : {
+        "processingSettings" : {
+          "type" : "ON_EVERY_MESSAGE"
+        },
         "scope" : "SERVER_SCOPE",
-        "attributes" : [ {
-          "key" : "lastTelemetry",
-          "value" : "${metadata.currentTs}"
-        } ]
+        "notifyDevice" : false,
+        "sendAttributesUpdatedNotification" : false,
+        "updateAttributesOnlyOnValueChange" : true
       },
-      "configurationVersion" : 0,
+      "configurationVersion" : 3,
       "createdTime" : 0,
       "debugSettings" : null,
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "a9ab3e50-3d9c-11f0-9584-abfdb9c61187"
+        "id" : "36fb2080-3d9e-11f0-9584-abfdb9c61187"
       },
-      "name" : "update lastTelemetry",
+      "name" : "lastTelemetry",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.action.TbSetServerAttributesNode"
+      "type" : "org.thingsboard.rule.engine.telemetry.TbMsgAttributesNode"
     } ],
     "ruleChainConnections" : null
   },
