@@ -249,9 +249,9 @@
         "layoutY" : 387
       },
       "configuration" : {
-        "scriptLang" : "TBEL",
-        "jsScript" : "return msg.temperature > 20;",
-        "tbelScript" : "msg.lastTelemetry = Date.now();\r\nreturn true;\r\n"
+        "scriptLang" : "JS",
+        "jsScript" : "msg.lastTelemetry = Date.now();\r\nreturn true;\r\n",
+        "tbelScript" : ""
       },
       "configurationVersion" : 0,
       "createdTime" : 0,
