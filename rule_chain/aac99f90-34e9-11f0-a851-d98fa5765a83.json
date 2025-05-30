@@ -441,7 +441,7 @@
       },
       "configuration" : {
         "forwardMsgToDefaultRuleChain" : false,
-        "ruleChainId" : "52f79b10-3d67-11f0-9584-abfdb9c61187"
+        "ruleChainId" : "b8b13bd0-3da0-11f0-9584-abfdb9c61187"
       },
       "configurationVersion" : 1,
       "createdTime" : 0,
