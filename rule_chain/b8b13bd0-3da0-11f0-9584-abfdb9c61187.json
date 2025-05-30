@@ -7,7 +7,10 @@
     "configuration" : null,
     "debugMode" : false,
     "externalId" : null,
-    "firstRuleNodeId" : null,
+    "firstRuleNodeId" : {
+      "entityType" : "RULE_NODE",
+      "id" : "b8c3d970-3da0-11f0-9584-abfdb9c61187"
+    },
     "id" : {
       "entityType" : "RULE_CHAIN",
       "id" : "b8b13bd0-3da0-11f0-9584-abfdb9c61187"
@@ -58,11 +61,11 @@
       "toIndex" : 8,
       "type" : "True"
     } ],
-    "firstNodeIndex" : null,
+    "firstNodeIndex" : 0,
     "nodes" : [ {
       "additionalInfo" : {
-        "layoutX" : 60,
-        "layoutY" : 100
+        "layoutX" : 241,
+        "layoutY" : 201
       },
       "configuration" : {
         "processingSettings" : {
@@ -86,8 +89,8 @@
       "type" : "org.thingsboard.rule.engine.telemetry.TbMsgTimeseriesNode"
     }, {
       "additionalInfo" : {
-        "layoutX" : 260,
-        "layoutY" : 100
+        "layoutX" : 314,
+        "layoutY" : 63
       },
       "configuration" : {
         "tellFailureIfAbsent" : false,
@@ -113,8 +116,8 @@
       "type" : "org.thingsboard.rule.engine.metadata.TbGetAttributesNode"
     }, {
       "additionalInfo" : {
-        "layoutX" : 560,
-        "layoutY" : 97
+        "layoutX" : 587,
+        "layoutY" : 67
       },
       "configuration" : {
         "jsScript" : "var currentTs = Date.now();\nvar lastTs = parseInt(metadata.lastTelemetry, 10);\nmetadata.currentTs = currentTs;\nif (!lastTs || currentTs - lastTs > 60000) {\n    return true;\n} else {\n    return false;\n}"
@@ -269,8 +272,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1176,
-        "layoutY" : 378
+        "layoutX" : 1202,
+        "layoutY" : 463
       },
       "configuration" : {
         "processingSettings" : {
