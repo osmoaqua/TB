@@ -113,8 +113,8 @@
       "type" : "org.thingsboard.rule.engine.metadata.TbGetAttributesNode"
     }, {
       "additionalInfo" : {
-        "layoutX" : 460,
-        "layoutY" : 100
+        "layoutX" : 560,
+        "layoutY" : 97
       },
       "configuration" : {
         "jsScript" : "var currentTs = Date.now();\nvar lastTs = parseInt(metadata.lastTelemetry, 10);\nmetadata.currentTs = currentTs;\nif (!lastTs || currentTs - lastTs > 60000) {\n    return true;\n} else {\n    return false;\n}"
@@ -216,8 +216,8 @@
       "type" : "org.thingsboard.rule.engine.mail.TbMsgToEmailNode"
     }, {
       "additionalInfo" : {
-        "layoutX" : 872,
-        "layoutY" : 221
+        "layoutX" : 938,
+        "layoutY" : 87
       },
       "configuration" : {
         "useSystemSmtpSettings" : true,
@@ -245,8 +245,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1059,
-        "layoutY" : 379
+        "layoutX" : 902,
+        "layoutY" : 387
       },
       "configuration" : {
         "scriptLang" : "TBEL",
