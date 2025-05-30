@@ -441,13 +441,13 @@
       },
       "configuration" : {
         "forwardMsgToDefaultRuleChain" : false,
-        "ruleChainId" : "667d0340-3575-11f0-a851-d98fa5765a83"
+        "ruleChainId" : "52f79b10-3d67-11f0-9584-abfdb9c61187"
       },
       "configurationVersion" : 1,
       "createdTime" : 0,
       "debugSettings" : {
         "allEnabled" : false,
-        "allEnabledUntil" : 1748196089035,
+        "allEnabledUntil" : 1748618372397,
         "failuresEnabled" : false
       },
       "externalId" : null,
