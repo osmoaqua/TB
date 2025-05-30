@@ -614,8 +614,8 @@
               "selectedTab" : 0,
               "realtime" : {
                 "realtimeType" : 0,
-                "interval" : 600000,
-                "timewindowMs" : 86400000,
+                "interval" : 60000,
+                "timewindowMs" : 1800000,
                 "quickInterval" : "CURRENT_DAY",
                 "hideInterval" : false,
                 "hideLastInterval" : false,
@@ -2411,8 +2411,8 @@
               "selectedTab" : 0,
               "realtime" : {
                 "realtimeType" : 0,
-                "interval" : 5000,
-                "timewindowMs" : 900000,
+                "interval" : 60000,
+                "timewindowMs" : 3600000,
                 "quickInterval" : "CURRENT_DAY",
                 "hideInterval" : false,
                 "hideLastInterval" : false,
@@ -4103,7 +4103,7 @@
               "selectedTab" : 0,
               "realtime" : {
                 "realtimeType" : 0,
-                "interval" : 5000,
+                "interval" : 60000,
                 "timewindowMs" : 900000,
                 "quickInterval" : "CURRENT_DAY",
                 "hideInterval" : false,
