@@ -13,7 +13,10 @@
       "id" : "aac99f90-34e9-11f0-a851-d98fa5765a83"
     },
     "description" : "",
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "1412e100-3576-11f0-a851-d98fa5765a83"
+    },
     "firmwareId" : null,
     "id" : {
       "entityType" : "DEVICE_PROFILE",
@@ -22,7 +25,51 @@
     "image" : null,
     "name" : "wifi",
     "profileData" : {
-      "alarms" : null,
+      "alarms" : [ {
+        "alarmType" : "desconectado",
+        "clearRule" : null,
+        "createRules" : {
+          "CRITICAL" : {
+            "alarmDetails" : null,
+            "condition" : {
+              "condition" : [ {
+                "key" : {
+                  "key" : "active",
+                  "type" : "ATTRIBUTE"
+                },
+                "predicate" : {
+                  "type" : "BOOLEAN",
+                  "operation" : "NOT_EQUAL",
+                  "value" : {
+                    "defaultValue" : true,
+                    "dynamicValue" : null,
+                    "userValue" : null
+                  }
+                },
+                "value" : null,
+                "valueType" : "BOOLEAN"
+              } ],
+              "spec" : {
+                "type" : "DURATION",
+                "predicate" : {
+                  "defaultValue" : 60,
+                  "dynamicValue" : null,
+                  "userValue" : null
+                },
+                "unit" : "SECONDS"
+              }
+            },
+            "dashboardId" : null,
+            "schedule" : null
+          }
+        },
+        "id" : "d96eea0a-b3ab-5f62-cae0-83c2de97aba3",
+        "propagate" : false,
+        "propagateRelationTypes" : null,
+        "propagateToOwner" : false,
+        "propagateToOwnerHierarchy" : false,
+        "propagateToTenant" : false
+      } ],
       "configuration" : {
         "type" : "DEFAULT"
       },
@@ -40,7 +87,6 @@
     "transportType" : "DEFAULT",
     "type" : "DEFAULT"
   },
-  "relations" : [ ],
   "attributes" : {
     "SERVER_SCOPE" : [ ]
   },
