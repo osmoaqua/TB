@@ -52,7 +52,7 @@
               "spec" : {
                 "type" : "DURATION",
                 "predicate" : {
-                  "defaultValue" : 60,
+                  "defaultValue" : 20,
                   "dynamicValue" : null,
                   "userValue" : null
                 },
