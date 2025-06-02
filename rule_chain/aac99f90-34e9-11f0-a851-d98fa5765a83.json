@@ -38,10 +38,6 @@
       "toIndex" : 14,
       "type" : "Success"
     }, {
-      "fromIndex" : 0,
-      "toIndex" : 15,
-      "type" : "Success"
-    }, {
       "fromIndex" : 2,
       "toIndex" : 0,
       "type" : "Post telemetry"
@@ -429,33 +425,6 @@
         "id" : "132fd730-357a-11f0-a851-d98fa5765a83"
       },
       "name" : "temperatura",
-      "queueName" : null,
-      "ruleChainId" : null,
-      "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
-    }, {
-      "additionalInfo" : {
-        "description" : "",
-        "layoutX" : 1244,
-        "layoutY" : 485
-      },
-      "configuration" : {
-        "forwardMsgToDefaultRuleChain" : false,
-        "ruleChainId" : "b8b13bd0-3da0-11f0-9584-abfdb9c61187"
-      },
-      "configurationVersion" : 1,
-      "createdTime" : 0,
-      "debugSettings" : {
-        "allEnabled" : false,
-        "allEnabledUntil" : 1748618372397,
-        "failuresEnabled" : false
-      },
-      "externalId" : null,
-      "id" : {
-        "entityType" : "RULE_NODE",
-        "id" : "132fd731-357a-11f0-a851-d98fa5765a83"
-      },
-      "name" : "wifi",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
