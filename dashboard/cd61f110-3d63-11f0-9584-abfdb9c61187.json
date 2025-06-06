@@ -2744,12 +2744,12 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "2e03e800-24d4-11f0-b616-2f1615c16aca",
+              "deviceId" : "b86ef710-3bfd-11f0-9584-abfdb9c61187",
               "dataKeys" : [ {
                 "name" : "temperatura",
                 "type" : "timeseries",
-                "label" : "Temperatura",
-                "color" : "#F43639",
+                "label" : "temperatura",
+                "color" : "#2196f3",
                 "settings" : {
                   "yAxisId" : "default",
                   "showInLegend" : true,
@@ -2819,9 +2819,7 @@
                     "color" : ""
                   }
                 },
-                "_hash" : 0.637680191773915,
-                "units" : "ºC",
-                "decimals" : 2
+                "_hash" : 0.6069125924388535
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
@@ -3168,7 +3166,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "69576fd0-24d4-11f0-b616-2f1615c16aca",
+              "deviceId" : "d5ab8dc0-3bfd-11f0-9584-abfdb9c61187",
               "dataKeys" : [ {
                 "name" : "wifi",
                 "type" : "timeseries",
