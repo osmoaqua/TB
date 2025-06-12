@@ -6,10 +6,13 @@
     },
     "configuration" : null,
     "debugMode" : false,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "3cb647b0-3575-11f0-a851-d98fa5765a83"
+    },
     "firstRuleNodeId" : {
       "entityType" : "RULE_NODE",
-      "id" : "3cd56870-3575-11f0-a851-d98fa5765a83"
+      "id" : "12ec1770-357a-11f0-a851-d98fa5765a83"
     },
     "id" : {
       "entityType" : "RULE_CHAIN",
@@ -70,7 +73,7 @@
       },
       "configuration" : {
         "scriptLang" : "JS",
-        "jsScript" : "var ph = parseFloat(msg.ph);\r\nvar s = (metadata.shared_send || \"\").toString().toLowerCase();\r\nreturn (ph > 8.2 || ph < 7) && s !== \"true\";\r\n",
+        "jsScript" : "var ph = parseFloat(msg.ph);\r\nvar s = (metadata.shared_send || \"\").toString().toLowerCase();\r\nreturn (ph > 8.5 || ph < 7) && s !== \"true\";\r\n",
         "tbelScript" : ""
       },
       "configurationVersion" : 0,
@@ -83,7 +86,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3ccfc320-3575-11f0-a851-d98fa5765a83"
+        "id" : "12e89500-357a-11f0-a851-d98fa5765a83"
       },
       "name" : "ph fuera de rango",
       "queueName" : null,
@@ -122,7 +125,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3cd05f60-3575-11f0-a851-d98fa5765a83"
+        "id" : "12e8e320-357a-11f0-a851-d98fa5765a83"
       },
       "name" : "envio",
       "queueName" : null,
@@ -154,7 +157,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3cd0ad80-3575-11f0-a851-d98fa5765a83"
+        "id" : "12e93140-357a-11f0-a851-d98fa5765a83"
       },
       "name" : "datos del mail",
       "queueName" : null,
@@ -181,7 +184,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3cd170d0-3575-11f0-a851-d98fa5765a83"
+        "id" : "12e9a670-357a-11f0-a851-d98fa5765a83"
       },
       "name" : "mail",
       "queueName" : null,
@@ -213,7 +216,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3cd20d10-3575-11f0-a851-d98fa5765a83"
+        "id" : "12e9f490-357a-11f0-a851-d98fa5765a83"
       },
       "name" : "send",
       "queueName" : null,
@@ -245,7 +248,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3cd2f770-3575-11f0-a851-d98fa5765a83"
+        "id" : "12ea69c0-357a-11f0-a851-d98fa5765a83"
       },
       "name" : "guarda el true",
       "queueName" : null,
@@ -273,7 +276,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3cd393b0-3575-11f0-a851-d98fa5765a83"
+        "id" : "12eadef0-357a-11f0-a851-d98fa5765a83"
       },
       "name" : "cambio send",
       "queueName" : null,
@@ -305,7 +308,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3cd3bac0-3575-11f0-a851-d98fa5765a83"
+        "id" : "12eb0600-357a-11f0-a851-d98fa5765a83"
       },
       "name" : "reset send a false",
       "queueName" : null,
@@ -333,7 +336,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3cd408e0-3575-11f0-a851-d98fa5765a83"
+        "id" : "12eb2d10-357a-11f0-a851-d98fa5765a83"
       },
       "name" : "Cambia a false",
       "queueName" : null,
@@ -371,7 +374,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3cd4f340-3575-11f0-a851-d98fa5765a83"
+        "id" : "12ebc950-357a-11f0-a851-d98fa5765a83"
       },
       "name" : "genera_alarma",
       "queueName" : null,
@@ -401,7 +404,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3cd56870-3575-11f0-a851-d98fa5765a83"
+        "id" : "12ec1770-357a-11f0-a851-d98fa5765a83"
       },
       "name" : "times",
       "queueName" : null,
@@ -411,8 +414,8 @@
     } ],
     "ruleChainConnections" : null
   },
-  "relations" : [ ],
   "attributes" : {
     "SERVER_SCOPE" : [ ]
-  }
+  },
+  "calculatedFields" : [ ]
 }
