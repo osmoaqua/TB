@@ -1,0 +1,43 @@
+{
+  "entityType" : "CUSTOMER",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : "Equipo montaen la estación de aguas potables de Peñafiel.",
+      "allowWhiteLabeling" : true,
+      "homeDashboardId" : null,
+      "homeDashboardHideToolbar" : true
+    },
+    "address" : "",
+    "address2" : null,
+    "city" : "Peñafiel",
+    "country" : null,
+    "customMenuId" : null,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "76fb36f0-357b-11f0-a851-d98fa5765a83"
+    },
+    "email" : "",
+    "externalId" : null,
+    "id" : {
+      "entityType" : "CUSTOMER",
+      "id" : "29bda260-4d0e-11f0-a9fc-718155394e0f"
+    },
+    "name" : "Peñafiel_Aqualia",
+    "ownerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "76fb36f0-357b-11f0-a851-d98fa5765a83"
+    },
+    "parentCustomerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "76fb36f0-357b-11f0-a851-d98fa5765a83"
+    },
+    "phone" : null,
+    "state" : "Valladolid",
+    "title" : "Peñafiel_Aqualia",
+    "zip" : ""
+  },
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  },
+  "calculatedFields" : [ ]
+}
