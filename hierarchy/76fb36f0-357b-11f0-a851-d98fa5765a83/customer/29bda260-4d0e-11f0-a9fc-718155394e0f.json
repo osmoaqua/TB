@@ -2,9 +2,9 @@
   "entityType" : "CUSTOMER",
   "entity" : {
     "additionalInfo" : {
-      "description" : "Equipo montaen la estación de aguas potables de Peñafiel.",
+      "description" : "Equipo montado en la estación de aguas potables de Peñafiel.",
       "allowWhiteLabeling" : true,
-      "homeDashboardId" : null,
+      "homeDashboardId" : "2ad19770-3575-11f0-a851-d98fa5765a83",
       "homeDashboardHideToolbar" : true
     },
     "address" : "",
