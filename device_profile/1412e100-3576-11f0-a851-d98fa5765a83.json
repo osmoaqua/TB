@@ -50,17 +50,15 @@
                 "valueType" : "BOOLEAN"
               } ],
               "spec" : {
-                "type" : "DURATION",
-                "predicate" : {
-                  "defaultValue" : 10,
-                  "dynamicValue" : null,
-                  "userValue" : null
-                },
-                "unit" : "MINUTES"
+                "type" : "SIMPLE"
               }
             },
             "dashboardId" : null,
-            "schedule" : null
+            "schedule" : {
+              "type" : "ANY_TIME",
+              "dynamicValue" : null,
+              "type" : "ANY_TIME"
+            }
           }
         },
         "id" : "e797579b-c36c-dfe5-ed4e-0bfa5af58cd4",
