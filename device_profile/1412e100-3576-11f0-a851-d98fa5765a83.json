@@ -39,7 +39,7 @@
                 },
                 "predicate" : {
                   "type" : "BOOLEAN",
-                  "operation" : "EQUAL",
+                  "operation" : "NOT_EQUAL",
                   "value" : {
                     "defaultValue" : true,
                     "dynamicValue" : null,
