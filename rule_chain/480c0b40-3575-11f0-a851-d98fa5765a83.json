@@ -73,7 +73,7 @@
       },
       "configuration" : {
         "scriptLang" : "JS",
-        "jsScript" : "var cloro = parseFloat(msg.cloro);\r\nvar s = (metadata.shared_send || \"\").toString().toLowerCase();\r\nreturn (cloro > 1.5 || cloro < 0.1) && s !== \"true\";\r\n",
+        "jsScript" : "var cloro = parseFloat(msg.cloro);\r\nvar s = (metadata.shared_send || \"\").toString().toLowerCase();\r\nreturn (cloro > 2.5 || cloro < 0.1) && s !== \"true\";\r\n",
         "tbelScript" : ""
       },
       "configurationVersion" : 0,
