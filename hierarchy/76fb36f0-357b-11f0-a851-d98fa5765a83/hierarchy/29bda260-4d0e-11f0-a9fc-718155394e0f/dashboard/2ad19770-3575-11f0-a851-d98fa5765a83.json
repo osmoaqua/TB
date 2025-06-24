@@ -2777,7 +2777,7 @@
                   "sizeX" : 6,
                   "sizeY" : 1,
                   "row" : 24,
-                  "col" : 0
+                  "col" : 46
                 },
                 "6fcf0657-e10b-2ab8-1662-e1e91b662442" : {
                   "sizeX" : 13,
@@ -2862,7 +2862,7 @@
                     "backgroundSizeMode" : "100%",
                     "minColumns" : 50,
                     "viewFormat" : "grid",
-                    "autoFillHeight" : false,
+                    "autoFillHeight" : true,
                     "rowHeight" : 70,
                     "backgroundImageUrl" : null,
                     "mobileAutoFillHeight" : false,
