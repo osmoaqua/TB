@@ -3870,7 +3870,7 @@
         "showDashboardExport" : true,
         "toolbarAlwaysOpen" : true,
         "titleColor" : "rgb(12, 82, 239)",
-        "showDashboardLogo" : true,
+        "showDashboardLogo" : false,
         "dashboardLogoUrl" : "tb-image;/api/images/tenant/logo_fin-removebg-blanco.png",
         "hideToolbar" : false,
         "showFilters" : true,
