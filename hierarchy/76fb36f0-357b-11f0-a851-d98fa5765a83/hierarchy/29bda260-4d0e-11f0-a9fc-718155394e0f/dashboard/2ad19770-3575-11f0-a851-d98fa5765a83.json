@@ -3537,7 +3537,7 @@
               "noSignalRssiValue" : -100
             },
             "title" : "Señal WI-FI",
-            "dropShadow" : true,
+            "dropShadow" : false,
             "enableFullscreen" : false,
             "titleStyle" : {
               "fontSize" : "16px",
@@ -4004,9 +4004,9 @@
                     },
                     "698d98fd-b7aa-0d9c-959b-ded6a11296ce" : {
                       "sizeX" : 3,
-                      "sizeY" : 4,
-                      "row" : 12,
-                      "col" : 25
+                      "sizeY" : 3,
+                      "row" : 13,
+                      "col" : 21
                     }
                   }
                 }
