@@ -1134,7 +1134,7 @@
                 "label" : "cloro",
                 "color" : "#2196f3",
                 "settings" : { },
-                "_hash" : 0.478778869939366
+                "_hash" : 0.09069510990093088
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
