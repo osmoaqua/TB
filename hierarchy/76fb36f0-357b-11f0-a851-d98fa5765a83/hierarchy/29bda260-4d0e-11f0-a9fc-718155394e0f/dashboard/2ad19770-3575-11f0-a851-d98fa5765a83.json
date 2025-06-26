@@ -467,9 +467,9 @@
             "decimals" : null,
             "noDataDisplayMessage" : "",
             "timewindowStyle" : {
-              "showIcon" : false,
-              "iconSize" : "24px",
-              "icon" : null,
+              "showIcon" : true,
+              "iconSize" : "40px",
+              "icon" : "schedule",
               "iconPosition" : "left",
               "font" : {
                 "size" : 12,
@@ -479,7 +479,7 @@
                 "style" : "normal",
                 "lineHeight" : "16px"
               },
-              "color" : "rgba(0, 0, 0, 0.38)",
+              "color" : "rgb(67, 91, 99)",
               "displayTypePrefix" : true
             },
             "margin" : "0px",
@@ -645,7 +645,7 @@
               "selectedTab" : 0,
               "realtime" : {
                 "realtimeType" : 0,
-                "interval" : 3600000,
+                "interval" : 7200000,
                 "timewindowMs" : 86400000,
                 "quickInterval" : "CURRENT_DAY",
                 "hideInterval" : false,
@@ -936,7 +936,7 @@
             "noDataDisplayMessage" : "",
             "timewindowStyle" : {
               "showIcon" : true,
-              "iconSize" : "24px",
+              "iconSize" : "40px",
               "icon" : "schedule",
               "iconPosition" : "left",
               "font" : {
@@ -2328,9 +2328,9 @@
             "decimals" : null,
             "noDataDisplayMessage" : "",
             "timewindowStyle" : {
-              "showIcon" : false,
-              "iconSize" : "24px",
-              "icon" : null,
+              "showIcon" : true,
+              "iconSize" : "40px",
+              "icon" : "schedule",
               "iconPosition" : "left",
               "font" : {
                 "size" : 12,
@@ -2340,7 +2340,7 @@
                 "style" : "normal",
                 "lineHeight" : "16px"
               },
-              "color" : "rgba(0, 0, 0, 0.38)",
+              "color" : "rgb(67, 91, 99)",
               "displayTypePrefix" : true
             },
             "margin" : "0px",
@@ -2752,9 +2752,9 @@
             "decimals" : null,
             "noDataDisplayMessage" : "",
             "timewindowStyle" : {
-              "showIcon" : false,
-              "iconSize" : "24px",
-              "icon" : null,
+              "showIcon" : true,
+              "iconSize" : "40px",
+              "icon" : "schedule",
               "iconPosition" : "left",
               "font" : {
                 "size" : 12,
@@ -2764,7 +2764,7 @@
                 "style" : "normal",
                 "lineHeight" : "16px"
               },
-              "color" : "rgba(0, 0, 0, 0.38)",
+              "color" : "rgb(67, 91, 99)",
               "displayTypePrefix" : true
             },
             "margin" : "0px",
