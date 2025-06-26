@@ -265,7 +265,7 @@
                 "value" : 9
               } ],
               "dataZoom" : true,
-              "stack" : false,
+              "stack" : true,
               "grid" : {
                 "show" : false,
                 "backgroundColor" : null,
