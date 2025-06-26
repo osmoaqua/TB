@@ -780,7 +780,7 @@
                 "type" : "constant",
                 "yAxisId" : "default",
                 "units" : null,
-                "decimals" : 0,
+                "decimals" : 1,
                 "lineColor" : "rgb(76, 175, 80)",
                 "lineType" : "solid",
                 "lineWidth" : 2,
