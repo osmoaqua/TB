@@ -911,23 +911,7 @@
             "mobileHeight" : null,
             "configMode" : "advanced",
             "actions" : {
-              "headerButton" : [ {
-                "name" : "Modo oscuro",
-                "buttonType" : "basic",
-                "showIcon" : true,
-                "icon" : "lightbulb",
-                "buttonColor" : "rgba(0, 0, 0, 0.87)",
-                "useShowWidgetActionFunction" : true,
-                "showWidgetActionFunction" : "$('.tb-dashboard-page').toggleClass('dark');",
-                "type" : "updateDashboardState",
-                "targetDashboardStateId" : null,
-                "setEntityId" : true,
-                "stateEntityParamName" : null,
-                "openRightLayout" : false,
-                "openInSeparateDialog" : false,
-                "openInPopover" : false,
-                "id" : "3199b473-903a-cd14-fee1-30f20a860dd1"
-              } ]
+              "headerButton" : [ ]
             },
             "showTitleIcon" : false,
             "titleIcon" : "thermostat",
