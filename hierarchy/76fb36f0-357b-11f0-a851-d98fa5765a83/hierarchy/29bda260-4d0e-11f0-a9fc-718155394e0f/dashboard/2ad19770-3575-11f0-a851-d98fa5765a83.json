@@ -186,7 +186,7 @@
                     "weight" : "600",
                     "lineHeight" : "1"
                   },
-                  "labelColor" : "rgba(0, 0, 0, 0.54)",
+                  "labelColor" : "rgba(0, 46, 255, 0.54)",
                   "position" : "left",
                   "showTickLabels" : true,
                   "tickLabelFont" : {
@@ -208,7 +208,10 @@
                   "id" : "default",
                   "order" : 0,
                   "min" : 0,
-                  "max" : 14
+                  "max" : 14,
+                  "ticksGenerator" : null,
+                  "interval" : null,
+                  "splitNumber" : null
                 }
               },
               "thresholds" : [ {
@@ -265,7 +268,7 @@
                 "value" : 9
               } ],
               "dataZoom" : true,
-              "stack" : true,
+              "stack" : false,
               "grid" : {
                 "show" : false,
                 "backgroundColor" : null,
