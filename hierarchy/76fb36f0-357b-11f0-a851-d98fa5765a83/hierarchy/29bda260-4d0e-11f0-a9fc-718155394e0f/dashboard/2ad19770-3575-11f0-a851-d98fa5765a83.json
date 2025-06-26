@@ -21,7 +21,7 @@
               "dataKeys" : [ {
                 "name" : "ph",
                 "type" : "timeseries",
-                "label" : "ph",
+                "label" : "Ph",
                 "color" : "#2196f3",
                 "settings" : {
                   "yAxisId" : "default",
