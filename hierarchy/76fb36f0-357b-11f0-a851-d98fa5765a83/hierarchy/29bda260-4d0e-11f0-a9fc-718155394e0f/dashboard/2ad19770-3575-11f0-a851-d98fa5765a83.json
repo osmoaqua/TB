@@ -373,7 +373,7 @@
                 "weight" : "400",
                 "lineHeight" : "16px"
               },
-              "tooltipLabelColor" : "rgb(67, 91, 99)",
+              "tooltipLabelColor" : "rgb(0, 191, 255)",
               "tooltipValueFont" : {
                 "family" : "Roboto",
                 "size" : 12,
@@ -400,9 +400,9 @@
                 "weight" : "400",
                 "lineHeight" : "16px"
               },
-              "tooltipDateColor" : "rgb(4, 138, 211)",
+              "tooltipDateColor" : "rgb(67, 91, 99)",
               "tooltipDateInterval" : true,
-              "tooltipBackgroundColor" : "rgb(255, 0, 0)",
+              "tooltipBackgroundColor" : "rgba(255, 0, 0, 0)",
               "tooltipBackgroundBlur" : 4,
               "animation" : {
                 "animation" : true,
