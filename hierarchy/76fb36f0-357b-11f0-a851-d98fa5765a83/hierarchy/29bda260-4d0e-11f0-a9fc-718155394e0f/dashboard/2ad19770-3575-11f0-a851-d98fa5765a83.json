@@ -139,8 +139,8 @@
             "padding" : "0px",
             "settings" : {
               "comparisonEnabled" : false,
-              "timeForComparison" : "previousInterval",
-              "comparisonCustomIntervalValue" : 7200000,
+              "timeForComparison" : "customInterval",
+              "comparisonCustomIntervalValue" : 8,
               "comparisonXAxis" : {
                 "show" : true,
                 "label" : "",
@@ -168,7 +168,7 @@
                 "showTicks" : true,
                 "ticksColor" : "rgba(0, 0, 0, 0.54)",
                 "showLine" : true,
-                "lineColor" : "rgba(0, 0, 0, 0.54)",
+                "lineColor" : "rgb(24, 13, 193)",
                 "showSplitLines" : true,
                 "splitLinesColor" : "rgba(0, 0, 0, 0.12)"
               },
@@ -209,40 +209,61 @@
                   "order" : 0,
                   "min" : 0,
                   "max" : 14
-                },
-                "axis1" : {
-                  "show" : false,
-                  "labelFont" : {
-                    "family" : "Roboto",
-                    "size" : 12,
-                    "sizeUnit" : "px",
-                    "style" : "normal",
-                    "weight" : "600",
-                    "lineHeight" : "1"
-                  },
-                  "labelColor" : "rgba(0, 0, 0, 0.54)",
-                  "showTickLabels" : true,
-                  "tickLabelFont" : {
-                    "family" : "Roboto",
-                    "size" : 12,
-                    "sizeUnit" : "px",
-                    "style" : "normal",
-                    "weight" : "400",
-                    "lineHeight" : "1"
-                  },
-                  "tickLabelColor" : "rgba(0, 0, 0, 0.54)",
-                  "ticksFormatter" : null,
-                  "showTicks" : true,
-                  "ticksColor" : "rgba(0, 0, 0, 0.54)",
-                  "showLine" : true,
-                  "lineColor" : "rgba(0, 0, 0, 0.54)",
-                  "showSplitLines" : true,
-                  "splitLinesColor" : "rgba(0, 0, 0, 0.12)",
-                  "id" : "axis1",
-                  "order" : 1
                 }
               },
-              "thresholds" : [ ],
+              "thresholds" : [ {
+                "type" : "constant",
+                "yAxisId" : "default",
+                "units" : null,
+                "decimals" : 0,
+                "lineColor" : "rgb(156, 39, 176)",
+                "lineType" : "solid",
+                "lineWidth" : 1,
+                "startSymbol" : "none",
+                "startSymbolSize" : 5,
+                "endSymbol" : "arrow",
+                "endSymbolSize" : 5,
+                "showLabel" : true,
+                "labelPosition" : "end",
+                "labelFont" : {
+                  "family" : "Roboto",
+                  "size" : 12,
+                  "sizeUnit" : "px",
+                  "style" : "normal",
+                  "weight" : "400",
+                  "lineHeight" : "1"
+                },
+                "labelColor" : "rgba(0, 0, 0, 0.76)",
+                "enableLabelBackground" : false,
+                "labelBackground" : "rgba(255,255,255,0.56)",
+                "value" : 7
+              }, {
+                "type" : "constant",
+                "yAxisId" : "default",
+                "units" : null,
+                "decimals" : 0,
+                "lineColor" : "rgb(156, 39, 176)",
+                "lineType" : "solid",
+                "lineWidth" : 1,
+                "startSymbol" : "none",
+                "startSymbolSize" : 5,
+                "endSymbol" : "arrow",
+                "endSymbolSize" : 5,
+                "showLabel" : true,
+                "labelPosition" : "end",
+                "labelFont" : {
+                  "family" : "Roboto",
+                  "size" : 12,
+                  "sizeUnit" : "px",
+                  "style" : "normal",
+                  "weight" : "400",
+                  "lineHeight" : "1"
+                },
+                "labelColor" : "rgba(0, 0, 0, 0.76)",
+                "enableLabelBackground" : false,
+                "labelBackground" : "rgba(255,255,255,0.56)",
+                "value" : 9
+              } ],
               "dataZoom" : true,
               "stack" : false,
               "grid" : {
@@ -324,6 +345,7 @@
               },
               "legendValueColor" : "rgba(0, 0, 0, 0.87)",
               "legendConfig" : {
+                "direction" : "column",
                 "position" : "top",
                 "sortDataKeys" : false,
                 "showMin" : false,
