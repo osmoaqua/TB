@@ -298,13 +298,13 @@
                   "lineHeight" : "1"
                 },
                 "tickLabelColor" : "rgb(4, 138, 211)",
+                "ticksFormat" : { },
                 "showTicks" : true,
                 "ticksColor" : "rgba(0, 0, 0, 0.54)",
                 "showLine" : true,
                 "lineColor" : "rgba(0, 0, 0, 0.54)",
                 "showSplitLines" : true,
-                "splitLinesColor" : "rgb(161, 173, 177)",
-                "ticksFormat" : { }
+                "splitLinesColor" : "rgb(161, 173, 177)"
               },
               "noAggregationBarWidthSettings" : {
                 "strategy" : "group",
@@ -358,7 +358,7 @@
                 "showLatest" : false
               },
               "showTooltip" : true,
-              "tooltipTrigger" : "axis",
+              "tooltipTrigger" : "point",
               "tooltipLabelFont" : {
                 "family" : "Roboto",
                 "size" : 12,
