@@ -225,9 +225,9 @@
                 "yAxisId" : "default",
                 "units" : null,
                 "decimals" : 0,
-                "lineColor" : "rgb(156, 39, 176)",
+                "lineColor" : "rgb(76, 175, 80)",
                 "lineType" : "solid",
-                "lineWidth" : 1,
+                "lineWidth" : 2,
                 "startSymbol" : "none",
                 "startSymbolSize" : 5,
                 "endSymbol" : "arrow",
@@ -251,9 +251,9 @@
                 "yAxisId" : "default",
                 "units" : null,
                 "decimals" : 0,
-                "lineColor" : "rgb(156, 39, 176)",
+                "lineColor" : "rgb(76, 175, 80)",
                 "lineType" : "solid",
-                "lineWidth" : 1,
+                "lineWidth" : 2,
                 "startSymbol" : "none",
                 "startSymbolSize" : 5,
                 "endSymbol" : "arrow",
@@ -636,7 +636,7 @@
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
               },
-              "latestDataKeys" : null
+              "latestDataKeys" : [ ]
             } ],
             "timewindow" : {
               "hideAggregation" : false,
@@ -750,7 +750,59 @@
                   "max" : 2.5
                 }
               },
-              "thresholds" : [ ],
+              "thresholds" : [ {
+                "type" : "constant",
+                "yAxisId" : "default",
+                "units" : null,
+                "decimals" : 0,
+                "lineColor" : "rgb(76, 175, 80)",
+                "lineType" : "solid",
+                "lineWidth" : 2,
+                "startSymbol" : "none",
+                "startSymbolSize" : 5,
+                "endSymbol" : "arrow",
+                "endSymbolSize" : 5,
+                "showLabel" : true,
+                "labelPosition" : "end",
+                "labelFont" : {
+                  "family" : "Roboto",
+                  "size" : 12,
+                  "sizeUnit" : "px",
+                  "style" : "normal",
+                  "weight" : "400",
+                  "lineHeight" : "1"
+                },
+                "labelColor" : "rgba(0, 0, 0, 0.76)",
+                "enableLabelBackground" : false,
+                "labelBackground" : "rgba(255,255,255,0.56)",
+                "value" : 1
+              }, {
+                "type" : "constant",
+                "yAxisId" : "default",
+                "units" : null,
+                "decimals" : 0,
+                "lineColor" : "rgb(76, 175, 80)",
+                "lineType" : "solid",
+                "lineWidth" : 2,
+                "startSymbol" : "none",
+                "startSymbolSize" : 5,
+                "endSymbol" : "arrow",
+                "endSymbolSize" : 5,
+                "showLabel" : true,
+                "labelPosition" : "end",
+                "labelFont" : {
+                  "family" : "Roboto",
+                  "size" : 12,
+                  "sizeUnit" : "px",
+                  "style" : "normal",
+                  "weight" : "400",
+                  "lineHeight" : "1"
+                },
+                "labelColor" : "rgba(0, 0, 0, 0.76)",
+                "enableLabelBackground" : false,
+                "labelBackground" : "rgba(255,255,255,0.56)",
+                "value" : 2.5
+              } ],
               "dataZoom" : true,
               "stack" : true,
               "grid" : {
@@ -911,7 +963,19 @@
             "mobileHeight" : null,
             "configMode" : "advanced",
             "actions" : {
-              "headerButton" : [ ]
+              "headerButton" : [ {
+                "name" : "Modo oscuro",
+                "buttonType" : "icon",
+                "icon" : "lightbulb",
+                "buttonColor" : "rgba(0, 0, 0, 0.87)",
+                "useShowWidgetActionFunction" : null,
+                "showWidgetActionFunction" : "return true;",
+                "type" : "custom",
+                "customFunction" : "$('.tb-dashboard-page').toggleClass('dark');",
+                "openInSeparateDialog" : false,
+                "openInPopover" : false,
+                "id" : "8aaf1cb8-a7ab-90c8-f576-17bea2a94e7b"
+              } ]
             },
             "showTitleIcon" : false,
             "titleIcon" : "thermostat",
@@ -2133,7 +2197,59 @@
                   "max" : 5
                 }
               },
-              "thresholds" : [ ],
+              "thresholds" : [ {
+                "type" : "constant",
+                "yAxisId" : "default",
+                "units" : null,
+                "decimals" : 0,
+                "lineColor" : "rgb(76, 175, 80)",
+                "lineType" : "solid",
+                "lineWidth" : 2,
+                "startSymbol" : "none",
+                "startSymbolSize" : 5,
+                "endSymbol" : "arrow",
+                "endSymbolSize" : 5,
+                "showLabel" : true,
+                "labelPosition" : "end",
+                "labelFont" : {
+                  "family" : "Roboto",
+                  "size" : 12,
+                  "sizeUnit" : "px",
+                  "style" : "normal",
+                  "weight" : "400",
+                  "lineHeight" : "1"
+                },
+                "labelColor" : "rgba(0, 0, 0, 0.76)",
+                "enableLabelBackground" : false,
+                "labelBackground" : "rgba(255,255,255,0.56)",
+                "value" : 0
+              }, {
+                "type" : "constant",
+                "yAxisId" : "default",
+                "units" : null,
+                "decimals" : 0,
+                "lineColor" : "rgb(76, 175, 80)",
+                "lineType" : "solid",
+                "lineWidth" : 2,
+                "startSymbol" : "none",
+                "startSymbolSize" : 5,
+                "endSymbol" : "arrow",
+                "endSymbolSize" : 5,
+                "showLabel" : true,
+                "labelPosition" : "end",
+                "labelFont" : {
+                  "family" : "Roboto",
+                  "size" : 12,
+                  "sizeUnit" : "px",
+                  "style" : "normal",
+                  "weight" : "400",
+                  "lineHeight" : "1"
+                },
+                "labelColor" : "rgba(0, 0, 0, 0.76)",
+                "enableLabelBackground" : false,
+                "labelBackground" : "rgba(255,255,255,0.56)",
+                "value" : 4
+              } ],
               "dataZoom" : true,
               "stack" : false,
               "grid" : {
