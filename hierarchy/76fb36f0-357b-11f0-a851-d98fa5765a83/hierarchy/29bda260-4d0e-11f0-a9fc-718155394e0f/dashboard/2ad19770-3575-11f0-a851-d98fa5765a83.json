@@ -92,7 +92,13 @@
                     "color" : ""
                   }
                 },
-                "_hash" : 0.45641398387206644
+                "_hash" : 0.45641398387206644,
+                "aggregationType" : null,
+                "units" : null,
+                "decimals" : null,
+                "funcBody" : null,
+                "usePostProcessing" : false,
+                "postFuncBody" : null
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
@@ -298,13 +304,13 @@
                   "lineHeight" : "1"
                 },
                 "tickLabelColor" : "rgb(67, 91, 99)",
+                "ticksFormat" : { },
                 "showTicks" : true,
                 "ticksColor" : "rgba(0, 0, 0, 0.54)",
                 "showLine" : true,
                 "lineColor" : "rgba(0, 0, 0, 0.54)",
                 "showSplitLines" : true,
-                "splitLinesColor" : "rgb(161, 173, 177)",
-                "ticksFormat" : { }
+                "splitLinesColor" : "rgb(161, 173, 177)"
               },
               "noAggregationBarWidthSettings" : {
                 "strategy" : "group",
@@ -394,9 +400,9 @@
                 "weight" : "400",
                 "lineHeight" : "16px"
               },
-              "tooltipDateColor" : "rgba(0, 0, 0, 0.76)",
+              "tooltipDateColor" : "rgb(4, 138, 211)",
               "tooltipDateInterval" : true,
-              "tooltipBackgroundColor" : "rgba(255, 255, 255, 0.76)",
+              "tooltipBackgroundColor" : "rgb(255, 0, 0)",
               "tooltipBackgroundBlur" : 4,
               "animation" : {
                 "animation" : true,
