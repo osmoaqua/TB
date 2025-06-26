@@ -358,7 +358,7 @@
                 "showLatest" : false
               },
               "showTooltip" : true,
-              "tooltipTrigger" : "point",
+              "tooltipTrigger" : "axis",
               "tooltipLabelFont" : {
                 "family" : "Roboto",
                 "size" : 12,
