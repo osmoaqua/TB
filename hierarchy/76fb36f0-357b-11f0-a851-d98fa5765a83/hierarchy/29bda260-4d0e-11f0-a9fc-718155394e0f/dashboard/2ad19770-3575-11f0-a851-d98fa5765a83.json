@@ -297,14 +297,14 @@
                   "weight" : "400",
                   "lineHeight" : "1"
                 },
-                "tickLabelColor" : "rgb(4, 138, 211)",
-                "ticksFormat" : { },
+                "tickLabelColor" : "rgb(67, 91, 99)",
                 "showTicks" : true,
                 "ticksColor" : "rgba(0, 0, 0, 0.54)",
                 "showLine" : true,
                 "lineColor" : "rgba(0, 0, 0, 0.54)",
                 "showSplitLines" : true,
-                "splitLinesColor" : "rgb(161, 173, 177)"
+                "splitLinesColor" : "rgb(161, 173, 177)",
+                "ticksFormat" : { }
               },
               "noAggregationBarWidthSettings" : {
                 "strategy" : "group",
