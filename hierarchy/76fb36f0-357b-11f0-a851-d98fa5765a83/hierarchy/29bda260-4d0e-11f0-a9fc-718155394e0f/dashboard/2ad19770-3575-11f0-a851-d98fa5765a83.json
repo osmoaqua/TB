@@ -554,7 +554,7 @@
               "dataKeys" : [ {
                 "name" : "cloro",
                 "type" : "timeseries",
-                "label" : "cloro",
+                "label" : "Cloro",
                 "color" : "#F48FB1",
                 "settings" : {
                   "yAxisId" : "default",
