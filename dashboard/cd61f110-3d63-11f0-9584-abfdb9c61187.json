@@ -4424,6 +4424,70 @@
           "row" : 0,
           "col" : 0,
           "id" : "6b42ad7b-e44f-f46d-db21-e305c0b9518d"
+        },
+        "22e919a3-909d-4c14-3b62-34917fa97e88" : {
+          "typeFullFqn" : "tenant.decantador",
+          "type" : "rpc",
+          "sizeX" : 1,
+          "sizeY" : 1,
+          "config" : {
+            "showTitle" : true,
+            "backgroundColor" : "rgba(0, 0, 0, 0)",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "0px",
+            "settings" : {
+              "background" : {
+                "type" : "color",
+                "imageUrl" : null,
+                "color" : "rgb(255, 255, 255)",
+                "overlay" : {
+                  "enabled" : false,
+                  "color" : "rgba(255,255,255,0.72)",
+                  "blur" : 3
+                }
+              },
+              "padding" : "12px",
+              "scadaSymbolUrl" : "tb-image;/api/images/tenant/Clarifier 4 (cutaway).svg",
+              "scadaSymbolObjectSettings" : {
+                "behavior" : { },
+                "properties" : { }
+              }
+            },
+            "title" : "Decantador",
+            "dropShadow" : true,
+            "enableFullscreen" : true,
+            "widgetStyle" : { },
+            "actions" : { },
+            "widgetCss" : "",
+            "noDataDisplayMessage" : "",
+            "titleFont" : {
+              "size" : 16,
+              "sizeUnit" : "px",
+              "family" : "Roboto",
+              "weight" : "500",
+              "style" : null,
+              "lineHeight" : "1.6"
+            },
+            "showTitleIcon" : false,
+            "titleTooltip" : "",
+            "titleStyle" : null,
+            "pageSize" : 1024,
+            "titleIcon" : "mdi:lightbulb-outline",
+            "iconColor" : "rgba(0, 0, 0, 0.87)",
+            "iconSize" : "24px",
+            "configMode" : "advanced",
+            "targetDevice" : {
+              "type" : "device",
+              "deviceId" : "3363f980-3bfd-11f0-9584-abfdb9c61187"
+            },
+            "titleColor" : null,
+            "borderRadius" : "0px",
+            "margin" : "0px",
+            "datasources" : [ ]
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "22e919a3-909d-4c14-3b62-34917fa97e88"
         }
       },
       "states" : {
@@ -4661,6 +4725,12 @@
                       "mobileHeight" : null,
                       "row" : 7,
                       "col" : 20
+                    },
+                    "22e919a3-909d-4c14-3b62-34917fa97e88" : {
+                      "sizeX" : 1,
+                      "sizeY" : 1,
+                      "row" : 13,
+                      "col" : 0
                     }
                   }
                 }
