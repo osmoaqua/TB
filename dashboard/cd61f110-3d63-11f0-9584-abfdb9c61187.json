@@ -4424,6 +4424,60 @@
           "row" : 0,
           "col" : 0,
           "id" : "6b42ad7b-e44f-f46d-db21-e305c0b9518d"
+        },
+        "0f239291-a303-9226-8264-0f7efaa3b437" : {
+          "typeFullFqn" : "tenant.prueba_timeseries",
+          "type" : "rpc",
+          "sizeX" : 4,
+          "sizeY" : 2,
+          "config" : {
+            "targetDeviceAliases" : [ ],
+            "showTitle" : true,
+            "backgroundColor" : "#fff",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "0px",
+            "settings" : {
+              "parseGpioStatusFunction" : "return body[pin] === true;",
+              "gpioStatusChangeRequest" : {
+                "method" : "setGpioStatus",
+                "paramsBody" : "{\n   \"pin\": \"{$pin}\",\n   \"enabled\": \"{$enabled}\"\n}"
+              },
+              "requestTimeout" : 500,
+              "switchPanelBackgroundColor" : "#b71c1c",
+              "gpioStatusRequest" : {
+                "method" : "getGpioStatus",
+                "paramsBody" : "{}"
+              },
+              "gpioList" : [ {
+                "pin" : 1,
+                "label" : "GPIO 1",
+                "row" : 0,
+                "col" : 0,
+                "_uniqueKey" : 0
+              }, {
+                "pin" : 2,
+                "label" : "GPIO 2",
+                "row" : 0,
+                "col" : 1,
+                "_uniqueKey" : 1
+              }, {
+                "pin" : 3,
+                "label" : "GPIO 3",
+                "row" : 1,
+                "col" : 0,
+                "_uniqueKey" : 2
+              } ]
+            },
+            "title" : "Prueba_timeSEries",
+            "datasources" : [ ],
+            "targetDevice" : {
+              "type" : "device",
+              "deviceId" : "3363f980-3bfd-11f0-9584-abfdb9c61187"
+            }
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "0f239291-a303-9226-8264-0f7efaa3b437"
         }
       },
       "states" : {
@@ -4661,6 +4715,12 @@
                       "mobileHeight" : null,
                       "row" : 7,
                       "col" : 20
+                    },
+                    "0f239291-a303-9226-8264-0f7efaa3b437" : {
+                      "sizeX" : 4,
+                      "sizeY" : 2,
+                      "row" : 13,
+                      "col" : 0
                     }
                   }
                 }
