@@ -4488,6 +4488,60 @@
           "row" : 0,
           "col" : 0,
           "id" : "22e919a3-909d-4c14-3b62-34917fa97e88"
+        },
+        "c27b8146-ae83-52a6-5cab-05746cba1361" : {
+          "typeFullFqn" : "tenant.prueba2",
+          "type" : "rpc",
+          "sizeX" : 4,
+          "sizeY" : 2,
+          "config" : {
+            "targetDeviceAliases" : [ ],
+            "showTitle" : true,
+            "backgroundColor" : "#fff",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "0px",
+            "settings" : {
+              "parseGpioStatusFunction" : "return body[pin] === true;",
+              "gpioStatusChangeRequest" : {
+                "method" : "setGpioStatus",
+                "paramsBody" : "{\n   \"pin\": \"{$pin}\",\n   \"enabled\": \"{$enabled}\"\n}"
+              },
+              "requestTimeout" : 500,
+              "switchPanelBackgroundColor" : "#b71c1c",
+              "gpioStatusRequest" : {
+                "method" : "getGpioStatus",
+                "paramsBody" : "{}"
+              },
+              "gpioList" : [ {
+                "pin" : 1,
+                "label" : "GPIO 1",
+                "row" : 0,
+                "col" : 0,
+                "_uniqueKey" : 0
+              }, {
+                "pin" : 2,
+                "label" : "GPIO 2",
+                "row" : 0,
+                "col" : 1,
+                "_uniqueKey" : 1
+              }, {
+                "pin" : 3,
+                "label" : "GPIO 3",
+                "row" : 1,
+                "col" : 0,
+                "_uniqueKey" : 2
+              } ]
+            },
+            "title" : "Prueba2",
+            "datasources" : [ ],
+            "targetDevice" : {
+              "type" : "device",
+              "deviceId" : "a5e87040-3986-11f0-81bc-6bb29792e392"
+            }
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "c27b8146-ae83-52a6-5cab-05746cba1361"
         }
       },
       "states" : {
@@ -4583,6 +4637,12 @@
                   "sizeX" : 5,
                   "sizeY" : 5,
                   "row" : 25,
+                  "col" : 0
+                },
+                "c27b8146-ae83-52a6-5cab-05746cba1361" : {
+                  "sizeX" : 8,
+                  "sizeY" : 4,
+                  "row" : 30,
                   "col" : 0
                 }
               },
