@@ -2908,10 +2908,10 @@
                   "col" : 13
                 },
                 "42920401-a0b8-c295-6247-8cdd8d79abc8" : {
-                  "sizeX" : 13,
-                  "sizeY" : 4,
+                  "sizeX" : 6,
+                  "sizeY" : 2,
                   "row" : 10,
-                  "col" : 0
+                  "col" : 4
                 },
                 "5eea1b72-7d17-4f15-a206-08cfb39654d1" : {
                   "sizeX" : 13,
@@ -2927,10 +2927,10 @@
                   "col" : 46
                 },
                 "6fcf0657-e10b-2ab8-1662-e1e91b662442" : {
-                  "sizeX" : 13,
-                  "sizeY" : 4,
+                  "sizeX" : 6,
+                  "sizeY" : 2,
                   "row" : 10,
-                  "col" : 13
+                  "col" : 17
                 },
                 "5fb71ceb-f853-e110-46a5-2f2e0249a94b" : {
                   "sizeX" : 13,
@@ -2957,16 +2957,16 @@
                   "col" : 39
                 },
                 "32a74a75-de05-cc80-5545-9cd2bbec0dcf" : {
-                  "sizeX" : 13,
-                  "sizeY" : 4,
+                  "sizeX" : 7,
+                  "sizeY" : 2,
                   "row" : 10,
-                  "col" : 26
+                  "col" : 29
                 },
                 "0c44a313-80a9-82b0-030e-1816700f4d90" : {
-                  "sizeX" : 13,
-                  "sizeY" : 4,
+                  "sizeX" : 8,
+                  "sizeY" : 2,
                   "row" : 10,
-                  "col" : 39
+                  "col" : 42
                 },
                 "e6e622ca-0ca4-c368-bced-cc1f23f4fbed" : {
                   "sizeX" : 13,
