@@ -433,17 +433,7 @@
             "mobileHeight" : null,
             "configMode" : "advanced",
             "actions" : {
-              "headerButton" : [ {
-                "name" : "Modo oscuro",
-                "icon" : "lightbulb",
-                "useShowWidgetActionFunction" : null,
-                "showWidgetActionFunction" : "return true;",
-                "type" : "custom",
-                "customFunction" : "$('.tb-dashboard-page').toggleClass('dark');",
-                "openInSeparateDialog" : false,
-                "openInPopover" : false,
-                "id" : "30d392b0-81f6-efdf-a2e7-3c5882b26769"
-              } ]
+              "headerButton" : [ ]
             },
             "showTitleIcon" : false,
             "titleIcon" : "thermostat",
@@ -645,8 +635,8 @@
               "selectedTab" : 0,
               "realtime" : {
                 "realtimeType" : 0,
-                "interval" : 7200000,
-                "timewindowMs" : 86400000,
+                "interval" : 10000,
+                "timewindowMs" : 3600000,
                 "quickInterval" : "CURRENT_DAY",
                 "hideInterval" : false,
                 "hideLastInterval" : false,
@@ -963,19 +953,7 @@
             "mobileHeight" : null,
             "configMode" : "advanced",
             "actions" : {
-              "headerButton" : [ {
-                "name" : "Modo oscuro",
-                "buttonType" : "icon",
-                "icon" : "lightbulb",
-                "buttonColor" : "rgba(0, 0, 0, 0.87)",
-                "useShowWidgetActionFunction" : null,
-                "showWidgetActionFunction" : "return true;",
-                "type" : "custom",
-                "customFunction" : "$('.tb-dashboard-page').toggleClass('dark');",
-                "openInSeparateDialog" : false,
-                "openInPopover" : false,
-                "id" : "8aaf1cb8-a7ab-90c8-f576-17bea2a94e7b"
-              } ]
+              "headerButton" : [ ]
             },
             "showTitleIcon" : false,
             "titleIcon" : "thermostat",
@@ -2410,17 +2388,7 @@
             "mobileHeight" : null,
             "configMode" : "advanced",
             "actions" : {
-              "headerButton" : [ {
-                "name" : "Modo oscuro",
-                "icon" : "lightbulb",
-                "useShowWidgetActionFunction" : null,
-                "showWidgetActionFunction" : "return true;",
-                "type" : "custom",
-                "customFunction" : "$('.tb-dashboard-page').toggleClass('dark');",
-                "openInSeparateDialog" : false,
-                "openInPopover" : false,
-                "id" : "30d392b0-81f6-efdf-a2e7-3c5882b26769"
-              } ]
+              "headerButton" : [ ]
             },
             "showTitleIcon" : false,
             "titleIcon" : "thermostat",
@@ -2834,17 +2802,7 @@
             "mobileHeight" : null,
             "configMode" : "advanced",
             "actions" : {
-              "headerButton" : [ {
-                "name" : "Modo oscuro",
-                "icon" : "lightbulb",
-                "useShowWidgetActionFunction" : null,
-                "showWidgetActionFunction" : "return true;",
-                "type" : "custom",
-                "customFunction" : "$('.tb-dashboard-page').toggleClass('dark');",
-                "openInSeparateDialog" : false,
-                "openInPopover" : false,
-                "id" : "30d392b0-81f6-efdf-a2e7-3c5882b26769"
-              } ]
+              "headerButton" : [ ]
             },
             "showTitleIcon" : false,
             "titleIcon" : "thermostat",
