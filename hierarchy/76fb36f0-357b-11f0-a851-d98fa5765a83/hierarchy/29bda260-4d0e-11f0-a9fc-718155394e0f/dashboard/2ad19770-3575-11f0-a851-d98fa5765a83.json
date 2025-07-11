@@ -21,7 +21,7 @@
               "dataKeys" : [ {
                 "name" : "ph",
                 "type" : "timeseries",
-                "label" : "Ph",
+                "label" : "ph",
                 "color" : "#2196f3",
                 "settings" : {
                   "yAxisId" : "default",
@@ -92,13 +92,7 @@
                     "color" : ""
                   }
                 },
-                "_hash" : 0.45641398387206644,
-                "aggregationType" : null,
-                "units" : null,
-                "decimals" : null,
-                "funcBody" : null,
-                "usePostProcessing" : false,
-                "postFuncBody" : null
+                "_hash" : 0.20272599766546873
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
