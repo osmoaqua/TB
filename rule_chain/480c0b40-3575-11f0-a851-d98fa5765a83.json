@@ -144,8 +144,8 @@
         "ccTemplate" : "control@aquafilter.es",
         "bccTemplate" : null,
         "subjectTemplate" : "Dispositivo: ${deviceType} fuera de rango.",
-        "mailBodyType" : "false",
-        "bodyTemplate" : "El dispositivo ${deviceName} tiene el cloro con un valor de: $[cloro] ppm. Está fuera de rago. Pongase en contacto con el servicio técnico. \n\nGracias."
+        "mailBodyType" : "true",
+        "bodyTemplate" : "El dispositivo ${deviceName} tiene el cloro con un valor de: $[cloro] ppm. Está fuera de rago. Pongase en contacto con el servicio técnico. \n\nGracias.\n\n\n\n\n\n\n\n"
       },
       "configurationVersion" : 0,
       "createdTime" : 0,
