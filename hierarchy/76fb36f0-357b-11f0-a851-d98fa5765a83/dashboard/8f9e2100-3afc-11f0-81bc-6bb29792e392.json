@@ -7,14 +7,90 @@
     "mobileOrder" : null,
     "configuration" : {
       "description" : "",
-      "widgets" : { },
+      "widgets" : {
+        "ae97771b-6ea1-1f99-7324-937eb55853a0" : {
+          "typeFullFqn" : "tenant.decantador",
+          "type" : "rpc",
+          "sizeX" : 1,
+          "sizeY" : 1,
+          "config" : {
+            "showTitle" : false,
+            "backgroundColor" : "rgba(0,0,0,0)",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "0",
+            "settings" : {
+              "scadaSymbolUrl" : "tb-image;/api/images/tenant/Clarifier 4 (cutaway).svg",
+              "scadaSymbolObjectSettings" : {
+                "behavior" : { },
+                "properties" : { }
+              },
+              "background" : {
+                "type" : "color",
+                "color" : "rgba(0,0,0,0)",
+                "overlay" : {
+                  "enabled" : false,
+                  "color" : "rgba(255,255,255,0.72)",
+                  "blur" : 3
+                },
+                "imageUrl" : null
+              },
+              "padding" : "0"
+            },
+            "title" : "Decantador",
+            "dropShadow" : false,
+            "enableFullscreen" : true,
+            "widgetStyle" : { },
+            "actions" : { },
+            "widgetCss" : "",
+            "noDataDisplayMessage" : "",
+            "titleFont" : {
+              "size" : 16,
+              "sizeUnit" : "px",
+              "family" : "Roboto",
+              "weight" : "500",
+              "style" : null,
+              "lineHeight" : "1.6"
+            },
+            "showTitleIcon" : false,
+            "titleTooltip" : "",
+            "titleStyle" : null,
+            "pageSize" : 1024,
+            "titleIcon" : "mdi:lightbulb-outline",
+            "iconColor" : "rgba(0, 0, 0, 0.87)",
+            "iconSize" : "24px",
+            "configMode" : "advanced",
+            "targetDevice" : {
+              "type" : "device",
+              "deviceId" : "8ad65ab0-3986-11f0-81bc-6bb29792e392"
+            },
+            "titleColor" : null,
+            "borderRadius" : "0px",
+            "margin" : "0",
+            "datasources" : [ ],
+            "resizable" : true,
+            "preserveAspectRatio" : false
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "ae97771b-6ea1-1f99-7324-937eb55853a0"
+        }
+      },
       "states" : {
         "default" : {
           "name" : "Estado Servidor",
           "root" : true,
           "layouts" : {
             "main" : {
-              "widgets" : { },
+              "widgets" : {
+                "ae97771b-6ea1-1f99-7324-937eb55853a0" : {
+                  "sizeX" : 1,
+                  "sizeY" : 1,
+                  "preserveAspectRatio" : false,
+                  "resizable" : true,
+                  "row" : 0,
+                  "col" : 0
+                }
+              },
               "gridSettings" : {
                 "layoutType" : "scada",
                 "backgroundColor" : "#eeeeee",
