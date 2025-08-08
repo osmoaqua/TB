@@ -132,17 +132,7 @@
             "color" : "rgba(0, 0, 0, 0.87)",
             "padding" : "0",
             "settings" : {
-              "padding" : "0",
-              "background" : {
-                "type" : "color",
-                "color" : "rgba(0,0,0,0)",
-                "overlay" : {
-                  "enabled" : false,
-                  "color" : "rgba(255,255,255,0.72)",
-                  "blur" : 3
-                }
-              },
-              "autoScale" : true,
+              "autoScale" : false,
               "showLabel" : true,
               "label" : "Temperature",
               "labelFont" : {
@@ -179,7 +169,17 @@
                 "type" : "constant",
                 "color" : "rgba(0, 0, 0, 0.87)",
                 "colorFunction" : "var temperature = value;\nif (typeof temperature !== undefined) {\n  var percent = (temperature + 60)/120 * 100;\n  return tinycolor.mix('blue', 'red', percent).toHexString();\n}\nreturn 'blue';"
-              }
+              },
+              "background" : {
+                "type" : "color",
+                "color" : "rgba(0,0,0,0)",
+                "overlay" : {
+                  "enabled" : false,
+                  "color" : "rgba(255,255,255,0.72)",
+                  "blur" : 3
+                }
+              },
+              "padding" : "0"
             },
             "title" : "Label & value card",
             "dropShadow" : false,
@@ -193,7 +193,7 @@
             "useDashboardTimewindow" : true,
             "widgetStyle" : { },
             "actions" : { },
-            "configMode" : "basic",
+            "configMode" : "advanced",
             "displayTimewindow" : true,
             "margin" : "0",
             "borderRadius" : "0px",
@@ -420,6 +420,71 @@
           "row" : 0,
           "col" : 0,
           "id" : "817ee9e0-70a6-0d03-4967-e55c37207b4a"
+        },
+        "d6a9ddfb-4b1d-2bf8-3831-2100bc49699d" : {
+          "typeFullFqn" : "tenant.decantador",
+          "type" : "rpc",
+          "sizeX" : 1,
+          "sizeY" : 1,
+          "config" : {
+            "showTitle" : false,
+            "backgroundColor" : "rgba(0,0,0,0)",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "0",
+            "settings" : {
+              "background" : {
+                "type" : "color",
+                "imageUrl" : null,
+                "color" : "rgba(0,0,0,0)",
+                "overlay" : {
+                  "enabled" : false,
+                  "color" : "rgba(255,255,255,0.72)",
+                  "blur" : 3
+                }
+              },
+              "padding" : "0",
+              "scadaSymbolUrl" : "tb-image;/api/images/tenant/Clarifier 4 (cutaway).svg",
+              "scadaSymbolObjectSettings" : {
+                "behavior" : { },
+                "properties" : { }
+              }
+            },
+            "title" : "Decantador",
+            "dropShadow" : false,
+            "enableFullscreen" : false,
+            "widgetStyle" : { },
+            "actions" : { },
+            "widgetCss" : "",
+            "noDataDisplayMessage" : "",
+            "titleFont" : {
+              "size" : 16,
+              "sizeUnit" : "px",
+              "family" : "Roboto",
+              "weight" : "500",
+              "style" : null,
+              "lineHeight" : "1.6"
+            },
+            "showTitleIcon" : false,
+            "titleTooltip" : "",
+            "titleStyle" : null,
+            "pageSize" : 1024,
+            "titleIcon" : "mdi:lightbulb-outline",
+            "iconColor" : "rgba(0, 0, 0, 0.87)",
+            "iconSize" : "24px",
+            "configMode" : "basic",
+            "targetDevice" : {
+              "type" : "device"
+            },
+            "titleColor" : null,
+            "borderRadius" : "0px",
+            "margin" : "0",
+            "datasources" : [ ],
+            "resizable" : true,
+            "preserveAspectRatio" : false
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "d6a9ddfb-4b1d-2bf8-3831-2100bc49699d"
         }
       },
       "states" : {
@@ -459,7 +524,7 @@
                     "viewFormat" : "grid",
                     "autoFillHeight" : false,
                     "rowHeight" : 70,
-                    "backgroundImageUrl" : "tb-image;/api/images/tenant/osmosis.jpg",
+                    "backgroundImageUrl" : null,
                     "mobileAutoFillHeight" : false,
                     "mobileRowHeight" : 70
                   },
@@ -468,17 +533,25 @@
                       "sizeX" : 15,
                       "sizeY" : 10,
                       "preserveAspectRatio" : false,
-                      "resizable" : true,
-                      "row" : 7,
-                      "col" : 51
+                      "resizable" : false,
+                      "row" : 13,
+                      "col" : 77
                     },
                     "817ee9e0-70a6-0d03-4967-e55c37207b4a" : {
                       "sizeX" : 9,
                       "sizeY" : 6,
                       "preserveAspectRatio" : true,
                       "resizable" : true,
-                      "row" : 29,
-                      "col" : 57
+                      "row" : 16,
+                      "col" : 92
+                    },
+                    "d6a9ddfb-4b1d-2bf8-3831-2100bc49699d" : {
+                      "sizeX" : 28,
+                      "sizeY" : 26,
+                      "preserveAspectRatio" : false,
+                      "resizable" : true,
+                      "row" : 15,
+                      "col" : 21
                     }
                   }
                 }
