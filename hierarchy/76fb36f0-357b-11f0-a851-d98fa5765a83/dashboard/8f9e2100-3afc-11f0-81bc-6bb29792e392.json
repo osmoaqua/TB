@@ -454,7 +454,7 @@
                     "columns" : 120,
                     "margin" : 10,
                     "outerMargin" : true,
-                    "backgroundSizeMode" : "cover",
+                    "backgroundSizeMode" : "contain",
                     "minColumns" : 120,
                     "viewFormat" : "grid",
                     "autoFillHeight" : false,
@@ -469,16 +469,16 @@
                       "sizeY" : 10,
                       "preserveAspectRatio" : false,
                       "resizable" : true,
-                      "row" : 17,
-                      "col" : 94
+                      "row" : 7,
+                      "col" : 51
                     },
                     "817ee9e0-70a6-0d03-4967-e55c37207b4a" : {
                       "sizeX" : 9,
                       "sizeY" : 6,
                       "preserveAspectRatio" : true,
                       "resizable" : true,
-                      "row" : 42,
-                      "col" : 104
+                      "row" : 29,
+                      "col" : 57
                     }
                   }
                 }
