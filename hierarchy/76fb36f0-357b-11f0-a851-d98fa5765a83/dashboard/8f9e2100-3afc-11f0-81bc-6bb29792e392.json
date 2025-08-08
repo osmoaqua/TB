@@ -485,6 +485,136 @@
           "row" : 0,
           "col" : 0,
           "id" : "d6a9ddfb-4b1d-2bf8-3831-2100bc49699d"
+        },
+        "c6b660a0-98fd-d884-7cc4-48f65d2f06d7" : {
+          "typeFullFqn" : "system.extra_long_vertical_pipe",
+          "type" : "rpc",
+          "sizeX" : 1,
+          "sizeY" : 4,
+          "config" : {
+            "showTitle" : false,
+            "backgroundColor" : "rgba(0,0,0,0)",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "0",
+            "settings" : {
+              "background" : {
+                "type" : "color",
+                "imageUrl" : null,
+                "color" : "rgba(0,0,0,0)",
+                "overlay" : {
+                  "enabled" : false,
+                  "color" : "rgba(255,255,255,0.72)",
+                  "blur" : 3
+                }
+              },
+              "padding" : "0",
+              "scadaSymbolUrl" : "tb-image;/api/images/system/extra-long-vertical-pipe.svg",
+              "scadaSymbolObjectSettings" : {
+                "behavior" : { },
+                "properties" : { }
+              }
+            },
+            "title" : "Extra long vertical pipe",
+            "dropShadow" : false,
+            "enableFullscreen" : false,
+            "widgetStyle" : { },
+            "actions" : { },
+            "widgetCss" : "",
+            "noDataDisplayMessage" : "",
+            "titleFont" : {
+              "size" : 16,
+              "sizeUnit" : "px",
+              "family" : "Roboto",
+              "weight" : "500",
+              "style" : null,
+              "lineHeight" : "1.6"
+            },
+            "showTitleIcon" : false,
+            "titleTooltip" : "",
+            "titleStyle" : null,
+            "pageSize" : 1024,
+            "titleIcon" : "mdi:lightbulb-outline",
+            "iconColor" : "rgba(0, 0, 0, 0.87)",
+            "iconSize" : "24px",
+            "configMode" : "basic",
+            "targetDevice" : {
+              "type" : "device"
+            },
+            "titleColor" : null,
+            "borderRadius" : "0px",
+            "margin" : "0",
+            "datasources" : [ ],
+            "resizable" : true,
+            "preserveAspectRatio" : true
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "c6b660a0-98fd-d884-7cc4-48f65d2f06d7"
+        },
+        "3d07cc09-6688-5262-c12e-94dcd0ceb3eb" : {
+          "typeFullFqn" : "system.bottom_right_elbow_pipe",
+          "type" : "rpc",
+          "sizeX" : 1,
+          "sizeY" : 1,
+          "config" : {
+            "showTitle" : false,
+            "backgroundColor" : "rgba(0,0,0,0)",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "0",
+            "settings" : {
+              "background" : {
+                "type" : "color",
+                "imageUrl" : null,
+                "color" : "rgba(0,0,0,0)",
+                "overlay" : {
+                  "enabled" : false,
+                  "color" : "rgba(255,255,255,0.72)",
+                  "blur" : 3
+                }
+              },
+              "padding" : "0",
+              "scadaSymbolUrl" : "tb-image;/api/images/system/bottom-right-elbow-pipe.svg",
+              "scadaSymbolObjectSettings" : {
+                "behavior" : { },
+                "properties" : { }
+              }
+            },
+            "title" : "Bottom right elbow pipe",
+            "dropShadow" : false,
+            "enableFullscreen" : false,
+            "widgetStyle" : { },
+            "actions" : { },
+            "widgetCss" : "",
+            "noDataDisplayMessage" : "",
+            "titleFont" : {
+              "size" : 16,
+              "sizeUnit" : "px",
+              "family" : "Roboto",
+              "weight" : "500",
+              "style" : null,
+              "lineHeight" : "1.6"
+            },
+            "showTitleIcon" : false,
+            "titleTooltip" : "",
+            "titleStyle" : null,
+            "pageSize" : 1024,
+            "titleIcon" : "mdi:lightbulb-outline",
+            "iconColor" : "rgba(0, 0, 0, 0.87)",
+            "iconSize" : "24px",
+            "configMode" : "advanced",
+            "targetDevice" : {
+              "type" : "device"
+            },
+            "titleColor" : null,
+            "borderRadius" : "0px",
+            "margin" : "0",
+            "datasources" : [ ],
+            "resizable" : true,
+            "preserveAspectRatio" : true
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "3d07cc09-6688-5262-c12e-94dcd0ceb3eb"
         }
       },
       "states" : {
@@ -508,8 +638,15 @@
                 "backgroundColor" : "#eeeeee",
                 "columns" : 24,
                 "margin" : 10,
-                "outerMargin" : true,
-                "backgroundSizeMode" : "100%"
+                "outerMargin" : false,
+                "backgroundSizeMode" : "contain",
+                "minColumns" : 24,
+                "viewFormat" : "grid",
+                "autoFillHeight" : false,
+                "rowHeight" : 70,
+                "backgroundImageUrl" : null,
+                "mobileAutoFillHeight" : false,
+                "mobileRowHeight" : 70
               },
               "breakpoints" : {
                 "xl" : {
@@ -524,7 +661,7 @@
                     "viewFormat" : "grid",
                     "autoFillHeight" : false,
                     "rowHeight" : 70,
-                    "backgroundImageUrl" : null,
+                    "backgroundImageUrl" : "tb-image;/api/images/tenant/osmosis.jpg",
                     "mobileAutoFillHeight" : false,
                     "mobileRowHeight" : 70
                   },
@@ -542,16 +679,32 @@
                       "sizeY" : 6,
                       "preserveAspectRatio" : true,
                       "resizable" : true,
-                      "row" : 16,
-                      "col" : 92
+                      "row" : 23,
+                      "col" : 103
                     },
                     "d6a9ddfb-4b1d-2bf8-3831-2100bc49699d" : {
-                      "sizeX" : 28,
-                      "sizeY" : 26,
+                      "sizeX" : 23,
+                      "sizeY" : 18,
                       "preserveAspectRatio" : false,
                       "resizable" : true,
-                      "row" : 15,
-                      "col" : 21
+                      "row" : 1,
+                      "col" : 94
+                    },
+                    "c6b660a0-98fd-d884-7cc4-48f65d2f06d7" : {
+                      "sizeX" : 5,
+                      "sizeY" : 20,
+                      "preserveAspectRatio" : true,
+                      "resizable" : true,
+                      "row" : 30,
+                      "col" : 98
+                    },
+                    "3d07cc09-6688-5262-c12e-94dcd0ceb3eb" : {
+                      "sizeX" : 5,
+                      "sizeY" : 5,
+                      "preserveAspectRatio" : false,
+                      "resizable" : false,
+                      "row" : 25,
+                      "col" : 98
                     }
                   }
                 }
@@ -597,7 +750,7 @@
         }
       },
       "settings" : {
-        "stateControllerId" : "entity",
+        "stateControllerId" : "default",
         "showTitle" : false,
         "showDashboardsSelect" : true,
         "showEntitiesSelect" : true,
