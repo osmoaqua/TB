@@ -473,11 +473,11 @@
                       "col" : 94
                     },
                     "817ee9e0-70a6-0d03-4967-e55c37207b4a" : {
-                      "sizeX" : 10,
-                      "sizeY" : 6.666666666666667,
+                      "sizeX" : 9,
+                      "sizeY" : 6,
                       "preserveAspectRatio" : true,
                       "resizable" : true,
-                      "row" : 38,
+                      "row" : 44,
                       "col" : 95
                     }
                   }
