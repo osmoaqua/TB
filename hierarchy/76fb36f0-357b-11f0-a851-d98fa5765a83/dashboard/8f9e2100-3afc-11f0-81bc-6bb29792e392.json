@@ -266,11 +266,11 @@
                   "gridSettings" : {
                     "layoutType" : "scada",
                     "backgroundColor" : "#EEEEEE06",
-                    "columns" : 24,
+                    "columns" : 120,
                     "margin" : 10,
                     "outerMargin" : true,
-                    "backgroundSizeMode" : "100%",
-                    "minColumns" : 24,
+                    "backgroundSizeMode" : "cover",
+                    "minColumns" : 120,
                     "viewFormat" : "grid",
                     "autoFillHeight" : false,
                     "rowHeight" : 70,
@@ -280,12 +280,12 @@
                   },
                   "widgets" : {
                     "91b863a2-c8f1-7648-dda3-ae7ac70209b4" : {
-                      "sizeX" : 3,
-                      "sizeY" : 2,
+                      "sizeX" : 15,
+                      "sizeY" : 10,
                       "preserveAspectRatio" : false,
                       "resizable" : true,
-                      "row" : 3,
-                      "col" : 19
+                      "row" : 15,
+                      "col" : 95
                     }
                   }
                 }
