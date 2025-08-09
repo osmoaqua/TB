@@ -389,71 +389,6 @@
           "col" : 0,
           "id" : "3d07cc09-6688-5262-c12e-94dcd0ceb3eb"
         },
-        "c6deecd7-9def-c2bf-2769-ce44062a066c" : {
-          "typeFullFqn" : "system.long_horizontal_pipe",
-          "type" : "rpc",
-          "sizeX" : 2,
-          "sizeY" : 1,
-          "config" : {
-            "showTitle" : false,
-            "backgroundColor" : "rgba(0,0,0,0)",
-            "color" : "rgba(0, 0, 0, 0.87)",
-            "padding" : "0",
-            "settings" : {
-              "background" : {
-                "type" : "color",
-                "imageUrl" : null,
-                "color" : "rgba(0,0,0,0)",
-                "overlay" : {
-                  "enabled" : false,
-                  "color" : "rgba(255,255,255,0.72)",
-                  "blur" : 3
-                }
-              },
-              "padding" : "0",
-              "scadaSymbolUrl" : "tb-image;/api/images/system/long-horizontal-pipe.svg",
-              "scadaSymbolObjectSettings" : {
-                "behavior" : { },
-                "properties" : { }
-              }
-            },
-            "title" : "Long horizontal pipe",
-            "dropShadow" : false,
-            "enableFullscreen" : false,
-            "widgetStyle" : { },
-            "actions" : { },
-            "widgetCss" : "",
-            "noDataDisplayMessage" : "",
-            "titleFont" : {
-              "size" : 16,
-              "sizeUnit" : "px",
-              "family" : "Roboto",
-              "weight" : "500",
-              "style" : null,
-              "lineHeight" : "1.6"
-            },
-            "showTitleIcon" : false,
-            "titleTooltip" : "",
-            "titleStyle" : null,
-            "pageSize" : 1024,
-            "titleIcon" : "mdi:lightbulb-outline",
-            "iconColor" : "rgba(0, 0, 0, 0.87)",
-            "iconSize" : "24px",
-            "configMode" : "basic",
-            "targetDevice" : {
-              "type" : "device"
-            },
-            "titleColor" : null,
-            "borderRadius" : "0px",
-            "margin" : "0",
-            "datasources" : [ ],
-            "resizable" : true,
-            "preserveAspectRatio" : true
-          },
-          "row" : 0,
-          "col" : 0,
-          "id" : "c6deecd7-9def-c2bf-2769-ce44062a066c"
-        },
         "fcf328a3-4294-fb30-1e98-e123d2cca05e" : {
           "typeFullFqn" : "system.simple_value_and_chart_card",
           "type" : "timeseries",
@@ -1265,14 +1200,6 @@
                       "resizable" : true,
                       "row" : 27,
                       "col" : 6
-                    },
-                    "c6deecd7-9def-c2bf-2769-ce44062a066c" : {
-                      "sizeX" : 12,
-                      "sizeY" : 6,
-                      "preserveAspectRatio" : true,
-                      "resizable" : true,
-                      "row" : 56,
-                      "col" : 77
                     },
                     "fcf328a3-4294-fb30-1e98-e123d2cca05e" : {
                       "sizeX" : 27,
