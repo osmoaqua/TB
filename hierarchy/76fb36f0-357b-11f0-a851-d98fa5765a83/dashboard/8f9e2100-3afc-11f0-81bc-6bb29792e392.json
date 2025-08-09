@@ -1286,7 +1286,7 @@
             },
             "title" : "Cloro",
             "dropShadow" : true,
-            "enableFullscreen" : true,
+            "enableFullscreen" : false,
             "titleStyle" : null,
             "mobileHeight" : null,
             "configMode" : "advanced",
