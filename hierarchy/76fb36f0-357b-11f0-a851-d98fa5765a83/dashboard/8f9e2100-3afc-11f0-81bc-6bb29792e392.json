@@ -413,8 +413,8 @@
                       "persistentPollingInterval" : 1000
                     },
                     "getAttribute" : {
-                      "scope" : null,
-                      "key" : "state"
+                      "key" : "state",
+                      "scope" : null
                     },
                     "getTimeSeries" : {
                       "key" : "ph"
@@ -425,11 +425,15 @@
                     },
                     "dataToValue" : {
                       "type" : "NONE",
+                      "compareToValue" : true,
                       "dataToValueFunction" : "/* Should return boolean value */\nreturn data;"
                     }
                   }
                 },
-                "properties" : { }
+                "properties" : {
+                  "ph" : "pH",
+                  "decimales" : 2
+                }
               },
               "background" : {
                 "type" : "color",
