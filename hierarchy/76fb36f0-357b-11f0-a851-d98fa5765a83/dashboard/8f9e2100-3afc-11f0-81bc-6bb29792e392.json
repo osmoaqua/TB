@@ -1455,6 +1455,71 @@
           "row" : 0,
           "col" : 0,
           "id" : "4745dbcd-2be7-b4fd-6ae9-8eb6a8bcb14e"
+        },
+        "a2a91a14-ae38-ae5b-7102-71e8c0cc4a50" : {
+          "typeFullFqn" : "tenant.aquafilter_600_foto_photoroom_300x300_1_svg",
+          "type" : "rpc",
+          "sizeX" : 3,
+          "sizeY" : 3,
+          "config" : {
+            "showTitle" : false,
+            "backgroundColor" : "rgba(0,0,0,0)",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "0",
+            "settings" : {
+              "background" : {
+                "type" : "color",
+                "imageUrl" : null,
+                "color" : "rgba(0,0,0,0)",
+                "overlay" : {
+                  "enabled" : false,
+                  "color" : "rgba(255,255,255,0.72)",
+                  "blur" : 3
+                }
+              },
+              "padding" : "0",
+              "scadaSymbolUrl" : "tb-image;/api/images/tenant/aquafilter_600_foto-Photoroom-300x300 (1).svg",
+              "scadaSymbolObjectSettings" : {
+                "behavior" : { },
+                "properties" : { }
+              }
+            },
+            "title" : "aquafilter_600_foto-Photoroom-300x300 (1).svg",
+            "dropShadow" : false,
+            "enableFullscreen" : false,
+            "widgetStyle" : { },
+            "actions" : { },
+            "widgetCss" : "",
+            "noDataDisplayMessage" : "",
+            "titleFont" : {
+              "size" : 16,
+              "sizeUnit" : "px",
+              "family" : "Roboto",
+              "weight" : "500",
+              "style" : null,
+              "lineHeight" : "1.6"
+            },
+            "showTitleIcon" : false,
+            "titleTooltip" : "",
+            "titleStyle" : null,
+            "pageSize" : 1024,
+            "titleIcon" : "mdi:lightbulb-outline",
+            "iconColor" : "rgba(0, 0, 0, 0.87)",
+            "iconSize" : "24px",
+            "configMode" : "basic",
+            "targetDevice" : {
+              "type" : "device"
+            },
+            "titleColor" : null,
+            "borderRadius" : "0px",
+            "margin" : "0",
+            "datasources" : [ ],
+            "resizable" : true,
+            "preserveAspectRatio" : false
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "a2a91a14-ae38-ae5b-7102-71e8c0cc4a50"
         }
       },
       "states" : {
@@ -1589,6 +1654,14 @@
                       "resizable" : true,
                       "row" : 0,
                       "col" : 59
+                    },
+                    "a2a91a14-ae38-ae5b-7102-71e8c0cc4a50" : {
+                      "sizeX" : 18,
+                      "sizeY" : 18,
+                      "preserveAspectRatio" : false,
+                      "resizable" : true,
+                      "row" : 52,
+                      "col" : 0
                     }
                   }
                 }
