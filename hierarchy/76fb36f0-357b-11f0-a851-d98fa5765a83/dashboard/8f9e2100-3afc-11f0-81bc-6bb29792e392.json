@@ -1052,72 +1052,6 @@
           "row" : 0,
           "col" : 0,
           "id" : "ddbd674e-e3ff-65c8-26d9-4e2dec647ebf"
-        },
-        "d5fb8fe3-5f90-2473-22f7-d900fb1fe048" : {
-          "typeFullFqn" : "tenant.torre3",
-          "type" : "rpc",
-          "sizeX" : 10,
-          "sizeY" : 12,
-          "config" : {
-            "showTitle" : false,
-            "backgroundColor" : "rgba(0,0,0,0)",
-            "color" : "rgba(0, 0, 0, 0.87)",
-            "padding" : "0",
-            "settings" : {
-              "background" : {
-                "type" : "color",
-                "imageUrl" : null,
-                "color" : "rgba(0,0,0,0)",
-                "overlay" : {
-                  "enabled" : false,
-                  "color" : "rgba(255,255,255,0.72)",
-                  "blur" : 3
-                }
-              },
-              "padding" : "0",
-              "scadaSymbolUrl" : "tb-image;/api/images/tenant/torre_(1).svg",
-              "scadaSymbolObjectSettings" : {
-                "behavior" : { },
-                "properties" : { }
-              }
-            },
-            "title" : "torre",
-            "dropShadow" : false,
-            "enableFullscreen" : false,
-            "widgetStyle" : { },
-            "actions" : { },
-            "widgetCss" : "",
-            "noDataDisplayMessage" : "",
-            "titleFont" : {
-              "size" : 16,
-              "sizeUnit" : "px",
-              "family" : "Roboto",
-              "weight" : "500",
-              "style" : null,
-              "lineHeight" : "1.6"
-            },
-            "showTitleIcon" : false,
-            "titleTooltip" : "",
-            "titleStyle" : null,
-            "pageSize" : 1024,
-            "titleIcon" : "mdi:lightbulb-outline",
-            "iconColor" : "rgba(0, 0, 0, 0.87)",
-            "iconSize" : "24px",
-            "configMode" : "basic",
-            "targetDevice" : {
-              "type" : "device",
-              "deviceId" : "3363f980-3bfd-11f0-9584-abfdb9c61187"
-            },
-            "titleColor" : null,
-            "borderRadius" : "0px",
-            "margin" : "0",
-            "datasources" : [ ],
-            "resizable" : true,
-            "preserveAspectRatio" : false
-          },
-          "row" : 0,
-          "col" : 0,
-          "id" : "d5fb8fe3-5f90-2473-22f7-d900fb1fe048"
         }
       },
       "states" : {
@@ -1236,14 +1170,6 @@
                       "resizable" : true,
                       "row" : 40,
                       "col" : 94
-                    },
-                    "d5fb8fe3-5f90-2473-22f7-d900fb1fe048" : {
-                      "sizeX" : 33,
-                      "sizeY" : 39,
-                      "preserveAspectRatio" : false,
-                      "resizable" : true,
-                      "row" : 3,
-                      "col" : 10
                     }
                   }
                 }
