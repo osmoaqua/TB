@@ -405,7 +405,7 @@
             "titleIcon" : "mdi:lightbulb-outline",
             "iconColor" : "rgba(0, 0, 0, 0.87)",
             "iconSize" : "24px",
-            "configMode" : "basic",
+            "configMode" : "advanced",
             "targetDevice" : {
               "type" : "device",
               "deviceId" : "5f1e0850-3986-11f0-81bc-6bb29792e392"
@@ -420,71 +420,6 @@
           "row" : 0,
           "col" : 0,
           "id" : "817ee9e0-70a6-0d03-4967-e55c37207b4a"
-        },
-        "d6a9ddfb-4b1d-2bf8-3831-2100bc49699d" : {
-          "typeFullFqn" : "tenant.decantador",
-          "type" : "rpc",
-          "sizeX" : 1,
-          "sizeY" : 1,
-          "config" : {
-            "showTitle" : false,
-            "backgroundColor" : "rgba(0,0,0,0)",
-            "color" : "rgba(0, 0, 0, 0.87)",
-            "padding" : "0",
-            "settings" : {
-              "background" : {
-                "type" : "color",
-                "imageUrl" : null,
-                "color" : "rgba(0,0,0,0)",
-                "overlay" : {
-                  "enabled" : false,
-                  "color" : "rgba(255,255,255,0.72)",
-                  "blur" : 3
-                }
-              },
-              "padding" : "0",
-              "scadaSymbolUrl" : "tb-image;/api/images/tenant/Clarifier 4 (cutaway).svg",
-              "scadaSymbolObjectSettings" : {
-                "behavior" : { },
-                "properties" : { }
-              }
-            },
-            "title" : "Decantador",
-            "dropShadow" : false,
-            "enableFullscreen" : false,
-            "widgetStyle" : { },
-            "actions" : { },
-            "widgetCss" : "",
-            "noDataDisplayMessage" : "",
-            "titleFont" : {
-              "size" : 16,
-              "sizeUnit" : "px",
-              "family" : "Roboto",
-              "weight" : "500",
-              "style" : null,
-              "lineHeight" : "1.6"
-            },
-            "showTitleIcon" : false,
-            "titleTooltip" : "",
-            "titleStyle" : null,
-            "pageSize" : 1024,
-            "titleIcon" : "mdi:lightbulb-outline",
-            "iconColor" : "rgba(0, 0, 0, 0.87)",
-            "iconSize" : "24px",
-            "configMode" : "basic",
-            "targetDevice" : {
-              "type" : "device"
-            },
-            "titleColor" : null,
-            "borderRadius" : "0px",
-            "margin" : "0",
-            "datasources" : [ ],
-            "resizable" : true,
-            "preserveAspectRatio" : false
-          },
-          "row" : 0,
-          "col" : 0,
-          "id" : "d6a9ddfb-4b1d-2bf8-3831-2100bc49699d"
         },
         "c6b660a0-98fd-d884-7cc4-48f65d2f06d7" : {
           "typeFullFqn" : "system.extra_long_vertical_pipe",
@@ -536,7 +471,7 @@
             "titleIcon" : "mdi:lightbulb-outline",
             "iconColor" : "rgba(0, 0, 0, 0.87)",
             "iconSize" : "24px",
-            "configMode" : "basic",
+            "configMode" : "advanced",
             "targetDevice" : {
               "type" : "device"
             },
@@ -615,6 +550,137 @@
           "row" : 0,
           "col" : 0,
           "id" : "3d07cc09-6688-5262-c12e-94dcd0ceb3eb"
+        },
+        "905786ba-cdfb-3e25-404b-9c088cb4acef" : {
+          "typeFullFqn" : "tenant.decantador2",
+          "type" : "rpc",
+          "sizeX" : 1,
+          "sizeY" : 1,
+          "config" : {
+            "showTitle" : false,
+            "backgroundColor" : "rgba(0,0,0,0)",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "0",
+            "settings" : {
+              "background" : {
+                "type" : "color",
+                "imageUrl" : null,
+                "color" : "rgba(0, 0, 0, 0)",
+                "overlay" : {
+                  "enabled" : false,
+                  "color" : "rgba(255,255,255,0.72)",
+                  "blur" : 3
+                }
+              },
+              "padding" : "0",
+              "scadaSymbolUrl" : "tb-image;/api/images/tenant/clarificador_modificado.svg",
+              "scadaSymbolObjectSettings" : {
+                "behavior" : { },
+                "properties" : { }
+              }
+            },
+            "title" : "Decantador2",
+            "dropShadow" : false,
+            "enableFullscreen" : false,
+            "widgetStyle" : { },
+            "actions" : { },
+            "widgetCss" : "",
+            "noDataDisplayMessage" : "",
+            "titleFont" : {
+              "size" : 16,
+              "sizeUnit" : "px",
+              "family" : "Roboto",
+              "weight" : "500",
+              "style" : null,
+              "lineHeight" : "1.6"
+            },
+            "showTitleIcon" : false,
+            "titleTooltip" : "",
+            "titleStyle" : null,
+            "pageSize" : 1024,
+            "titleIcon" : "mdi:lightbulb-outline",
+            "iconColor" : "rgba(0, 0, 0, 0.87)",
+            "iconSize" : "24px",
+            "configMode" : "advanced",
+            "targetDevice" : {
+              "type" : "device",
+              "deviceId" : "3363f980-3bfd-11f0-9584-abfdb9c61187"
+            },
+            "titleColor" : null,
+            "borderRadius" : "0px",
+            "margin" : "0",
+            "datasources" : [ ],
+            "resizable" : true,
+            "preserveAspectRatio" : false
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "905786ba-cdfb-3e25-404b-9c088cb4acef"
+        },
+        "c6deecd7-9def-c2bf-2769-ce44062a066c" : {
+          "typeFullFqn" : "system.long_horizontal_pipe",
+          "type" : "rpc",
+          "sizeX" : 2,
+          "sizeY" : 1,
+          "config" : {
+            "showTitle" : false,
+            "backgroundColor" : "rgba(0,0,0,0)",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "0",
+            "settings" : {
+              "background" : {
+                "type" : "color",
+                "imageUrl" : null,
+                "color" : "rgba(0,0,0,0)",
+                "overlay" : {
+                  "enabled" : false,
+                  "color" : "rgba(255,255,255,0.72)",
+                  "blur" : 3
+                }
+              },
+              "padding" : "0",
+              "scadaSymbolUrl" : "tb-image;/api/images/system/long-horizontal-pipe.svg",
+              "scadaSymbolObjectSettings" : {
+                "behavior" : { },
+                "properties" : { }
+              }
+            },
+            "title" : "Long horizontal pipe",
+            "dropShadow" : false,
+            "enableFullscreen" : false,
+            "widgetStyle" : { },
+            "actions" : { },
+            "widgetCss" : "",
+            "noDataDisplayMessage" : "",
+            "titleFont" : {
+              "size" : 16,
+              "sizeUnit" : "px",
+              "family" : "Roboto",
+              "weight" : "500",
+              "style" : null,
+              "lineHeight" : "1.6"
+            },
+            "showTitleIcon" : false,
+            "titleTooltip" : "",
+            "titleStyle" : null,
+            "pageSize" : 1024,
+            "titleIcon" : "mdi:lightbulb-outline",
+            "iconColor" : "rgba(0, 0, 0, 0.87)",
+            "iconSize" : "24px",
+            "configMode" : "basic",
+            "targetDevice" : {
+              "type" : "device"
+            },
+            "titleColor" : null,
+            "borderRadius" : "0px",
+            "margin" : "0",
+            "datasources" : [ ],
+            "resizable" : true,
+            "preserveAspectRatio" : true
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "c6deecd7-9def-c2bf-2769-ce44062a066c"
         }
       },
       "states" : {
@@ -671,40 +737,48 @@
                       "sizeY" : 10,
                       "preserveAspectRatio" : false,
                       "resizable" : false,
-                      "row" : 13,
-                      "col" : 77
+                      "row" : 18,
+                      "col" : 65
                     },
                     "817ee9e0-70a6-0d03-4967-e55c37207b4a" : {
-                      "sizeX" : 9,
-                      "sizeY" : 6,
-                      "preserveAspectRatio" : true,
+                      "sizeX" : 15,
+                      "sizeY" : 10,
+                      "preserveAspectRatio" : false,
                       "resizable" : true,
-                      "row" : 23,
-                      "col" : 103
+                      "row" : 28,
+                      "col" : 59
                     },
-                    "d6a9ddfb-4b1d-2bf8-3831-2100bc49699d" : {
-                      "sizeX" : 23,
+                    "c6b660a0-98fd-d884-7cc4-48f65d2f06d7" : {
+                      "sizeX" : 7,
                       "sizeY" : 18,
                       "preserveAspectRatio" : false,
                       "resizable" : true,
-                      "row" : 1,
-                      "col" : 94
-                    },
-                    "c6b660a0-98fd-d884-7cc4-48f65d2f06d7" : {
-                      "sizeX" : 5,
-                      "sizeY" : 20,
-                      "preserveAspectRatio" : true,
-                      "resizable" : true,
-                      "row" : 30,
-                      "col" : 98
+                      "row" : 10,
+                      "col" : 58
                     },
                     "3d07cc09-6688-5262-c12e-94dcd0ceb3eb" : {
-                      "sizeX" : 5,
-                      "sizeY" : 5,
+                      "sizeX" : 6,
+                      "sizeY" : 8,
                       "preserveAspectRatio" : false,
-                      "resizable" : false,
-                      "row" : 25,
-                      "col" : 98
+                      "resizable" : true,
+                      "row" : 34,
+                      "col" : 6
+                    },
+                    "905786ba-cdfb-3e25-404b-9c088cb4acef" : {
+                      "sizeX" : 37,
+                      "sizeY" : 37,
+                      "preserveAspectRatio" : false,
+                      "resizable" : true,
+                      "row" : 5,
+                      "col" : 12
+                    },
+                    "c6deecd7-9def-c2bf-2769-ce44062a066c" : {
+                      "sizeX" : 10,
+                      "sizeY" : 5,
+                      "preserveAspectRatio" : true,
+                      "resizable" : true,
+                      "row" : 33,
+                      "col" : 49
                     }
                   }
                 }
