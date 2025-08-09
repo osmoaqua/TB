@@ -1691,7 +1691,7 @@
                 "_hash" : 0.8238388419148963,
                 "aggregationType" : "AVG",
                 "units" : "NTU",
-                "decimals" : 7,
+                "decimals" : 2,
                 "funcBody" : null,
                 "usePostProcessing" : null,
                 "postFuncBody" : null,
