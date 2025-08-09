@@ -703,11 +703,11 @@
           "col" : 0,
           "id" : "5d259b68-053f-eae5-66eb-dd12ec9befd6"
         },
-        "56d6853e-0b7e-0dea-0ae4-b1584de464f0" : {
-          "typeFullFqn" : "system.right_heat_pump",
+        "b69dc651-ff30-8aca-729e-c9b302c1b307" : {
+          "typeFullFqn" : "system.top_flow_meter",
           "type" : "rpc",
-          "sizeX" : 4,
-          "sizeY" : 3,
+          "sizeX" : 2,
+          "sizeY" : 2,
           "config" : {
             "showTitle" : false,
             "backgroundColor" : "rgba(0,0,0,0)",
@@ -725,262 +725,13 @@
                 }
               },
               "padding" : "0",
-              "scadaSymbolUrl" : "tb-image;/api/images/system/right-heat-pump.svg",
+              "scadaSymbolUrl" : "tb-image;/api/images/system/top-flow-meter.svg",
               "scadaSymbolObjectSettings" : {
-                "behavior" : {
-                  "running" : {
-                    "action" : "GET_ATTRIBUTE",
-                    "defaultValue" : false,
-                    "executeRpc" : {
-                      "method" : "getState",
-                      "requestTimeout" : 5000,
-                      "requestPersistent" : false,
-                      "persistentPollingInterval" : 1000
-                    },
-                    "getAttribute" : {
-                      "key" : "running",
-                      "scope" : "SHARED_SCOPE"
-                    },
-                    "getTimeSeries" : {
-                      "key" : "state"
-                    },
-                    "getAlarmStatus" : {
-                      "severityList" : null,
-                      "typeList" : null
-                    },
-                    "dataToValue" : {
-                      "type" : "NONE",
-                      "compareToValue" : true,
-                      "dataToValueFunction" : "/* Should return boolean value */\nreturn data;"
-                    }
-                  },
-                  "temperature" : {
-                    "action" : "GET_TIME_SERIES",
-                    "defaultValue" : null,
-                    "executeRpc" : {
-                      "method" : "getState",
-                      "requestTimeout" : 5000,
-                      "requestPersistent" : false,
-                      "persistentPollingInterval" : 1000
-                    },
-                    "getAttribute" : {
-                      "scope" : null,
-                      "key" : "state"
-                    },
-                    "getTimeSeries" : {
-                      "key" : "ph"
-                    },
-                    "getAlarmStatus" : {
-                      "severityList" : null,
-                      "typeList" : null
-                    },
-                    "dataToValue" : {
-                      "type" : "NONE",
-                      "dataToValueFunction" : "/* Should return boolean value */\nreturn data;"
-                    }
-                  },
-                  "updateTemperatureState" : {
-                    "action" : "ADD_TIME_SERIES",
-                    "executeRpc" : {
-                      "method" : "setState",
-                      "requestTimeout" : 5000,
-                      "requestPersistent" : false,
-                      "persistentPollingInterval" : 1000
-                    },
-                    "setAttribute" : {
-                      "key" : "state",
-                      "scope" : "SERVER_SCOPE"
-                    },
-                    "putTimeSeries" : {
-                      "key" : "temperature"
-                    },
-                    "valueToData" : {
-                      "type" : "VALUE",
-                      "constantValue" : false,
-                      "valueToDataFunction" : "/* Convert input boolean value to RPC parameters or attribute/time-series value */\nreturn value;"
-                    }
-                  },
-                  "run" : {
-                    "action" : "SET_ATTRIBUTE",
-                    "executeRpc" : {
-                      "method" : "setState",
-                      "requestTimeout" : 5000,
-                      "requestPersistent" : false,
-                      "persistentPollingInterval" : 1000
-                    },
-                    "setAttribute" : {
-                      "key" : "running",
-                      "scope" : "SHARED_SCOPE"
-                    },
-                    "putTimeSeries" : {
-                      "key" : "state"
-                    },
-                    "valueToData" : {
-                      "type" : "CONSTANT",
-                      "constantValue" : true,
-                      "valueToDataFunction" : "/* Convert input boolean value to RPC parameters or attribute/time-series value */\nreturn value;"
-                    }
-                  },
-                  "stop" : {
-                    "action" : "SET_ATTRIBUTE",
-                    "executeRpc" : {
-                      "method" : "setState",
-                      "requestTimeout" : 5000,
-                      "requestPersistent" : false,
-                      "persistentPollingInterval" : 1000
-                    },
-                    "setAttribute" : {
-                      "key" : "running",
-                      "scope" : "SHARED_SCOPE"
-                    },
-                    "putTimeSeries" : {
-                      "key" : "state"
-                    },
-                    "valueToData" : {
-                      "type" : "CONSTANT",
-                      "constantValue" : false,
-                      "valueToDataFunction" : "/* Convert input boolean value to RPC parameters or attribute/time-series value */\nreturn value;"
-                    }
-                  },
-                  "warning" : {
-                    "action" : "GET_ALARM_STATUS",
-                    "defaultValue" : false,
-                    "executeRpc" : {
-                      "method" : "getState",
-                      "requestTimeout" : 5000,
-                      "requestPersistent" : false,
-                      "persistentPollingInterval" : 1000
-                    },
-                    "getAttribute" : {
-                      "key" : "state",
-                      "scope" : null
-                    },
-                    "getTimeSeries" : {
-                      "key" : "state"
-                    },
-                    "getAlarmStatus" : {
-                      "severityList" : [ "MAJOR", "MINOR", "WARNING", "INDETERMINATE" ],
-                      "typeList" : null
-                    },
-                    "dataToValue" : {
-                      "type" : "NONE",
-                      "compareToValue" : true,
-                      "dataToValueFunction" : "/* Should return boolean value */\nreturn data;"
-                    }
-                  },
-                  "critical" : {
-                    "action" : "GET_ALARM_STATUS",
-                    "defaultValue" : false,
-                    "executeRpc" : {
-                      "method" : "getState",
-                      "requestTimeout" : 5000,
-                      "requestPersistent" : false,
-                      "persistentPollingInterval" : 1000
-                    },
-                    "getAttribute" : {
-                      "key" : "state",
-                      "scope" : null
-                    },
-                    "getTimeSeries" : {
-                      "key" : "state"
-                    },
-                    "getAlarmStatus" : {
-                      "severityList" : [ "CRITICAL" ],
-                      "typeList" : null
-                    },
-                    "dataToValue" : {
-                      "type" : "NONE",
-                      "compareToValue" : true,
-                      "dataToValueFunction" : "/* Should return boolean value */\nreturn data;"
-                    }
-                  },
-                  "criticalAnimation" : {
-                    "action" : "DO_NOTHING",
-                    "defaultValue" : false,
-                    "executeRpc" : {
-                      "method" : "getState",
-                      "requestTimeout" : 5000,
-                      "requestPersistent" : false,
-                      "persistentPollingInterval" : 1000
-                    },
-                    "getAttribute" : {
-                      "key" : "state",
-                      "scope" : null
-                    },
-                    "getTimeSeries" : {
-                      "key" : "state"
-                    },
-                    "getAlarmStatus" : {
-                      "severityList" : null,
-                      "typeList" : null
-                    },
-                    "dataToValue" : {
-                      "type" : "NONE",
-                      "compareToValue" : true,
-                      "dataToValueFunction" : "/* Should return boolean value */\nreturn data;"
-                    }
-                  },
-                  "rotationAnimationSpeed" : {
-                    "action" : "DO_NOTHING",
-                    "defaultValue" : 1,
-                    "executeRpc" : {
-                      "method" : "getState",
-                      "requestTimeout" : 5000,
-                      "requestPersistent" : false,
-                      "persistentPollingInterval" : 1000
-                    },
-                    "getAttribute" : {
-                      "key" : "state",
-                      "scope" : null
-                    },
-                    "getTimeSeries" : {
-                      "key" : "state"
-                    },
-                    "getAlarmStatus" : {
-                      "severityList" : null,
-                      "typeList" : null
-                    },
-                    "dataToValue" : {
-                      "type" : "NONE",
-                      "compareToValue" : true,
-                      "dataToValueFunction" : "/* Should return boolean value */\nreturn data;"
-                    }
-                  },
-                  "click" : {
-                    "type" : "doNothing",
-                    "targetDashboardStateId" : null,
-                    "openRightLayout" : false,
-                    "setEntityId" : false,
-                    "stateEntityParamName" : null
-                  }
-                },
-                "properties" : {
-                  "minTemperature" : 10,
-                  "maxTemperature" : 45,
-                  "temperatureStep" : 1,
-                  "valueTextColor" : "#000000C2",
-                  "valueTextFont" : {
-                    "size" : 40,
-                    "sizeUnit" : "px",
-                    "family" : "Roboto",
-                    "weight" : "500",
-                    "style" : "normal"
-                  },
-                  "valueUnits" : false,
-                  "units" : "°C",
-                  "valueBoxBackground" : "#FFFFFF",
-                  "powerButtonBackground" : "#1ABB48",
-                  "disabledPowerButtonBackground" : "#FFFFFF",
-                  "runningColor" : "#1C943E",
-                  "stoppedColor" : "#696969",
-                  "warningColor" : "#FAA405",
-                  "criticalColor" : "#D12730",
-                  "heatPumpColor" : "#E5E5E5",
-                  "pipeColor" : "#FFFFFF"
-                }
+                "behavior" : { },
+                "properties" : { }
               }
             },
-            "title" : "Right heat pump",
+            "title" : "Top flow meter",
             "dropShadow" : false,
             "enableFullscreen" : false,
             "widgetStyle" : { },
@@ -1016,7 +767,7 @@
           },
           "row" : 0,
           "col" : 0,
-          "id" : "56d6853e-0b7e-0dea-0ae4-b1584de464f0"
+          "id" : "b69dc651-ff30-8aca-729e-c9b302c1b307"
         }
       },
       "states" : {
@@ -1086,11 +837,11 @@
                     },
                     "3d07cc09-6688-5262-c12e-94dcd0ceb3eb" : {
                       "sizeX" : 7,
-                      "sizeY" : 10,
+                      "sizeY" : 7,
                       "preserveAspectRatio" : false,
                       "resizable" : true,
-                      "row" : 41,
-                      "col" : 8
+                      "row" : 5,
+                      "col" : 71
                     },
                     "905786ba-cdfb-3e25-404b-9c088cb4acef" : {
                       "sizeX" : 44,
@@ -1116,13 +867,13 @@
                       "row" : 3,
                       "col" : 21
                     },
-                    "56d6853e-0b7e-0dea-0ae4-b1584de464f0" : {
-                      "sizeX" : 24,
-                      "sizeY" : 18,
+                    "b69dc651-ff30-8aca-729e-c9b302c1b307" : {
+                      "sizeX" : 10,
+                      "sizeY" : 10,
                       "preserveAspectRatio" : true,
                       "resizable" : true,
-                      "row" : 11,
-                      "col" : 94
+                      "row" : 0,
+                      "col" : 78
                     }
                   }
                 }
