@@ -714,22 +714,431 @@
             "color" : "rgba(0, 0, 0, 0.87)",
             "padding" : "0",
             "settings" : {
+              "scadaSymbolUrl" : "tb-image;/api/images/system/top-flow-meter.svg",
+              "scadaSymbolObjectSettings" : {
+                "behavior" : {
+                  "value" : {
+                    "action" : "GET_TIME_SERIES",
+                    "defaultValue" : 0,
+                    "executeRpc" : {
+                      "method" : "getState",
+                      "requestTimeout" : 5000,
+                      "requestPersistent" : false,
+                      "persistentPollingInterval" : 1000
+                    },
+                    "getAttribute" : {
+                      "scope" : null,
+                      "key" : "state"
+                    },
+                    "getTimeSeries" : {
+                      "key" : "ph"
+                    },
+                    "getAlarmStatus" : {
+                      "severityList" : null,
+                      "typeList" : null
+                    },
+                    "dataToValue" : {
+                      "type" : "NONE",
+                      "dataToValueFunction" : "/* Should return boolean value */\nreturn data;"
+                    }
+                  },
+                  "warning" : {
+                    "action" : "GET_ALARM_STATUS",
+                    "defaultValue" : false,
+                    "executeRpc" : {
+                      "method" : "getState",
+                      "requestTimeout" : 5000,
+                      "requestPersistent" : false,
+                      "persistentPollingInterval" : 1000
+                    },
+                    "getAttribute" : {
+                      "key" : "state",
+                      "scope" : null
+                    },
+                    "getTimeSeries" : {
+                      "key" : "state"
+                    },
+                    "getAlarmStatus" : {
+                      "severityList" : [ "MAJOR", "MINOR", "WARNING", "INDETERMINATE" ],
+                      "typeList" : null
+                    },
+                    "dataToValue" : {
+                      "type" : "NONE",
+                      "compareToValue" : true,
+                      "dataToValueFunction" : "/* Should return boolean value */\nreturn data;"
+                    }
+                  },
+                  "critical" : {
+                    "action" : "GET_ALARM_STATUS",
+                    "defaultValue" : false,
+                    "executeRpc" : {
+                      "method" : "getState",
+                      "requestTimeout" : 5000,
+                      "requestPersistent" : false,
+                      "persistentPollingInterval" : 1000
+                    },
+                    "getAttribute" : {
+                      "key" : "state",
+                      "scope" : null
+                    },
+                    "getTimeSeries" : {
+                      "key" : "state"
+                    },
+                    "getAlarmStatus" : {
+                      "severityList" : [ "CRITICAL" ],
+                      "typeList" : null
+                    },
+                    "dataToValue" : {
+                      "type" : "NONE",
+                      "compareToValue" : true,
+                      "dataToValueFunction" : "/* Should return boolean value */\nreturn data;"
+                    }
+                  },
+                  "criticalAnimation" : {
+                    "action" : "DO_NOTHING",
+                    "defaultValue" : false,
+                    "executeRpc" : {
+                      "method" : "getState",
+                      "requestTimeout" : 5000,
+                      "requestPersistent" : false,
+                      "persistentPollingInterval" : 1000
+                    },
+                    "getAttribute" : {
+                      "key" : "state",
+                      "scope" : null
+                    },
+                    "getTimeSeries" : {
+                      "key" : "state"
+                    },
+                    "getAlarmStatus" : {
+                      "severityList" : null,
+                      "typeList" : null
+                    },
+                    "dataToValue" : {
+                      "type" : "NONE",
+                      "compareToValue" : true,
+                      "dataToValueFunction" : "/* Should return boolean value */\nreturn data;"
+                    }
+                  },
+                  "broken" : {
+                    "action" : "DO_NOTHING",
+                    "defaultValue" : false,
+                    "executeRpc" : {
+                      "method" : "getState",
+                      "requestTimeout" : 5000,
+                      "requestPersistent" : false,
+                      "persistentPollingInterval" : 1000
+                    },
+                    "getAttribute" : {
+                      "key" : "state",
+                      "scope" : null
+                    },
+                    "getTimeSeries" : {
+                      "key" : "state"
+                    },
+                    "getAlarmStatus" : {
+                      "severityList" : null,
+                      "typeList" : null
+                    },
+                    "dataToValue" : {
+                      "type" : "NONE",
+                      "compareToValue" : true,
+                      "dataToValueFunction" : "/* Should return boolean value */\nreturn data;"
+                    }
+                  },
+                  "displayClick" : {
+                    "type" : "doNothing",
+                    "targetDashboardStateId" : null,
+                    "openRightLayout" : false,
+                    "setEntityId" : false,
+                    "stateEntityParamName" : null,
+                    "openInSeparateDialog" : false,
+                    "openInPopover" : false
+                  },
+                  "fluid" : {
+                    "action" : "DO_NOTHING",
+                    "defaultValue" : false,
+                    "executeRpc" : {
+                      "method" : "getState",
+                      "requestTimeout" : 5000,
+                      "requestPersistent" : false,
+                      "persistentPollingInterval" : 1000
+                    },
+                    "getAttribute" : {
+                      "key" : "state",
+                      "scope" : null
+                    },
+                    "getTimeSeries" : {
+                      "key" : "state"
+                    },
+                    "getAlarmStatus" : {
+                      "severityList" : null,
+                      "typeList" : null
+                    },
+                    "dataToValue" : {
+                      "type" : "NONE",
+                      "compareToValue" : true,
+                      "dataToValueFunction" : "/* Should return boolean value */\nreturn data;"
+                    }
+                  },
+                  "flow" : {
+                    "action" : "DO_NOTHING",
+                    "defaultValue" : false,
+                    "executeRpc" : {
+                      "method" : "getState",
+                      "requestTimeout" : 5000,
+                      "requestPersistent" : false,
+                      "persistentPollingInterval" : 1000
+                    },
+                    "getAttribute" : {
+                      "key" : "state",
+                      "scope" : null
+                    },
+                    "getTimeSeries" : {
+                      "key" : "state"
+                    },
+                    "getAlarmStatus" : {
+                      "severityList" : null,
+                      "typeList" : null
+                    },
+                    "dataToValue" : {
+                      "type" : "NONE",
+                      "compareToValue" : true,
+                      "dataToValueFunction" : "/* Should return boolean value */\nreturn data;"
+                    }
+                  },
+                  "flowDirection" : {
+                    "action" : "DO_NOTHING",
+                    "defaultValue" : true,
+                    "executeRpc" : {
+                      "method" : "getState",
+                      "requestTimeout" : 5000,
+                      "requestPersistent" : false,
+                      "persistentPollingInterval" : 1000
+                    },
+                    "getAttribute" : {
+                      "key" : "state",
+                      "scope" : null
+                    },
+                    "getTimeSeries" : {
+                      "key" : "state"
+                    },
+                    "getAlarmStatus" : {
+                      "severityList" : null,
+                      "typeList" : null
+                    },
+                    "dataToValue" : {
+                      "type" : "NONE",
+                      "compareToValue" : true,
+                      "dataToValueFunction" : "/* Should return boolean value */\nreturn data;"
+                    }
+                  },
+                  "flowAnimationSpeed" : {
+                    "action" : "DO_NOTHING",
+                    "defaultValue" : 1,
+                    "executeRpc" : {
+                      "method" : "getState",
+                      "requestTimeout" : 5000,
+                      "requestPersistent" : false,
+                      "persistentPollingInterval" : 1000
+                    },
+                    "getAttribute" : {
+                      "key" : "state",
+                      "scope" : null
+                    },
+                    "getTimeSeries" : {
+                      "key" : "state"
+                    },
+                    "getAlarmStatus" : {
+                      "severityList" : null,
+                      "typeList" : null
+                    },
+                    "dataToValue" : {
+                      "type" : "NONE",
+                      "compareToValue" : true,
+                      "dataToValueFunction" : "/* Should return boolean value */\nreturn data;"
+                    }
+                  },
+                  "leak" : {
+                    "action" : "DO_NOTHING",
+                    "defaultValue" : false,
+                    "executeRpc" : {
+                      "method" : "getState",
+                      "requestTimeout" : 5000,
+                      "requestPersistent" : false,
+                      "persistentPollingInterval" : 1000
+                    },
+                    "getAttribute" : {
+                      "key" : "state",
+                      "scope" : null
+                    },
+                    "getTimeSeries" : {
+                      "key" : "state"
+                    },
+                    "getAlarmStatus" : {
+                      "severityList" : null,
+                      "typeList" : null
+                    },
+                    "dataToValue" : {
+                      "type" : "NONE",
+                      "compareToValue" : true,
+                      "dataToValueFunction" : "/* Should return boolean value */\nreturn data;"
+                    }
+                  }
+                },
+                "properties" : {
+                  "valueUnits" : "pH",
+                  "valueDecimals" : 2,
+                  "defaultBorderColor" : {
+                    "type" : "constant",
+                    "color" : "#4A4848",
+                    "gradient" : {
+                      "advancedMode" : false,
+                      "gradient" : [ "rgba(0, 255, 0, 1)", "rgba(255, 0, 0, 1)" ],
+                      "gradientAdvanced" : [ {
+                        "source" : {
+                          "type" : "constant"
+                        },
+                        "color" : "rgba(0, 255, 0, 1)"
+                      }, {
+                        "source" : {
+                          "type" : "constant"
+                        },
+                        "color" : "rgba(255, 0, 0, 1)"
+                      } ],
+                      "minValue" : 0,
+                      "maxValue" : 100
+                    },
+                    "rangeList" : {
+                      "advancedMode" : false,
+                      "range" : [ ],
+                      "rangeAdvanced" : [ ]
+                    },
+                    "colorFunction" : "var temperature = value;\nif (typeof temperature !== undefined) {\n  var percent = (temperature + 60)/120 * 100;\n  return tinycolor.mix('blue', 'red', percent).toHexString();\n}\nreturn 'blue';"
+                  },
+                  "activeBorderColor" : {
+                    "type" : "constant",
+                    "color" : "#1C943E",
+                    "gradient" : {
+                      "advancedMode" : false,
+                      "gradient" : [ "rgba(0, 255, 0, 1)", "rgba(255, 0, 0, 1)" ],
+                      "gradientAdvanced" : [ {
+                        "source" : {
+                          "type" : "constant"
+                        },
+                        "color" : "rgba(0, 255, 0, 1)"
+                      }, {
+                        "source" : {
+                          "type" : "constant"
+                        },
+                        "color" : "rgba(255, 0, 0, 1)"
+                      } ],
+                      "minValue" : 0,
+                      "maxValue" : 100
+                    },
+                    "rangeList" : {
+                      "advancedMode" : false,
+                      "range" : [ ],
+                      "rangeAdvanced" : [ ]
+                    },
+                    "colorFunction" : "var temperature = value;\nif (typeof temperature !== undefined) {\n  var percent = (temperature + 60)/120 * 100;\n  return tinycolor.mix('blue', 'red', percent).toHexString();\n}\nreturn 'blue';"
+                  },
+                  "warningBorderColor" : {
+                    "type" : "constant",
+                    "color" : "#FAA405",
+                    "gradient" : {
+                      "advancedMode" : false,
+                      "gradient" : [ "rgba(0, 255, 0, 1)", "rgba(255, 0, 0, 1)" ],
+                      "gradientAdvanced" : [ {
+                        "source" : {
+                          "type" : "constant"
+                        },
+                        "color" : "rgba(0, 255, 0, 1)"
+                      }, {
+                        "source" : {
+                          "type" : "constant"
+                        },
+                        "color" : "rgba(255, 0, 0, 1)"
+                      } ],
+                      "minValue" : 0,
+                      "maxValue" : 100
+                    },
+                    "rangeList" : {
+                      "advancedMode" : false,
+                      "range" : [ ],
+                      "rangeAdvanced" : [ ]
+                    },
+                    "colorFunction" : "var temperature = value;\nif (typeof temperature !== undefined) {\n  var percent = (temperature + 60)/120 * 100;\n  return tinycolor.mix('blue', 'red', percent).toHexString();\n}\nreturn 'blue';"
+                  },
+                  "criticalBorderColor" : {
+                    "type" : "constant",
+                    "color" : "#D12730",
+                    "gradient" : {
+                      "advancedMode" : false,
+                      "gradient" : [ "rgba(0, 255, 0, 1)", "rgba(255, 0, 0, 1)" ],
+                      "gradientAdvanced" : [ {
+                        "source" : {
+                          "type" : "constant"
+                        },
+                        "color" : "rgba(0, 255, 0, 1)"
+                      }, {
+                        "source" : {
+                          "type" : "constant"
+                        },
+                        "color" : "rgba(255, 0, 0, 1)"
+                      } ],
+                      "minValue" : 0,
+                      "maxValue" : 100
+                    },
+                    "rangeList" : {
+                      "advancedMode" : false,
+                      "range" : [ ],
+                      "rangeAdvanced" : [ ]
+                    },
+                    "colorFunction" : "var temperature = value;\nif (typeof temperature !== undefined) {\n  var percent = (temperature + 60)/120 * 100;\n  return tinycolor.mix('blue', 'red', percent).toHexString();\n}\nreturn 'blue';"
+                  },
+                  "backgroundColor" : {
+                    "type" : "constant",
+                    "color" : "#FFFFFF",
+                    "gradient" : {
+                      "advancedMode" : false,
+                      "gradient" : [ "rgba(0, 255, 0, 1)", "rgba(255, 0, 0, 1)" ],
+                      "gradientAdvanced" : [ {
+                        "source" : {
+                          "type" : "constant"
+                        },
+                        "color" : "rgba(0, 255, 0, 1)"
+                      }, {
+                        "source" : {
+                          "type" : "constant"
+                        },
+                        "color" : "rgba(255, 0, 0, 1)"
+                      } ],
+                      "minValue" : 0,
+                      "maxValue" : 100
+                    },
+                    "rangeList" : {
+                      "advancedMode" : false,
+                      "range" : [ ],
+                      "rangeAdvanced" : [ ]
+                    },
+                    "colorFunction" : "var temperature = value;\nif (typeof temperature !== undefined) {\n  var percent = (temperature + 60)/120 * 100;\n  return tinycolor.mix('blue', 'red', percent).toHexString();\n}\nreturn 'blue';"
+                  },
+                  "fluidColor" : "#1EC1F480",
+                  "pipeColor" : "#FFFFFF"
+                }
+              },
               "background" : {
                 "type" : "color",
-                "imageUrl" : null,
                 "color" : "rgba(0,0,0,0)",
                 "overlay" : {
                   "enabled" : false,
                   "color" : "rgba(255,255,255,0.72)",
                   "blur" : 3
-                }
+                },
+                "imageUrl" : null
               },
-              "padding" : "0",
-              "scadaSymbolUrl" : "tb-image;/api/images/system/top-flow-meter.svg",
-              "scadaSymbolObjectSettings" : {
-                "behavior" : { },
-                "properties" : { }
-              }
+              "padding" : "0"
             },
             "title" : "Top flow meter",
             "dropShadow" : false,
