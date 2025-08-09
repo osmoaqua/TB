@@ -1207,6 +1207,157 @@
           "row" : 0,
           "col" : 0,
           "id" : "b69dc651-ff30-8aca-729e-c9b302c1b307"
+        },
+        "fcf328a3-4294-fb30-1e98-e123d2cca05e" : {
+          "typeFullFqn" : "system.simple_value_and_chart_card",
+          "type" : "timeseries",
+          "sizeX" : 4.5,
+          "sizeY" : 2,
+          "config" : {
+            "datasources" : [ {
+              "type" : "device",
+              "name" : "",
+              "deviceId" : "ec8f0930-3578-11f0-a851-d98fa5765a83",
+              "dataKeys" : [ {
+                "name" : "ph",
+                "type" : "timeseries",
+                "label" : "ph",
+                "color" : "#4caf50",
+                "settings" : { },
+                "_hash" : 0.9878431040387837,
+                "aggregationType" : null,
+                "units" : "pH",
+                "decimals" : 2,
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
+              } ],
+              "alarmFilterConfig" : {
+                "statusList" : [ "ACTIVE" ]
+              },
+              "latestDataKeys" : [ {
+                "name" : "ph",
+                "type" : "timeseries",
+                "label" : "Promedio ph",
+                "color" : "#4caf50",
+                "settings" : { },
+                "_hash" : 0.81089718618051,
+                "aggregationType" : "AVG",
+                "units" : "pH",
+                "decimals" : 2,
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null,
+                "comparisonEnabled" : null
+              } ]
+            } ],
+            "showTitle" : true,
+            "backgroundColor" : "rgba(0,0,0,0)",
+            "color" : null,
+            "padding" : "0",
+            "settings" : {
+              "layout" : "left",
+              "autoScale" : true,
+              "showValue" : true,
+              "valueFont" : {
+                "family" : "Roboto",
+                "size" : 28,
+                "sizeUnit" : "px",
+                "style" : "normal",
+                "weight" : "500",
+                "lineHeight" : "32px"
+              },
+              "valueColor" : {
+                "type" : "constant",
+                "color" : "rgba(0, 0, 0, 0.87)",
+                "colorFunction" : "var temperature = value;\nif (typeof temperature !== undefined) {\n  var percent = (temperature + 60)/120 * 100;\n  return tinycolor.mix('blue', 'red', percent).toHexString();\n}\nreturn 'blue';"
+              },
+              "background" : {
+                "type" : "color",
+                "imageUrl" : null,
+                "color" : "rgba(0,0,0,0)",
+                "overlay" : {
+                  "enabled" : false,
+                  "color" : "rgba(33, 142, 195, 0.47)",
+                  "blur" : 3
+                }
+              },
+              "padding" : "0"
+            },
+            "title" : "Cloro",
+            "dropShadow" : true,
+            "enableFullscreen" : true,
+            "titleStyle" : null,
+            "mobileHeight" : null,
+            "configMode" : "advanced",
+            "actions" : { },
+            "showTitleIcon" : false,
+            "titleIcon" : "thermostat",
+            "iconColor" : "rgba(0, 0, 0, 0.87)",
+            "titleFont" : {
+              "size" : 16,
+              "sizeUnit" : "px",
+              "family" : "Roboto",
+              "weight" : "500",
+              "style" : "normal",
+              "lineHeight" : "24px"
+            },
+            "iconSize" : "18px",
+            "titleTooltip" : "",
+            "widgetStyle" : { },
+            "widgetCss" : "",
+            "pageSize" : 1024,
+            "noDataDisplayMessage" : "",
+            "useDashboardTimewindow" : false,
+            "decimals" : 2,
+            "titleColor" : "rgba(0, 0, 0, 0.87)",
+            "borderRadius" : "1",
+            "units" : "mg/L",
+            "displayTimewindow" : true,
+            "timewindow" : {
+              "hideAggregation" : false,
+              "hideAggInterval" : false,
+              "hideTimezone" : false,
+              "selectedTab" : 1,
+              "history" : {
+                "historyType" : 2,
+                "timewindowMs" : 60000,
+                "interval" : 43200000,
+                "fixedTimewindow" : {
+                  "startTimeMs" : 1697382151041,
+                  "endTimeMs" : 1697468551041
+                },
+                "quickInterval" : "CURRENT_MONTH_SO_FAR"
+              },
+              "aggregation" : {
+                "type" : "AVG",
+                "limit" : 25000
+              }
+            },
+            "timewindowStyle" : {
+              "showIcon" : false,
+              "iconSize" : "24px",
+              "icon" : "query_builder",
+              "iconPosition" : "left",
+              "font" : {
+                "size" : 12,
+                "sizeUnit" : "px",
+                "family" : "Roboto",
+                "weight" : "400",
+                "style" : "normal",
+                "lineHeight" : "16px"
+              },
+              "color" : "rgba(0, 0, 0, 0.38)",
+              "displayTypePrefix" : true
+            },
+            "enableDataExport" : true,
+            "resizable" : true,
+            "preserveAspectRatio" : false,
+            "margin" : "1"
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "fcf328a3-4294-fb30-1e98-e123d2cca05e"
         }
       },
       "states" : {
@@ -1313,6 +1464,15 @@
                       "resizable" : true,
                       "row" : 1,
                       "col" : 78
+                    },
+                    "fcf328a3-4294-fb30-1e98-e123d2cca05e" : {
+                      "sizeX" : 27,
+                      "sizeY" : 12,
+                      "mobileHeight" : null,
+                      "preserveAspectRatio" : false,
+                      "resizable" : true,
+                      "row" : 2,
+                      "col" : 94
                     }
                   }
                 }
@@ -1358,7 +1518,7 @@
         }
       },
       "settings" : {
-        "stateControllerId" : "default",
+        "stateControllerId" : "entity",
         "showTitle" : false,
         "showDashboardsSelect" : true,
         "showEntitiesSelect" : true,
