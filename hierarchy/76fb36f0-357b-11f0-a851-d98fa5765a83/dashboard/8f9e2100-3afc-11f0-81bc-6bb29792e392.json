@@ -814,22 +814,96 @@
             "color" : "rgba(0, 0, 0, 0.87)",
             "padding" : "0",
             "settings" : {
+              "scadaSymbolUrl" : "tb-image;/api/images/system/horizontal-wheel-valve.svg",
+              "scadaSymbolObjectSettings" : {
+                "behavior" : {
+                  "opened" : {
+                    "action" : "GET_ATTRIBUTE",
+                    "defaultValue" : false,
+                    "executeRpc" : {
+                      "method" : "getState",
+                      "requestTimeout" : 5000,
+                      "requestPersistent" : false,
+                      "persistentPollingInterval" : 1000
+                    },
+                    "getAttribute" : {
+                      "key" : "open",
+                      "scope" : "SHARED_SCOPE"
+                    },
+                    "getTimeSeries" : {
+                      "key" : "state"
+                    },
+                    "getAlarmStatus" : {
+                      "severityList" : null,
+                      "typeList" : null
+                    },
+                    "dataToValue" : {
+                      "type" : "NONE",
+                      "compareToValue" : true,
+                      "dataToValueFunction" : "/* Should return boolean value */\nreturn data;"
+                    }
+                  },
+                  "open" : {
+                    "action" : "SET_ATTRIBUTE",
+                    "executeRpc" : {
+                      "method" : "setState",
+                      "requestTimeout" : 5000,
+                      "requestPersistent" : false,
+                      "persistentPollingInterval" : 1000
+                    },
+                    "setAttribute" : {
+                      "key" : "open",
+                      "scope" : "SHARED_SCOPE"
+                    },
+                    "putTimeSeries" : {
+                      "key" : "state"
+                    },
+                    "valueToData" : {
+                      "type" : "CONSTANT",
+                      "constantValue" : true,
+                      "valueToDataFunction" : "/* Convert input boolean value to RPC parameters or attribute/time-series value */\nreturn value;"
+                    }
+                  },
+                  "close" : {
+                    "action" : "SET_ATTRIBUTE",
+                    "executeRpc" : {
+                      "method" : "setState",
+                      "requestTimeout" : 5000,
+                      "requestPersistent" : false,
+                      "persistentPollingInterval" : 1000
+                    },
+                    "setAttribute" : {
+                      "key" : "open",
+                      "scope" : "SHARED_SCOPE"
+                    },
+                    "putTimeSeries" : {
+                      "key" : "state"
+                    },
+                    "valueToData" : {
+                      "type" : "CONSTANT",
+                      "constantValue" : false,
+                      "valueToDataFunction" : "/* Convert input boolean value to RPC parameters or attribute/time-series value */\nreturn value;"
+                    }
+                  }
+                },
+                "properties" : {
+                  "openedColor" : "#1C943E",
+                  "closedColor" : "#5788AA",
+                  "openedRotationAngle" : 0,
+                  "closedRotationAngle" : 90
+                }
+              },
               "background" : {
                 "type" : "color",
-                "imageUrl" : null,
                 "color" : "rgba(0,0,0,0)",
                 "overlay" : {
                   "enabled" : false,
                   "color" : "rgba(255,255,255,0.72)",
                   "blur" : 3
-                }
+                },
+                "imageUrl" : null
               },
-              "padding" : "0",
-              "scadaSymbolUrl" : "tb-image;/api/images/system/horizontal-wheel-valve.svg",
-              "scadaSymbolObjectSettings" : {
-                "behavior" : { },
-                "properties" : { }
-              }
+              "padding" : "0"
             },
             "title" : "Horizontal wheel valve",
             "dropShadow" : false,
@@ -853,7 +927,7 @@
             "titleIcon" : "mdi:lightbulb-outline",
             "iconColor" : "rgba(0, 0, 0, 0.87)",
             "iconSize" : "24px",
-            "configMode" : "basic",
+            "configMode" : "advanced",
             "targetDevice" : {
               "type" : "device",
               "deviceId" : "3fb5f650-3579-11f0-a851-d98fa5765a83"
