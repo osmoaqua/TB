@@ -1654,6 +1654,157 @@
           "row" : 0,
           "col" : 0,
           "id" : "44f28101-692d-d9ac-0917-ed53b6be798d"
+        },
+        "88e02128-c1b1-ee37-404f-cb0933a9d3f3" : {
+          "typeFullFqn" : "system.simple_value_and_chart_card",
+          "type" : "timeseries",
+          "sizeX" : 4.5,
+          "sizeY" : 2,
+          "config" : {
+            "datasources" : [ {
+              "type" : "device",
+              "name" : "",
+              "deviceId" : "315033a0-3579-11f0-a851-d98fa5765a83",
+              "dataKeys" : [ {
+                "name" : "turbidez",
+                "type" : "timeseries",
+                "label" : "turbidez 2",
+                "color" : "#9C27B0",
+                "settings" : { },
+                "_hash" : 0.4028888906243787,
+                "aggregationType" : null,
+                "units" : "NTU",
+                "decimals" : 2,
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
+              } ],
+              "alarmFilterConfig" : {
+                "statusList" : [ "ACTIVE" ]
+              },
+              "latestDataKeys" : [ {
+                "name" : "turbidez",
+                "type" : "timeseries",
+                "label" : "Promedio turbidez",
+                "color" : "#9C27B0",
+                "settings" : { },
+                "_hash" : 0.8238388419148963,
+                "aggregationType" : "AVG",
+                "units" : "NTU",
+                "decimals" : 7,
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null,
+                "comparisonEnabled" : null
+              } ]
+            } ],
+            "showTitle" : true,
+            "backgroundColor" : "rgba(0,0,0,0)",
+            "color" : null,
+            "padding" : "0",
+            "settings" : {
+              "layout" : "left",
+              "autoScale" : true,
+              "showValue" : true,
+              "valueFont" : {
+                "family" : "Roboto",
+                "size" : 28,
+                "sizeUnit" : "px",
+                "style" : "normal",
+                "weight" : "500",
+                "lineHeight" : "32px"
+              },
+              "valueColor" : {
+                "type" : "constant",
+                "color" : "rgba(0, 0, 0, 0.87)",
+                "colorFunction" : "var temperature = value;\nif (typeof temperature !== undefined) {\n  var percent = (temperature + 60)/120 * 100;\n  return tinycolor.mix('blue', 'red', percent).toHexString();\n}\nreturn 'blue';"
+              },
+              "background" : {
+                "type" : "color",
+                "imageUrl" : null,
+                "color" : "rgba(0,0,0,0)",
+                "overlay" : {
+                  "enabled" : false,
+                  "color" : "rgba(33, 142, 195, 0.47)",
+                  "blur" : 3
+                }
+              },
+              "padding" : "0"
+            },
+            "title" : "Temperatura",
+            "dropShadow" : true,
+            "enableFullscreen" : false,
+            "titleStyle" : null,
+            "mobileHeight" : null,
+            "configMode" : "advanced",
+            "actions" : { },
+            "showTitleIcon" : false,
+            "titleIcon" : "thermostat",
+            "iconColor" : "rgba(0, 0, 0, 0.87)",
+            "titleFont" : {
+              "size" : 16,
+              "sizeUnit" : "px",
+              "family" : "Roboto",
+              "weight" : "500",
+              "style" : "normal",
+              "lineHeight" : "24px"
+            },
+            "iconSize" : "18px",
+            "titleTooltip" : "",
+            "widgetStyle" : { },
+            "widgetCss" : "",
+            "pageSize" : 1024,
+            "noDataDisplayMessage" : "",
+            "useDashboardTimewindow" : false,
+            "decimals" : 2,
+            "titleColor" : "rgba(0, 0, 0, 0.87)",
+            "borderRadius" : "1",
+            "units" : "mg/L",
+            "displayTimewindow" : true,
+            "timewindow" : {
+              "hideAggregation" : false,
+              "hideAggInterval" : false,
+              "hideTimezone" : false,
+              "selectedTab" : 1,
+              "history" : {
+                "historyType" : 2,
+                "timewindowMs" : 60000,
+                "interval" : 43200000,
+                "fixedTimewindow" : {
+                  "startTimeMs" : 1697382151041,
+                  "endTimeMs" : 1697468551041
+                },
+                "quickInterval" : "CURRENT_MONTH_SO_FAR"
+              },
+              "aggregation" : {
+                "type" : "AVG",
+                "limit" : 25000
+              }
+            },
+            "timewindowStyle" : {
+              "showIcon" : false,
+              "iconSize" : "24px",
+              "icon" : "query_builder",
+              "iconPosition" : "left",
+              "font" : {
+                "size" : 12,
+                "sizeUnit" : "px",
+                "family" : "Roboto",
+                "weight" : "400",
+                "style" : "normal",
+                "lineHeight" : "16px"
+              },
+              "color" : "rgba(0, 0, 0, 0.38)",
+              "displayTypePrefix" : true
+            },
+            "enableDataExport" : true,
+            "resizable" : true,
+            "preserveAspectRatio" : false,
+            "margin" : "1"
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "88e02128-c1b1-ee37-404f-cb0933a9d3f3"
         }
       },
       "states" : {
@@ -1776,7 +1927,7 @@
                       "mobileHeight" : null,
                       "preserveAspectRatio" : false,
                       "resizable" : true,
-                      "row" : 16,
+                      "row" : 14,
                       "col" : 94
                     },
                     "44f28101-692d-d9ac-0917-ed53b6be798d" : {
@@ -1785,7 +1936,16 @@
                       "mobileHeight" : null,
                       "preserveAspectRatio" : false,
                       "resizable" : true,
-                      "row" : 29,
+                      "row" : 27,
+                      "col" : 94
+                    },
+                    "88e02128-c1b1-ee37-404f-cb0933a9d3f3" : {
+                      "sizeX" : 27,
+                      "sizeY" : 12,
+                      "mobileHeight" : null,
+                      "preserveAspectRatio" : false,
+                      "resizable" : true,
+                      "row" : 40,
                       "col" : 94
                     }
                   }
