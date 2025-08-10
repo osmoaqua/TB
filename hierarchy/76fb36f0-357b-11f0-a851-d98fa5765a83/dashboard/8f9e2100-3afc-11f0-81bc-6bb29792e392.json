@@ -1405,7 +1405,7 @@
           "config" : {
             "showTitle" : false,
             "backgroundColor" : "rgba(0,0,0,0)",
-            "color" : "rgba(0, 0, 0, 0.87)",
+            "color" : "rgb(4, 138, 211)",
             "padding" : "0",
             "settings" : {
               "background" : {
@@ -1425,7 +1425,73 @@
                 "properties" : { }
               }
             },
-            "title" : "válvula_2_vías",
+            "title" : "Purga",
+            "dropShadow" : false,
+            "enableFullscreen" : false,
+            "widgetStyle" : { },
+            "actions" : { },
+            "widgetCss" : "",
+            "noDataDisplayMessage" : "",
+            "titleFont" : {
+              "size" : 8,
+              "sizeUnit" : "px",
+              "family" : "Roboto",
+              "weight" : "500",
+              "style" : null,
+              "lineHeight" : "1.6"
+            },
+            "showTitleIcon" : false,
+            "titleTooltip" : "",
+            "titleStyle" : null,
+            "pageSize" : 1024,
+            "titleIcon" : "mdi:lightbulb-outline",
+            "iconColor" : "rgba(0, 0, 0, 0.87)",
+            "iconSize" : "24px",
+            "configMode" : "advanced",
+            "targetDevice" : {
+              "type" : "device"
+            },
+            "titleColor" : null,
+            "borderRadius" : "0px",
+            "margin" : "0",
+            "datasources" : [ ],
+            "resizable" : true,
+            "preserveAspectRatio" : false,
+            "enableDataExport" : true
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "1353b797-988b-03b9-6438-e18e40163f16"
+        },
+        "5714375a-f5d9-7467-efe2-ad9696bfb4c1" : {
+          "typeFullFqn" : "tenant.torre7",
+          "type" : "rpc",
+          "sizeX" : 13,
+          "sizeY" : 13,
+          "config" : {
+            "showTitle" : false,
+            "backgroundColor" : "rgba(0,0,0,0)",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "0",
+            "settings" : {
+              "background" : {
+                "type" : "color",
+                "imageUrl" : null,
+                "color" : "rgba(0,0,0,0)",
+                "overlay" : {
+                  "enabled" : false,
+                  "color" : "rgba(255,255,255,0.72)",
+                  "blur" : 3
+                }
+              },
+              "padding" : "0",
+              "scadaSymbolUrl" : "tb-image;/api/images/tenant/torre.svg",
+              "scadaSymbolObjectSettings" : {
+                "behavior" : { },
+                "properties" : { }
+              }
+            },
+            "title" : "torre",
             "dropShadow" : false,
             "enableFullscreen" : false,
             "widgetStyle" : { },
@@ -1447,7 +1513,7 @@
             "titleIcon" : "mdi:lightbulb-outline",
             "iconColor" : "rgba(0, 0, 0, 0.87)",
             "iconSize" : "24px",
-            "configMode" : "basic",
+            "configMode" : "advanced",
             "targetDevice" : {
               "type" : "device"
             },
@@ -1460,7 +1526,7 @@
           },
           "row" : 0,
           "col" : 0,
-          "id" : "1353b797-988b-03b9-6438-e18e40163f16"
+          "id" : "5714375a-f5d9-7467-efe2-ad9696bfb4c1"
         }
       },
       "states" : {
@@ -1585,16 +1651,16 @@
                       "sizeY" : 16,
                       "preserveAspectRatio" : false,
                       "resizable" : true,
-                      "row" : 25,
-                      "col" : 38
+                      "row" : 41,
+                      "col" : 37
                     },
                     "2d4ea33e-219f-7a9b-fb0a-07ce6e4fffbd" : {
                       "sizeX" : 10,
                       "sizeY" : 16,
                       "preserveAspectRatio" : false,
                       "resizable" : true,
-                      "row" : 25,
-                      "col" : 50
+                      "row" : 41,
+                      "col" : 51
                     },
                     "13dcd14b-1e9e-4f37-bb68-78292567df24" : {
                       "sizeX" : 27,
@@ -1610,8 +1676,16 @@
                       "sizeY" : 6,
                       "preserveAspectRatio" : false,
                       "resizable" : true,
-                      "row" : 13,
-                      "col" : 34
+                      "row" : 16,
+                      "col" : 35
+                    },
+                    "5714375a-f5d9-7467-efe2-ad9696bfb4c1" : {
+                      "sizeX" : 28,
+                      "sizeY" : 29,
+                      "preserveAspectRatio" : false,
+                      "resizable" : true,
+                      "row" : 5,
+                      "col" : 7
                     }
                   }
                 }
