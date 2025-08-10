@@ -1651,24 +1651,24 @@
                       "sizeY" : 33,
                       "preserveAspectRatio" : false,
                       "resizable" : true,
-                      "row" : 11,
-                      "col" : 10
+                      "row" : 5,
+                      "col" : 1
                     },
                     "34a703a5-e4ec-27be-4526-118ccee7a5ac" : {
                       "sizeX" : 11,
                       "sizeY" : 16,
                       "preserveAspectRatio" : false,
                       "resizable" : true,
-                      "row" : 50,
-                      "col" : 37
+                      "row" : 25,
+                      "col" : 38
                     },
                     "2d4ea33e-219f-7a9b-fb0a-07ce6e4fffbd" : {
                       "sizeX" : 10,
                       "sizeY" : 16,
                       "preserveAspectRatio" : false,
                       "resizable" : true,
-                      "row" : 50,
-                      "col" : 49
+                      "row" : 25,
+                      "col" : 50
                     },
                     "13dcd14b-1e9e-4f37-bb68-78292567df24" : {
                       "sizeX" : 27,
@@ -1684,8 +1684,8 @@
                       "sizeY" : 6,
                       "preserveAspectRatio" : false,
                       "resizable" : true,
-                      "row" : 21,
-                      "col" : 41
+                      "row" : 13,
+                      "col" : 34
                     }
                   }
                 }
