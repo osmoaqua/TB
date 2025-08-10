@@ -1619,8 +1619,8 @@
                       "mobileHeight" : null,
                       "preserveAspectRatio" : false,
                       "resizable" : true,
-                      "row" : 40,
-                      "col" : 94
+                      "row" : 27,
+                      "col" : 66
                     },
                     "3d958a6a-0fef-fa8e-444f-6b580f7c1581" : {
                       "sizeX" : 15,
@@ -1628,7 +1628,7 @@
                       "preserveAspectRatio" : false,
                       "resizable" : true,
                       "row" : 0,
-                      "col" : 44
+                      "col" : 1
                     },
                     "4745dbcd-2be7-b4fd-6ae9-8eb6a8bcb14e" : {
                       "sizeX" : 15,
@@ -1636,7 +1636,7 @@
                       "preserveAspectRatio" : false,
                       "resizable" : true,
                       "row" : 0,
-                      "col" : 59
+                      "col" : 16
                     },
                     "a2a91a14-ae38-ae5b-7102-71e8c0cc4a50" : {
                       "sizeX" : 18,
@@ -1648,10 +1648,10 @@
                     },
                     "54fe8d81-eb48-c448-c71a-2e12eaff6b6a" : {
                       "sizeX" : 31,
-                      "sizeY" : 44,
+                      "sizeY" : 33,
                       "preserveAspectRatio" : false,
                       "resizable" : true,
-                      "row" : 0,
+                      "row" : 11,
                       "col" : 10
                     },
                     "34a703a5-e4ec-27be-4526-118ccee7a5ac" : {
@@ -1676,8 +1676,8 @@
                       "mobileHeight" : null,
                       "preserveAspectRatio" : false,
                       "resizable" : true,
-                      "row" : 54,
-                      "col" : 94
+                      "row" : 14,
+                      "col" : 66
                     },
                     "1353b797-988b-03b9-6438-e18e40163f16" : {
                       "sizeX" : 5,
