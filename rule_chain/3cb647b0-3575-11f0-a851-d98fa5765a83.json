@@ -145,7 +145,7 @@
         "bccTemplate" : "",
         "subjectTemplate" : "Dispositivo: ${deviceType} fuera de rango.",
         "mailBodyType" : "true",
-        "bodyTemplate" : "<p>\nEl dispositivo ${deviceName} tiene el pH con un valor de: $[ph].  \nEstá fuera de rango. Póngase en contacto con el servicio técnico.  \n</p>\n\n<p>Gracias.</p>\n\n<img src=\"https://telemetria.aquafilter.es/api/images/public/vH1EHcE6N9Qa9sxUqHvgxBpLQYlDvZZb\" alt=\"pie_pagina_control.png\" />\n"
+        "bodyTemplate" : "<p>\nEl dispositivo ${deviceName} tiene el pH con un valor de: $[ph].  \nEstá fuera de rango. Póngase en contacto con el servicio técnico.  \n</p>\n\n<p>Gracias.</p>\n\n<img src=\"https://telemetria.aquafilter.es/api/images/public/vH1EHcE6N9Qa9sxUqHvgxBpLQYlDvZZb\" alt=\"pie_pagina_control.png\" width=\"120\" />\n"
       },
       "configurationVersion" : 0,
       "createdTime" : 0,
