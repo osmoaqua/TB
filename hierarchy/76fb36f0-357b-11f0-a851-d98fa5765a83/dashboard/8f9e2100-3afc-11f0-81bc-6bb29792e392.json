@@ -2680,7 +2680,7 @@
             },
             "title" : "Signal strength",
             "dropShadow" : false,
-            "enableFullscreen" : false,
+            "enableFullscreen" : true,
             "titleStyle" : {
               "fontSize" : "16px",
               "fontWeight" : 400
