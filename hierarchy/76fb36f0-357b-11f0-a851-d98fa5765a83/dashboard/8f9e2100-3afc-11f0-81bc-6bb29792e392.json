@@ -3241,6 +3241,155 @@
           "row" : 0,
           "col" : 0,
           "id" : "7fd73347-0b11-016e-b02d-c577264d92d9"
+        },
+        "279a2879-3948-3675-de44-63ece5091d6c" : {
+          "typeFullFqn" : "system.action_button",
+          "type" : "latest",
+          "sizeX" : 3,
+          "sizeY" : 1,
+          "config" : {
+            "datasources" : [ ],
+            "timewindow" : {
+              "displayValue" : "",
+              "selectedTab" : 0,
+              "realtime" : {
+                "realtimeType" : 1,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "quickInterval" : "CURRENT_DAY",
+                "hideInterval" : false,
+                "hideLastInterval" : false,
+                "hideQuickInterval" : false
+              },
+              "history" : {
+                "historyType" : 0,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "fixedTimewindow" : {
+                  "startTimeMs" : 1754690695826,
+                  "endTimeMs" : 1754777095826
+                },
+                "quickInterval" : "CURRENT_DAY",
+                "hideInterval" : false,
+                "hideLastInterval" : false,
+                "hideFixedInterval" : false,
+                "hideQuickInterval" : false
+              },
+              "aggregation" : {
+                "type" : "AVG",
+                "limit" : 25000
+              }
+            },
+            "showTitle" : false,
+            "backgroundColor" : "rgba(0,0,0,0)",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "0",
+            "settings" : {
+              "activatedState" : {
+                "action" : "DO_NOTHING",
+                "defaultValue" : false,
+                "getAttribute" : {
+                  "key" : "state",
+                  "scope" : null
+                },
+                "getTimeSeries" : {
+                  "key" : "state"
+                },
+                "getAlarmStatus" : {
+                  "severityList" : null,
+                  "typeList" : null
+                },
+                "dataToValue" : {
+                  "type" : "NONE",
+                  "compareToValue" : true,
+                  "dataToValueFunction" : "/* Should return boolean value */\nreturn data;"
+                }
+              },
+              "disabledState" : {
+                "action" : "DO_NOTHING",
+                "defaultValue" : false,
+                "getAttribute" : {
+                  "key" : "state",
+                  "scope" : null
+                },
+                "getTimeSeries" : {
+                  "key" : "state"
+                },
+                "getAlarmStatus" : {
+                  "severityList" : null,
+                  "typeList" : null
+                },
+                "dataToValue" : {
+                  "type" : "NONE",
+                  "compareToValue" : true,
+                  "dataToValueFunction" : "/* Should return boolean value */\nreturn data;"
+                }
+              },
+              "appearance" : {
+                "type" : "outlined",
+                "showLabel" : true,
+                "label" : "Aquafilter",
+                "showIcon" : true,
+                "icon" : "open_in_new",
+                "iconSize" : 24,
+                "iconSizeUnit" : "px",
+                "mainColor" : "var(--tb-primary-500)",
+                "backgroundColor" : "#FFFFFF",
+                "autoScale" : true,
+                "customStyle" : {
+                  "enabled" : null,
+                  "hovered" : null,
+                  "pressed" : null,
+                  "activated" : null,
+                  "disabled" : null
+                }
+              }
+            },
+            "title" : "Action button",
+            "showTitleIcon" : false,
+            "iconColor" : "rgba(0, 0, 0, 0.87)",
+            "iconSize" : "24px",
+            "titleTooltip" : "",
+            "dropShadow" : false,
+            "enableFullscreen" : false,
+            "enableDataExport" : false,
+            "widgetStyle" : { },
+            "titleStyle" : {
+              "fontSize" : "16px",
+              "fontWeight" : 400
+            },
+            "showLegend" : false,
+            "useDashboardTimewindow" : true,
+            "displayTimewindow" : true,
+            "widgetCss" : "",
+            "pageSize" : 1024,
+            "noDataDisplayMessage" : "",
+            "borderRadius" : "4px",
+            "configMode" : "basic",
+            "resizable" : true,
+            "preserveAspectRatio" : false,
+            "margin" : "0",
+            "actions" : {
+              "click" : [ {
+                "id" : "45ce90a2-21e8-eaf3-f105-74b09b7ec4a8",
+                "name" : "onClick",
+                "icon" : "more_horiz",
+                "type" : "openURL",
+                "targetDashboardStateId" : "alarmas",
+                "setEntityId" : true,
+                "stateEntityParamName" : null,
+                "openNewBrowserTab" : false,
+                "targetDashboardId" : "2ad19770-3575-11f0-a851-d98fa5765a83",
+                "openInSeparateDialog" : false,
+                "openInPopover" : false,
+                "openRightLayout" : false,
+                "url" : "www.aquafilter.es"
+              } ]
+            }
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "279a2879-3948-3675-de44-63ece5091d6c"
         }
       },
       "states" : {
@@ -3568,6 +3717,14 @@
                       "resizable" : true,
                       "row" : 55,
                       "col" : 132
+                    },
+                    "279a2879-3948-3675-de44-63ece5091d6c" : {
+                      "sizeX" : 35,
+                      "sizeY" : 10,
+                      "preserveAspectRatio" : false,
+                      "resizable" : true,
+                      "row" : 0,
+                      "col" : 160
                     }
                   }
                 }
