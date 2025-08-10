@@ -3839,9 +3839,9 @@
               "widgets" : {
                 "1b2f27be-0024-7036-ea0c-cc0d91ae4372" : {
                   "sizeX" : 24,
-                  "sizeY" : 11,
-                  "row" : 1,
-                  "col" : 1
+                  "sizeY" : 12,
+                  "row" : 0,
+                  "col" : 0
                 }
               },
               "gridSettings" : {
