@@ -3378,12 +3378,12 @@
                 "targetDashboardStateId" : "alarmas",
                 "setEntityId" : true,
                 "stateEntityParamName" : null,
-                "openNewBrowserTab" : false,
+                "openNewBrowserTab" : true,
                 "targetDashboardId" : "2ad19770-3575-11f0-a851-d98fa5765a83",
                 "openInSeparateDialog" : false,
                 "openInPopover" : false,
                 "openRightLayout" : false,
-                "url" : "www.aquafilter.es"
+                "url" : "https://www.aquafilter.es"
               } ]
             }
           },
