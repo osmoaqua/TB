@@ -880,14 +880,15 @@
                 "id" : "45ce90a2-21e8-eaf3-f105-74b09b7ec4a8",
                 "name" : "onClick",
                 "icon" : "more_horiz",
-                "type" : "openDashboard",
-                "targetDashboardStateId" : "a",
+                "type" : "openDashboardState",
+                "targetDashboardStateId" : "graficos",
                 "setEntityId" : true,
                 "stateEntityParamName" : null,
                 "openNewBrowserTab" : true,
                 "targetDashboardId" : "2ad19770-3575-11f0-a851-d98fa5765a83",
                 "openInSeparateDialog" : false,
-                "openInPopover" : false
+                "openInPopover" : false,
+                "openRightLayout" : false
               } ]
             }
           },
@@ -1037,14 +1038,15 @@
                 "id" : "45ce90a2-21e8-eaf3-f105-74b09b7ec4a8",
                 "name" : "onClick",
                 "icon" : "more_horiz",
-                "type" : "openDashboard",
-                "targetDashboardStateId" : "a",
+                "type" : "openDashboardState",
+                "targetDashboardStateId" : "mapa",
                 "setEntityId" : true,
                 "stateEntityParamName" : null,
                 "openNewBrowserTab" : true,
                 "targetDashboardId" : "2ad19770-3575-11f0-a851-d98fa5765a83",
                 "openInSeparateDialog" : false,
-                "openInPopover" : false
+                "openInPopover" : false,
+                "openRightLayout" : false
               } ]
             }
           },
@@ -2868,7 +2870,7 @@
                 "name" : "onClick",
                 "icon" : "more_horiz",
                 "type" : "openDashboardState",
-                "targetDashboardStateId" : "default",
+                "targetDashboardStateId" : "alarmas",
                 "setEntityId" : true,
                 "stateEntityParamName" : null,
                 "openNewBrowserTab" : true,
