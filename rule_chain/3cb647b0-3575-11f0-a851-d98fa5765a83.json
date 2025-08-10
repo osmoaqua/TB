@@ -144,8 +144,8 @@
         "ccTemplate" : "control@aquafilter.es",
         "bccTemplate" : "",
         "subjectTemplate" : "Dispositivo: ${deviceType} fuera de rango.",
-        "mailBodyType" : "false",
-        "bodyTemplate" : "El dispositivo ${deviceName} tiene el ph con un valor de: $[ph]. Está fuera de rago. Pongase en contacto con el servicio técnico. \n\nGracias."
+        "mailBodyType" : "true",
+        "bodyTemplate" : "El dispositivo ${deviceName} tiene el ph con un valor de: $[ph]. Está fuera de rago. Pongase en contacto con el servicio técnico. \n\nGracias.\n\n\n<img src=\"/api/images/public/jLx3bKqtjC3YugNW1Fv3szmetfkZVZlP\" alt=\"1511a532-65bd-437a-b2cb-8b2595e3289c.jpg\" />"
       },
       "configurationVersion" : 0,
       "createdTime" : 0,
