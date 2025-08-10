@@ -738,410 +738,6 @@
           "col" : 0,
           "id" : "ddbd674e-e3ff-65c8-26d9-4e2dec647ebf"
         },
-        "e921fa49-4ef0-f382-6d42-5876df04f630" : {
-          "typeFullFqn" : "tenant.torre5",
-          "type" : "rpc",
-          "sizeX" : 13,
-          "sizeY" : 13,
-          "config" : {
-            "showTitle" : false,
-            "backgroundColor" : "rgba(0,0,0,0)",
-            "color" : "rgba(0, 0, 0, 0.87)",
-            "padding" : "0",
-            "settings" : {
-              "background" : {
-                "type" : "color",
-                "imageUrl" : null,
-                "color" : "rgba(0,0,0,0)",
-                "overlay" : {
-                  "enabled" : false,
-                  "color" : "rgba(255,255,255,0.72)",
-                  "blur" : 3
-                }
-              },
-              "padding" : "0",
-              "scadaSymbolUrl" : "tb-image;/api/images/tenant/torre (1).svg",
-              "scadaSymbolObjectSettings" : {
-                "behavior" : { },
-                "properties" : { }
-              }
-            },
-            "title" : "torre",
-            "dropShadow" : false,
-            "enableFullscreen" : false,
-            "widgetStyle" : { },
-            "actions" : { },
-            "widgetCss" : "",
-            "noDataDisplayMessage" : "",
-            "titleFont" : {
-              "size" : 16,
-              "sizeUnit" : "px",
-              "family" : "Roboto",
-              "weight" : "500",
-              "style" : null,
-              "lineHeight" : "1.6"
-            },
-            "showTitleIcon" : false,
-            "titleTooltip" : "",
-            "titleStyle" : null,
-            "pageSize" : 1024,
-            "titleIcon" : "mdi:lightbulb-outline",
-            "iconColor" : "rgba(0, 0, 0, 0.87)",
-            "iconSize" : "24px",
-            "configMode" : "basic",
-            "targetDevice" : {
-              "type" : "device"
-            },
-            "titleColor" : null,
-            "borderRadius" : "0px",
-            "margin" : "0",
-            "datasources" : [ ],
-            "resizable" : true,
-            "preserveAspectRatio" : false
-          },
-          "row" : 0,
-          "col" : 0,
-          "id" : "e921fa49-4ef0-f382-6d42-5876df04f630"
-        },
-        "34b94bcc-db96-1d4a-dba4-032981bb2c6e" : {
-          "typeFullFqn" : "system.horizontal_wheel_valve",
-          "type" : "rpc",
-          "sizeX" : 2,
-          "sizeY" : 1,
-          "config" : {
-            "showTitle" : false,
-            "backgroundColor" : "rgba(0,0,0,0)",
-            "color" : "rgba(0, 0, 0, 0.87)",
-            "padding" : "0",
-            "settings" : {
-              "scadaSymbolUrl" : "tb-image;/api/images/system/horizontal-wheel-valve.svg",
-              "scadaSymbolObjectSettings" : {
-                "behavior" : {
-                  "opened" : {
-                    "action" : "GET_ATTRIBUTE",
-                    "defaultValue" : false,
-                    "executeRpc" : {
-                      "method" : "getState",
-                      "requestTimeout" : 5000,
-                      "requestPersistent" : false,
-                      "persistentPollingInterval" : 1000
-                    },
-                    "getAttribute" : {
-                      "key" : "open",
-                      "scope" : "SHARED_SCOPE"
-                    },
-                    "getTimeSeries" : {
-                      "key" : "state"
-                    },
-                    "getAlarmStatus" : {
-                      "severityList" : null,
-                      "typeList" : null
-                    },
-                    "dataToValue" : {
-                      "type" : "NONE",
-                      "compareToValue" : true,
-                      "dataToValueFunction" : "/* Should return boolean value */\nreturn data;"
-                    }
-                  },
-                  "open" : {
-                    "action" : "SET_ATTRIBUTE",
-                    "executeRpc" : {
-                      "method" : "setState",
-                      "requestTimeout" : 5000,
-                      "requestPersistent" : false,
-                      "persistentPollingInterval" : 1000
-                    },
-                    "setAttribute" : {
-                      "key" : "open",
-                      "scope" : "SHARED_SCOPE"
-                    },
-                    "putTimeSeries" : {
-                      "key" : "state"
-                    },
-                    "valueToData" : {
-                      "type" : "CONSTANT",
-                      "constantValue" : true,
-                      "valueToDataFunction" : "/* Convert input boolean value to RPC parameters or attribute/time-series value */\nreturn value;"
-                    }
-                  },
-                  "close" : {
-                    "action" : "SET_ATTRIBUTE",
-                    "executeRpc" : {
-                      "method" : "setState",
-                      "requestTimeout" : 5000,
-                      "requestPersistent" : false,
-                      "persistentPollingInterval" : 1000
-                    },
-                    "setAttribute" : {
-                      "key" : "open",
-                      "scope" : "SHARED_SCOPE"
-                    },
-                    "putTimeSeries" : {
-                      "key" : "state"
-                    },
-                    "valueToData" : {
-                      "type" : "CONSTANT",
-                      "constantValue" : false,
-                      "valueToDataFunction" : "/* Convert input boolean value to RPC parameters or attribute/time-series value */\nreturn value;"
-                    }
-                  }
-                },
-                "properties" : {
-                  "openedColor" : "#1C943E",
-                  "closedColor" : "#5788AA",
-                  "openedRotationAngle" : 0,
-                  "closedRotationAngle" : 90
-                }
-              },
-              "background" : {
-                "type" : "color",
-                "color" : "rgba(0,0,0,0)",
-                "overlay" : {
-                  "enabled" : false,
-                  "color" : "rgba(255,255,255,0.72)",
-                  "blur" : 3
-                },
-                "imageUrl" : null
-              },
-              "padding" : "0"
-            },
-            "title" : "Horizontal wheel valve",
-            "dropShadow" : false,
-            "enableFullscreen" : false,
-            "widgetStyle" : { },
-            "actions" : { },
-            "widgetCss" : "",
-            "noDataDisplayMessage" : "",
-            "titleFont" : {
-              "size" : 16,
-              "sizeUnit" : "px",
-              "family" : "Roboto",
-              "weight" : "500",
-              "style" : null,
-              "lineHeight" : "1.6"
-            },
-            "showTitleIcon" : false,
-            "titleTooltip" : "",
-            "titleStyle" : null,
-            "pageSize" : 1024,
-            "titleIcon" : "mdi:lightbulb-outline",
-            "iconColor" : "rgba(0, 0, 0, 0.87)",
-            "iconSize" : "24px",
-            "configMode" : "advanced",
-            "targetDevice" : {
-              "type" : "device",
-              "deviceId" : "3fb5f650-3579-11f0-a851-d98fa5765a83"
-            },
-            "titleColor" : null,
-            "borderRadius" : "0px",
-            "margin" : "0",
-            "datasources" : [ ],
-            "resizable" : true,
-            "preserveAspectRatio" : true
-          },
-          "row" : 0,
-          "col" : 0,
-          "id" : "34b94bcc-db96-1d4a-dba4-032981bb2c6e"
-        },
-        "590f2356-dfb2-dd16-c2df-f9d8a50f8ba9" : {
-          "typeFullFqn" : "system.bottom_right_elbow_pipe",
-          "type" : "rpc",
-          "sizeX" : 1,
-          "sizeY" : 1,
-          "config" : {
-            "showTitle" : false,
-            "backgroundColor" : "rgba(0,0,0,0)",
-            "color" : "rgba(0, 0, 0, 0.87)",
-            "padding" : "0",
-            "settings" : {
-              "scadaSymbolUrl" : "tb-image;/api/images/system/bottom-right-elbow-pipe.svg",
-              "scadaSymbolObjectSettings" : {
-                "behavior" : {
-                  "fluid" : {
-                    "action" : "DO_NOTHING",
-                    "defaultValue" : false,
-                    "executeRpc" : {
-                      "method" : "getState",
-                      "requestTimeout" : 5000,
-                      "requestPersistent" : false,
-                      "persistentPollingInterval" : 1000
-                    },
-                    "getAttribute" : {
-                      "key" : "state",
-                      "scope" : null
-                    },
-                    "getTimeSeries" : {
-                      "key" : "state"
-                    },
-                    "getAlarmStatus" : {
-                      "severityList" : null,
-                      "typeList" : null
-                    },
-                    "dataToValue" : {
-                      "type" : "NONE",
-                      "compareToValue" : true,
-                      "dataToValueFunction" : "/* Should return boolean value */\nreturn data;"
-                    }
-                  },
-                  "flow" : {
-                    "action" : "DO_NOTHING",
-                    "defaultValue" : false,
-                    "executeRpc" : {
-                      "method" : "getState",
-                      "requestTimeout" : 5000,
-                      "requestPersistent" : false,
-                      "persistentPollingInterval" : 1000
-                    },
-                    "getAttribute" : {
-                      "key" : "state",
-                      "scope" : null
-                    },
-                    "getTimeSeries" : {
-                      "key" : "state"
-                    },
-                    "getAlarmStatus" : {
-                      "severityList" : null,
-                      "typeList" : null
-                    },
-                    "dataToValue" : {
-                      "type" : "NONE",
-                      "compareToValue" : true,
-                      "dataToValueFunction" : "/* Should return boolean value */\nreturn data;"
-                    }
-                  },
-                  "flowDirection" : {
-                    "action" : "DO_NOTHING",
-                    "defaultValue" : true,
-                    "executeRpc" : {
-                      "method" : "getState",
-                      "requestTimeout" : 5000,
-                      "requestPersistent" : false,
-                      "persistentPollingInterval" : 1000
-                    },
-                    "getAttribute" : {
-                      "key" : "state",
-                      "scope" : null
-                    },
-                    "getTimeSeries" : {
-                      "key" : "state"
-                    },
-                    "getAlarmStatus" : {
-                      "severityList" : null,
-                      "typeList" : null
-                    },
-                    "dataToValue" : {
-                      "type" : "NONE",
-                      "compareToValue" : true,
-                      "dataToValueFunction" : "/* Should return boolean value */\nreturn data;"
-                    }
-                  },
-                  "flowAnimationSpeed" : {
-                    "action" : "DO_NOTHING",
-                    "defaultValue" : 1,
-                    "executeRpc" : {
-                      "method" : "getState",
-                      "requestTimeout" : 5000,
-                      "requestPersistent" : false,
-                      "persistentPollingInterval" : 1000
-                    },
-                    "getAttribute" : {
-                      "key" : "state",
-                      "scope" : null
-                    },
-                    "getTimeSeries" : {
-                      "key" : "state"
-                    },
-                    "getAlarmStatus" : {
-                      "severityList" : null,
-                      "typeList" : null
-                    },
-                    "dataToValue" : {
-                      "type" : "NONE",
-                      "compareToValue" : true,
-                      "dataToValueFunction" : "/* Should return boolean value */\nreturn data;"
-                    }
-                  },
-                  "leak" : {
-                    "action" : "DO_NOTHING",
-                    "defaultValue" : false,
-                    "executeRpc" : {
-                      "method" : "getState",
-                      "requestTimeout" : 5000,
-                      "requestPersistent" : false,
-                      "persistentPollingInterval" : 1000
-                    },
-                    "getAttribute" : {
-                      "key" : "state",
-                      "scope" : null
-                    },
-                    "getTimeSeries" : {
-                      "key" : "state"
-                    },
-                    "getAlarmStatus" : {
-                      "severityList" : null,
-                      "typeList" : null
-                    },
-                    "dataToValue" : {
-                      "type" : "NONE",
-                      "compareToValue" : true,
-                      "dataToValueFunction" : "/* Should return boolean value */\nreturn data;"
-                    }
-                  }
-                },
-                "properties" : {
-                  "fluidColor" : "#1EC1F480",
-                  "pipeColor" : "#8394A9"
-                }
-              },
-              "background" : {
-                "type" : "color",
-                "color" : "rgba(0,0,0,0)",
-                "overlay" : {
-                  "enabled" : false,
-                  "color" : "rgba(255,255,255,0.72)",
-                  "blur" : 3
-                },
-                "imageUrl" : null
-              },
-              "padding" : "0"
-            },
-            "title" : "Bottom right elbow pipe",
-            "dropShadow" : false,
-            "enableFullscreen" : false,
-            "widgetStyle" : { },
-            "actions" : { },
-            "widgetCss" : "",
-            "noDataDisplayMessage" : "",
-            "titleFont" : {
-              "size" : 16,
-              "sizeUnit" : "px",
-              "family" : "Roboto",
-              "weight" : "500",
-              "style" : null,
-              "lineHeight" : "1.6"
-            },
-            "showTitleIcon" : false,
-            "titleTooltip" : "",
-            "titleStyle" : null,
-            "pageSize" : 1024,
-            "titleIcon" : "mdi:lightbulb-outline",
-            "iconColor" : "rgba(0, 0, 0, 0.87)",
-            "iconSize" : "24px",
-            "configMode" : "advanced",
-            "targetDevice" : {
-              "type" : "device"
-            },
-            "titleColor" : null,
-            "borderRadius" : "0px",
-            "margin" : "0",
-            "datasources" : [ ],
-            "resizable" : true,
-            "preserveAspectRatio" : true
-          },
-          "row" : 0,
-          "col" : 0,
-          "id" : "590f2356-dfb2-dd16-c2df-f9d8a50f8ba9"
-        },
         "3d958a6a-0fef-fa8e-444f-6b580f7c1581" : {
           "typeFullFqn" : "system.action_button",
           "type" : "latest",
@@ -1520,6 +1116,417 @@
           "row" : 0,
           "col" : 0,
           "id" : "a2a91a14-ae38-ae5b-7102-71e8c0cc4a50"
+        },
+        "54fe8d81-eb48-c448-c71a-2e12eaff6b6a" : {
+          "typeFullFqn" : "tenant.torre6",
+          "type" : "rpc",
+          "sizeX" : 13,
+          "sizeY" : 13,
+          "config" : {
+            "showTitle" : false,
+            "backgroundColor" : "rgba(0,0,0,0)",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "0",
+            "settings" : {
+              "background" : {
+                "type" : "color",
+                "imageUrl" : null,
+                "color" : "rgba(0,0,0,0)",
+                "overlay" : {
+                  "enabled" : false,
+                  "color" : "rgba(255,255,255,0.72)",
+                  "blur" : 3
+                }
+              },
+              "padding" : "0",
+              "scadaSymbolUrl" : "tb-image;/api/images/tenant/torre (1).svg",
+              "scadaSymbolObjectSettings" : {
+                "behavior" : { },
+                "properties" : { }
+              }
+            },
+            "title" : "torre",
+            "dropShadow" : false,
+            "enableFullscreen" : false,
+            "widgetStyle" : { },
+            "actions" : { },
+            "widgetCss" : "",
+            "noDataDisplayMessage" : "",
+            "titleFont" : {
+              "size" : 16,
+              "sizeUnit" : "px",
+              "family" : "Roboto",
+              "weight" : "500",
+              "style" : null,
+              "lineHeight" : "1.6"
+            },
+            "showTitleIcon" : false,
+            "titleTooltip" : "",
+            "titleStyle" : null,
+            "pageSize" : 1024,
+            "titleIcon" : "mdi:lightbulb-outline",
+            "iconColor" : "rgba(0, 0, 0, 0.87)",
+            "iconSize" : "24px",
+            "configMode" : "basic",
+            "targetDevice" : {
+              "type" : "device",
+              "deviceId" : "d5ab8dc0-3bfd-11f0-9584-abfdb9c61187"
+            },
+            "titleColor" : null,
+            "borderRadius" : "0px",
+            "margin" : "0",
+            "datasources" : [ ],
+            "resizable" : true,
+            "preserveAspectRatio" : false
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "54fe8d81-eb48-c448-c71a-2e12eaff6b6a"
+        },
+        "34a703a5-e4ec-27be-4526-118ccee7a5ac" : {
+          "typeFullFqn" : "tenant.dep_stico_producto_con_dosificadora",
+          "type" : "rpc",
+          "sizeX" : 1,
+          "sizeY" : 1,
+          "config" : {
+            "showTitle" : true,
+            "backgroundColor" : "rgba(0,0,0,0)",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "0",
+            "settings" : {
+              "background" : {
+                "type" : "color",
+                "imageUrl" : null,
+                "color" : "rgba(0,0,0,0)",
+                "overlay" : {
+                  "enabled" : false,
+                  "color" : "rgba(255,255,255,0.72)",
+                  "blur" : 3
+                }
+              },
+              "padding" : "0",
+              "scadaSymbolUrl" : "tb-image;/api/images/tenant/depóstico_producto_con_dosificadora.svg",
+              "scadaSymbolObjectSettings" : {
+                "behavior" : { },
+                "properties" : { }
+              }
+            },
+            "title" : "Cloro",
+            "dropShadow" : false,
+            "enableFullscreen" : false,
+            "widgetStyle" : { },
+            "actions" : { },
+            "widgetCss" : "",
+            "noDataDisplayMessage" : "",
+            "titleFont" : {
+              "size" : 10,
+              "sizeUnit" : "px",
+              "family" : "Roboto",
+              "weight" : "500",
+              "style" : null,
+              "lineHeight" : "1.6"
+            },
+            "showTitleIcon" : false,
+            "titleTooltip" : "",
+            "titleStyle" : null,
+            "pageSize" : 1024,
+            "titleIcon" : "mdi:lightbulb-outline",
+            "iconColor" : "rgba(0, 0, 0, 0.87)",
+            "iconSize" : "24px",
+            "configMode" : "basic",
+            "targetDevice" : {
+              "type" : "device"
+            },
+            "titleColor" : "#0062FF",
+            "borderRadius" : "0px",
+            "margin" : "0",
+            "datasources" : [ ],
+            "resizable" : true,
+            "preserveAspectRatio" : false
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "34a703a5-e4ec-27be-4526-118ccee7a5ac"
+        },
+        "2d4ea33e-219f-7a9b-fb0a-07ce6e4fffbd" : {
+          "typeFullFqn" : "tenant.dep_stico_producto_con_dosificadora",
+          "type" : "rpc",
+          "sizeX" : 1,
+          "sizeY" : 1,
+          "config" : {
+            "showTitle" : true,
+            "backgroundColor" : "rgba(0,0,0,0)",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "0",
+            "settings" : {
+              "background" : {
+                "type" : "color",
+                "imageUrl" : null,
+                "color" : "rgba(0,0,0,0)",
+                "overlay" : {
+                  "enabled" : false,
+                  "color" : "rgba(255,255,255,0.72)",
+                  "blur" : 3
+                }
+              },
+              "padding" : "0",
+              "scadaSymbolUrl" : "tb-image;/api/images/tenant/depóstico_producto_con_dosificadora.svg",
+              "scadaSymbolObjectSettings" : {
+                "behavior" : { },
+                "properties" : { }
+              }
+            },
+            "title" : "Antincrustante",
+            "dropShadow" : false,
+            "enableFullscreen" : false,
+            "widgetStyle" : { },
+            "actions" : { },
+            "widgetCss" : "",
+            "noDataDisplayMessage" : "",
+            "titleFont" : {
+              "size" : 10,
+              "sizeUnit" : "px",
+              "family" : "Roboto",
+              "weight" : "500",
+              "style" : null,
+              "lineHeight" : "1.6"
+            },
+            "showTitleIcon" : false,
+            "titleTooltip" : "",
+            "titleStyle" : null,
+            "pageSize" : 1024,
+            "titleIcon" : "mdi:lightbulb-outline",
+            "iconColor" : "rgba(0, 0, 0, 0.87)",
+            "iconSize" : "24px",
+            "configMode" : "basic",
+            "targetDevice" : {
+              "type" : "device"
+            },
+            "titleColor" : "#0062FF",
+            "borderRadius" : "0px",
+            "margin" : "0",
+            "datasources" : [ ],
+            "resizable" : true,
+            "preserveAspectRatio" : false
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "2d4ea33e-219f-7a9b-fb0a-07ce6e4fffbd"
+        },
+        "13dcd14b-1e9e-4f37-bb68-78292567df24" : {
+          "typeFullFqn" : "system.simple_value_and_chart_card",
+          "type" : "timeseries",
+          "sizeX" : 4.5,
+          "sizeY" : 2,
+          "config" : {
+            "datasources" : [ {
+              "type" : "device",
+              "name" : "",
+              "deviceId" : "3fb5f650-3579-11f0-a851-d98fa5765a83",
+              "dataKeys" : [ {
+                "name" : "wifi",
+                "type" : "timeseries",
+                "label" : "Conductividad",
+                "color" : "#4C72AF",
+                "settings" : { },
+                "_hash" : 0.1891314007877376,
+                "aggregationType" : null,
+                "units" : "µS/cm",
+                "decimals" : null,
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
+              } ],
+              "alarmFilterConfig" : {
+                "statusList" : [ "ACTIVE" ]
+              },
+              "latestDataKeys" : [ {
+                "name" : "wifi",
+                "type" : "timeseries",
+                "label" : "conductividad",
+                "color" : "#4C65AF",
+                "settings" : { },
+                "_hash" : 0.9776559888633016,
+                "aggregationType" : "NONE",
+                "units" : "µS/cm",
+                "decimals" : 2,
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
+              } ]
+            } ],
+            "showTitle" : true,
+            "backgroundColor" : "rgba(0,0,0,0)",
+            "color" : null,
+            "padding" : "0",
+            "settings" : {
+              "layout" : "left",
+              "autoScale" : true,
+              "showValue" : true,
+              "valueFont" : {
+                "family" : "Roboto",
+                "size" : 28,
+                "sizeUnit" : "px",
+                "style" : "normal",
+                "weight" : "500",
+                "lineHeight" : "32px"
+              },
+              "valueColor" : {
+                "type" : "constant",
+                "color" : "rgba(0, 0, 0, 0.87)",
+                "colorFunction" : "var temperature = value;\nif (typeof temperature !== undefined) {\n  var percent = (temperature + 60)/120 * 100;\n  return tinycolor.mix('blue', 'red', percent).toHexString();\n}\nreturn 'blue';"
+              },
+              "background" : {
+                "type" : "color",
+                "imageUrl" : null,
+                "color" : "rgba(0,0,0,0)",
+                "overlay" : {
+                  "enabled" : false,
+                  "color" : "rgba(33, 142, 195, 0.47)",
+                  "blur" : 3
+                }
+              },
+              "padding" : "0"
+            },
+            "title" : "Conductividad",
+            "dropShadow" : true,
+            "enableFullscreen" : false,
+            "titleStyle" : null,
+            "mobileHeight" : null,
+            "configMode" : "advanced",
+            "actions" : { },
+            "showTitleIcon" : false,
+            "titleIcon" : "thermostat",
+            "iconColor" : "rgba(0, 0, 0, 0.87)",
+            "titleFont" : {
+              "size" : 16,
+              "sizeUnit" : "px",
+              "family" : "Roboto",
+              "weight" : "500",
+              "style" : "normal",
+              "lineHeight" : "24px"
+            },
+            "iconSize" : "18px",
+            "titleTooltip" : "",
+            "widgetStyle" : { },
+            "widgetCss" : "",
+            "pageSize" : 1024,
+            "noDataDisplayMessage" : "",
+            "useDashboardTimewindow" : false,
+            "decimals" : 2,
+            "titleColor" : "rgba(0, 0, 0, 0.87)",
+            "borderRadius" : "1",
+            "units" : "mg/L",
+            "displayTimewindow" : true,
+            "timewindow" : {
+              "hideAggregation" : false,
+              "hideAggInterval" : false,
+              "hideTimezone" : false,
+              "selectedTab" : 1,
+              "history" : {
+                "historyType" : 2,
+                "timewindowMs" : 60000,
+                "interval" : 43200000,
+                "fixedTimewindow" : {
+                  "startTimeMs" : 1697382151041,
+                  "endTimeMs" : 1697468551041
+                },
+                "quickInterval" : "CURRENT_MONTH_SO_FAR"
+              },
+              "aggregation" : {
+                "type" : "AVG",
+                "limit" : 25000
+              }
+            },
+            "timewindowStyle" : {
+              "showIcon" : false,
+              "iconSize" : "24px",
+              "icon" : "query_builder",
+              "iconPosition" : "left",
+              "font" : {
+                "size" : 12,
+                "sizeUnit" : "px",
+                "family" : "Roboto",
+                "weight" : "400",
+                "style" : "normal",
+                "lineHeight" : "16px"
+              },
+              "color" : "rgba(0, 0, 0, 0.38)",
+              "displayTypePrefix" : true
+            },
+            "enableDataExport" : true,
+            "resizable" : true,
+            "preserveAspectRatio" : false,
+            "margin" : "1"
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "13dcd14b-1e9e-4f37-bb68-78292567df24"
+        },
+        "1353b797-988b-03b9-6438-e18e40163f16" : {
+          "typeFullFqn" : "tenant.v_lvula_2_v_as",
+          "type" : "rpc",
+          "sizeX" : 1,
+          "sizeY" : 1,
+          "config" : {
+            "showTitle" : false,
+            "backgroundColor" : "rgba(0,0,0,0)",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "0",
+            "settings" : {
+              "background" : {
+                "type" : "color",
+                "imageUrl" : null,
+                "color" : "rgba(0,0,0,0)",
+                "overlay" : {
+                  "enabled" : false,
+                  "color" : "rgba(255,255,255,0.72)",
+                  "blur" : 3
+                }
+              },
+              "padding" : "0",
+              "scadaSymbolUrl" : "tb-image;/api/images/tenant/válvula_2_vías.svg",
+              "scadaSymbolObjectSettings" : {
+                "behavior" : { },
+                "properties" : { }
+              }
+            },
+            "title" : "válvula_2_vías",
+            "dropShadow" : false,
+            "enableFullscreen" : false,
+            "widgetStyle" : { },
+            "actions" : { },
+            "widgetCss" : "",
+            "noDataDisplayMessage" : "",
+            "titleFont" : {
+              "size" : 16,
+              "sizeUnit" : "px",
+              "family" : "Roboto",
+              "weight" : "500",
+              "style" : null,
+              "lineHeight" : "1.6"
+            },
+            "showTitleIcon" : false,
+            "titleTooltip" : "",
+            "titleStyle" : null,
+            "pageSize" : 1024,
+            "titleIcon" : "mdi:lightbulb-outline",
+            "iconColor" : "rgba(0, 0, 0, 0.87)",
+            "iconSize" : "24px",
+            "configMode" : "basic",
+            "targetDevice" : {
+              "type" : "device"
+            },
+            "titleColor" : null,
+            "borderRadius" : "0px",
+            "margin" : "0",
+            "datasources" : [ ],
+            "resizable" : true,
+            "preserveAspectRatio" : false
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "1353b797-988b-03b9-6438-e18e40163f16"
         }
       },
       "states" : {
@@ -1615,30 +1622,6 @@
                       "row" : 40,
                       "col" : 94
                     },
-                    "e921fa49-4ef0-f382-6d42-5876df04f630" : {
-                      "sizeX" : 31,
-                      "sizeY" : 41,
-                      "preserveAspectRatio" : false,
-                      "resizable" : true,
-                      "row" : 1,
-                      "col" : 13
-                    },
-                    "34b94bcc-db96-1d4a-dba4-032981bb2c6e" : {
-                      "sizeX" : 4,
-                      "sizeY" : 2,
-                      "preserveAspectRatio" : true,
-                      "resizable" : true,
-                      "row" : 26,
-                      "col" : 9
-                    },
-                    "590f2356-dfb2-dd16-c2df-f9d8a50f8ba9" : {
-                      "sizeX" : 4,
-                      "sizeY" : 4,
-                      "preserveAspectRatio" : true,
-                      "resizable" : true,
-                      "row" : 25,
-                      "col" : 5
-                    },
                     "3d958a6a-0fef-fa8e-444f-6b580f7c1581" : {
                       "sizeX" : 15,
                       "sizeY" : 4,
@@ -1662,6 +1645,47 @@
                       "resizable" : true,
                       "row" : 52,
                       "col" : 0
+                    },
+                    "54fe8d81-eb48-c448-c71a-2e12eaff6b6a" : {
+                      "sizeX" : 31,
+                      "sizeY" : 44,
+                      "preserveAspectRatio" : false,
+                      "resizable" : true,
+                      "row" : 0,
+                      "col" : 10
+                    },
+                    "34a703a5-e4ec-27be-4526-118ccee7a5ac" : {
+                      "sizeX" : 11,
+                      "sizeY" : 16,
+                      "preserveAspectRatio" : false,
+                      "resizable" : true,
+                      "row" : 50,
+                      "col" : 37
+                    },
+                    "2d4ea33e-219f-7a9b-fb0a-07ce6e4fffbd" : {
+                      "sizeX" : 10,
+                      "sizeY" : 16,
+                      "preserveAspectRatio" : false,
+                      "resizable" : true,
+                      "row" : 50,
+                      "col" : 49
+                    },
+                    "13dcd14b-1e9e-4f37-bb68-78292567df24" : {
+                      "sizeX" : 27,
+                      "sizeY" : 12,
+                      "mobileHeight" : null,
+                      "preserveAspectRatio" : false,
+                      "resizable" : true,
+                      "row" : 54,
+                      "col" : 94
+                    },
+                    "1353b797-988b-03b9-6438-e18e40163f16" : {
+                      "sizeX" : 5,
+                      "sizeY" : 6,
+                      "preserveAspectRatio" : false,
+                      "resizable" : true,
+                      "row" : 21,
+                      "col" : 41
                     }
                   }
                 }
