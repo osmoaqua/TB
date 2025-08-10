@@ -1117,72 +1117,6 @@
           "col" : 0,
           "id" : "a2a91a14-ae38-ae5b-7102-71e8c0cc4a50"
         },
-        "54fe8d81-eb48-c448-c71a-2e12eaff6b6a" : {
-          "typeFullFqn" : "tenant.torre6",
-          "type" : "rpc",
-          "sizeX" : 13,
-          "sizeY" : 13,
-          "config" : {
-            "showTitle" : false,
-            "backgroundColor" : "rgba(0,0,0,0)",
-            "color" : "rgba(0, 0, 0, 0.87)",
-            "padding" : "0",
-            "settings" : {
-              "background" : {
-                "type" : "color",
-                "imageUrl" : null,
-                "color" : "rgba(0,0,0,0)",
-                "overlay" : {
-                  "enabled" : false,
-                  "color" : "rgba(255,255,255,0.72)",
-                  "blur" : 3
-                }
-              },
-              "padding" : "0",
-              "scadaSymbolUrl" : "tb-image;/api/images/tenant/torre (1).svg",
-              "scadaSymbolObjectSettings" : {
-                "behavior" : { },
-                "properties" : { }
-              }
-            },
-            "title" : "torre",
-            "dropShadow" : false,
-            "enableFullscreen" : false,
-            "widgetStyle" : { },
-            "actions" : { },
-            "widgetCss" : "",
-            "noDataDisplayMessage" : "",
-            "titleFont" : {
-              "size" : 16,
-              "sizeUnit" : "px",
-              "family" : "Roboto",
-              "weight" : "500",
-              "style" : null,
-              "lineHeight" : "1.6"
-            },
-            "showTitleIcon" : false,
-            "titleTooltip" : "",
-            "titleStyle" : null,
-            "pageSize" : 1024,
-            "titleIcon" : "mdi:lightbulb-outline",
-            "iconColor" : "rgba(0, 0, 0, 0.87)",
-            "iconSize" : "24px",
-            "configMode" : "basic",
-            "targetDevice" : {
-              "type" : "device",
-              "deviceId" : "d5ab8dc0-3bfd-11f0-9584-abfdb9c61187"
-            },
-            "titleColor" : null,
-            "borderRadius" : "0px",
-            "margin" : "0",
-            "datasources" : [ ],
-            "resizable" : true,
-            "preserveAspectRatio" : false
-          },
-          "row" : 0,
-          "col" : 0,
-          "id" : "54fe8d81-eb48-c448-c71a-2e12eaff6b6a"
-        },
         "34a703a5-e4ec-27be-4526-118ccee7a5ac" : {
           "typeFullFqn" : "tenant.dep_stico_producto_con_dosificadora",
           "type" : "rpc",
@@ -1645,14 +1579,6 @@
                       "resizable" : true,
                       "row" : 52,
                       "col" : 0
-                    },
-                    "54fe8d81-eb48-c448-c71a-2e12eaff6b6a" : {
-                      "sizeX" : 31,
-                      "sizeY" : 33,
-                      "preserveAspectRatio" : false,
-                      "resizable" : true,
-                      "row" : 5,
-                      "col" : 1
                     },
                     "34a703a5-e4ec-27be-4526-118ccee7a5ac" : {
                       "sizeX" : 11,
