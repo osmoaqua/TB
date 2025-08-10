@@ -2825,7 +2825,7 @@
                 "showLabel" : true,
                 "label" : "Alarmas",
                 "showIcon" : true,
-                "icon" : "pin_drop",
+                "icon" : "notifications_active",
                 "iconSize" : 24,
                 "iconSizeUnit" : "px",
                 "mainColor" : "var(--tb-primary-500)",
