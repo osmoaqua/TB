@@ -145,7 +145,7 @@
         "bccTemplate" : null,
         "subjectTemplate" : "Dispositivo: ${deviceType} fuera de rango.",
         "mailBodyType" : "true",
-        "bodyTemplate" : "El dispositivo ${deviceName} tiene la turbidez con un valor de: $[turbidez] NTU. Está fuera de rago. Pongase en contacto con el servicio técnico. \n\nGracias."
+        "bodyTemplate" : "El dispositivo ${deviceName} tiene la turbidez con un valor de: $[turbidez] NTU. Está fuera de rago. Pongase en contacto con el servicio técnico. \n\nGracias.\n\n\n<img src=\"https://telemetria.aquafilter.es/api/images/public/vH1EHcE6N9Qa9sxUqHvgxBpLQYlDvZZb\" alt=\"pie_pagina_control.png\" />"
       },
       "configurationVersion" : 0,
       "createdTime" : 0,
