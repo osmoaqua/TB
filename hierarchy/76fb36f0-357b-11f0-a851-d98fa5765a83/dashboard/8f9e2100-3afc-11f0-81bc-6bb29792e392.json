@@ -1918,6 +1918,201 @@
           "row" : 0,
           "col" : 0,
           "id" : "83d6cec9-3e2f-e607-b455-152fbdf37025"
+        },
+        "5a7893a3-1baa-acba-0dae-e7a72188dcd1" : {
+          "typeFullFqn" : "system.bottom_right_elbow_pipe",
+          "type" : "rpc",
+          "sizeX" : 1,
+          "sizeY" : 1,
+          "config" : {
+            "showTitle" : false,
+            "backgroundColor" : "rgba(0,0,0,0)",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "0",
+            "settings" : {
+              "background" : {
+                "type" : "color",
+                "imageUrl" : null,
+                "color" : "rgba(0,0,0,0)",
+                "overlay" : {
+                  "enabled" : false,
+                  "color" : "rgba(255,255,255,0.72)",
+                  "blur" : 3
+                }
+              },
+              "padding" : "0",
+              "scadaSymbolUrl" : "tb-image;/api/images/system/bottom-right-elbow-pipe.svg",
+              "scadaSymbolObjectSettings" : {
+                "behavior" : { },
+                "properties" : { }
+              }
+            },
+            "title" : "Bottom right elbow pipe",
+            "dropShadow" : false,
+            "enableFullscreen" : false,
+            "widgetStyle" : { },
+            "actions" : { },
+            "widgetCss" : "",
+            "noDataDisplayMessage" : "",
+            "titleFont" : {
+              "size" : 16,
+              "sizeUnit" : "px",
+              "family" : "Roboto",
+              "weight" : "500",
+              "style" : null,
+              "lineHeight" : "1.6"
+            },
+            "showTitleIcon" : false,
+            "titleTooltip" : "",
+            "titleStyle" : null,
+            "pageSize" : 1024,
+            "titleIcon" : "mdi:lightbulb-outline",
+            "iconColor" : "rgba(0, 0, 0, 0.87)",
+            "iconSize" : "24px",
+            "configMode" : "advanced",
+            "targetDevice" : {
+              "type" : "device"
+            },
+            "titleColor" : null,
+            "borderRadius" : "0px",
+            "margin" : "0",
+            "datasources" : [ ],
+            "resizable" : true,
+            "preserveAspectRatio" : false
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "5a7893a3-1baa-acba-0dae-e7a72188dcd1"
+        },
+        "d2d1aa15-1ae6-c604-01e9-dfe19a1f7533" : {
+          "typeFullFqn" : "system.left_bottom_elbow_pipe",
+          "type" : "rpc",
+          "sizeX" : 1,
+          "sizeY" : 1,
+          "config" : {
+            "showTitle" : false,
+            "backgroundColor" : "rgba(0,0,0,0)",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "0",
+            "settings" : {
+              "background" : {
+                "type" : "color",
+                "imageUrl" : null,
+                "color" : "rgba(0,0,0,0)",
+                "overlay" : {
+                  "enabled" : false,
+                  "color" : "rgba(255,255,255,0.72)",
+                  "blur" : 3
+                }
+              },
+              "padding" : "0",
+              "scadaSymbolUrl" : "tb-image;/api/images/system/left-bottom-elbow-pipe.svg",
+              "scadaSymbolObjectSettings" : {
+                "behavior" : { },
+                "properties" : { }
+              }
+            },
+            "title" : "Left bottom elbow pipe",
+            "dropShadow" : false,
+            "enableFullscreen" : false,
+            "widgetStyle" : { },
+            "actions" : { },
+            "widgetCss" : "",
+            "noDataDisplayMessage" : "",
+            "titleFont" : {
+              "size" : 16,
+              "sizeUnit" : "px",
+              "family" : "Roboto",
+              "weight" : "500",
+              "style" : null,
+              "lineHeight" : "1.6"
+            },
+            "showTitleIcon" : false,
+            "titleTooltip" : "",
+            "titleStyle" : null,
+            "pageSize" : 1024,
+            "titleIcon" : "mdi:lightbulb-outline",
+            "iconColor" : "rgba(0, 0, 0, 0.87)",
+            "iconSize" : "24px",
+            "configMode" : "basic",
+            "targetDevice" : {
+              "type" : "device"
+            },
+            "titleColor" : null,
+            "borderRadius" : "0px",
+            "margin" : "0",
+            "datasources" : [ ],
+            "resizable" : true,
+            "preserveAspectRatio" : true
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "d2d1aa15-1ae6-c604-01e9-dfe19a1f7533"
+        },
+        "d3dc5e62-95bf-2e88-ace3-fffe5bc0a740" : {
+          "typeFullFqn" : "system.top_right_elbow_pipe",
+          "type" : "rpc",
+          "sizeX" : 1,
+          "sizeY" : 1,
+          "config" : {
+            "showTitle" : false,
+            "backgroundColor" : "rgba(0,0,0,0)",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "0",
+            "settings" : {
+              "background" : {
+                "type" : "color",
+                "imageUrl" : null,
+                "color" : "rgba(0,0,0,0)",
+                "overlay" : {
+                  "enabled" : false,
+                  "color" : "rgba(255,255,255,0.72)",
+                  "blur" : 3
+                }
+              },
+              "padding" : "0",
+              "scadaSymbolUrl" : "tb-image;/api/images/system/top-right-elbow-pipe.svg",
+              "scadaSymbolObjectSettings" : {
+                "behavior" : { },
+                "properties" : { }
+              }
+            },
+            "title" : "Top right elbow pipe",
+            "dropShadow" : false,
+            "enableFullscreen" : false,
+            "widgetStyle" : { },
+            "actions" : { },
+            "widgetCss" : "",
+            "noDataDisplayMessage" : "",
+            "titleFont" : {
+              "size" : 16,
+              "sizeUnit" : "px",
+              "family" : "Roboto",
+              "weight" : "500",
+              "style" : null,
+              "lineHeight" : "1.6"
+            },
+            "showTitleIcon" : false,
+            "titleTooltip" : "",
+            "titleStyle" : null,
+            "pageSize" : 1024,
+            "titleIcon" : "mdi:lightbulb-outline",
+            "iconColor" : "rgba(0, 0, 0, 0.87)",
+            "iconSize" : "24px",
+            "configMode" : "advanced",
+            "targetDevice" : {
+              "type" : "device"
+            },
+            "titleColor" : null,
+            "borderRadius" : "0px",
+            "margin" : "0",
+            "datasources" : [ ],
+            "resizable" : true,
+            "preserveAspectRatio" : false
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "d3dc5e62-95bf-2e88-ace3-fffe5bc0a740"
         }
       },
       "states" : {
@@ -2124,6 +2319,30 @@
                       "preserveAspectRatio" : false,
                       "resizable" : true,
                       "row" : 83,
+                      "col" : 0
+                    },
+                    "5a7893a3-1baa-acba-0dae-e7a72188dcd1" : {
+                      "sizeX" : 7,
+                      "sizeY" : 7,
+                      "preserveAspectRatio" : false,
+                      "resizable" : true,
+                      "row" : 90,
+                      "col" : 32
+                    },
+                    "d2d1aa15-1ae6-c604-01e9-dfe19a1f7533" : {
+                      "sizeX" : 7,
+                      "sizeY" : 7,
+                      "preserveAspectRatio" : true,
+                      "resizable" : true,
+                      "row" : 90,
+                      "col" : 39
+                    },
+                    "d3dc5e62-95bf-2e88-ace3-fffe5bc0a740" : {
+                      "sizeX" : 7,
+                      "sizeY" : 6,
+                      "preserveAspectRatio" : false,
+                      "resizable" : true,
+                      "row" : 110,
                       "col" : 0
                     }
                   }
