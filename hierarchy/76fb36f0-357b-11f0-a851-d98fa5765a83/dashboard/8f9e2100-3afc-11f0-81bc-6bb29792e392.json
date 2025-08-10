@@ -2456,6 +2456,89 @@
           "row" : 0,
           "col" : 0,
           "id" : "908a44b2-e0ae-b246-ad04-bb4b52d013c4"
+        },
+        "f350adab-e325-b480-03be-9d6053b069b7" : {
+          "typeFullFqn" : "system.cards.label_widget",
+          "type" : "latest",
+          "sizeX" : 4.5,
+          "sizeY" : 5,
+          "config" : {
+            "datasources" : [ {
+              "type" : "device",
+              "name" : "",
+              "deviceId" : "3fb5f650-3579-11f0-a851-d98fa5765a83",
+              "dataKeys" : [ {
+                "name" : "wifi",
+                "type" : "timeseries",
+                "label" : "wifi",
+                "color" : "#2196f3",
+                "settings" : { },
+                "_hash" : 0.1060698254633643
+              } ],
+              "alarmFilterConfig" : {
+                "statusList" : [ "ACTIVE" ]
+              }
+            } ],
+            "timewindow" : {
+              "displayValue" : "",
+              "selectedTab" : 0,
+              "realtime" : {
+                "realtimeType" : 1,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "quickInterval" : "CURRENT_DAY",
+                "hideInterval" : false,
+                "hideLastInterval" : false,
+                "hideQuickInterval" : false
+              },
+              "history" : {
+                "historyType" : 0,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "fixedTimewindow" : {
+                  "startTimeMs" : 1754752448062,
+                  "endTimeMs" : 1754838848062
+                },
+                "quickInterval" : "CURRENT_DAY",
+                "hideInterval" : false,
+                "hideLastInterval" : false,
+                "hideFixedInterval" : false,
+                "hideQuickInterval" : false
+              },
+              "aggregation" : {
+                "type" : "AVG",
+                "limit" : 25000
+              }
+            },
+            "showTitle" : false,
+            "backgroundColor" : "rgba(0,0,0,0)",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "0",
+            "settings" : {
+              "backgroundImageUrl" : "tb-image;/api/images/tenant/logo_fin-aquafilter.jpg",
+              "labels" : [ ]
+            },
+            "title" : "Label widget",
+            "dropShadow" : false,
+            "enableFullscreen" : false,
+            "titleStyle" : {
+              "fontSize" : "16px",
+              "fontWeight" : 400
+            },
+            "resizable" : true,
+            "preserveAspectRatio" : false,
+            "margin" : "0",
+            "useDashboardTimewindow" : true,
+            "displayTimewindow" : true,
+            "enableDataExport" : false,
+            "widgetStyle" : { },
+            "widgetCss" : "",
+            "pageSize" : 1024,
+            "noDataDisplayMessage" : ""
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "f350adab-e325-b480-03be-9d6053b069b7"
         }
       },
       "states" : {
@@ -2557,7 +2640,7 @@
                       "preserveAspectRatio" : false,
                       "resizable" : true,
                       "row" : 0,
-                      "col" : 3
+                      "col" : 55
                     },
                     "4745dbcd-2be7-b4fd-6ae9-8eb6a8bcb14e" : {
                       "sizeX" : 35,
@@ -2565,7 +2648,7 @@
                       "preserveAspectRatio" : false,
                       "resizable" : true,
                       "row" : 0,
-                      "col" : 38
+                      "col" : 90
                     },
                     "34a703a5-e4ec-27be-4526-118ccee7a5ac" : {
                       "sizeX" : 25,
@@ -2727,6 +2810,14 @@
                       "resizable" : true,
                       "row" : 90,
                       "col" : 32
+                    },
+                    "f350adab-e325-b480-03be-9d6053b069b7" : {
+                      "sizeX" : 27,
+                      "sizeY" : 17,
+                      "preserveAspectRatio" : false,
+                      "resizable" : true,
+                      "row" : 1,
+                      "col" : 0
                     }
                   }
                 }
