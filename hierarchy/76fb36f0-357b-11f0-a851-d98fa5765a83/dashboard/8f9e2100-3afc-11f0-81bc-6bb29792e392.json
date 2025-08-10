@@ -3557,7 +3557,7 @@
                 }
               },
               "gridSettings" : {
-                "layoutType" : "scada",
+                "layoutType" : "default",
                 "backgroundColor" : "#eeeeee",
                 "columns" : 24,
                 "margin" : 10,
@@ -3574,7 +3574,7 @@
               "breakpoints" : {
                 "xl" : {
                   "gridSettings" : {
-                    "layoutType" : "scada",
+                    "layoutType" : "default",
                     "backgroundColor" : "#EEEEEE06",
                     "columns" : 336,
                     "margin" : 10,
