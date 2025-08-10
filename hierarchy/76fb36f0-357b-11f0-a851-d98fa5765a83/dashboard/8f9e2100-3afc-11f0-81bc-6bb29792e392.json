@@ -2515,7 +2515,7 @@
             "color" : "rgba(0, 0, 0, 0.87)",
             "padding" : "0",
             "settings" : {
-              "backgroundImageUrl" : "tb-image;/api/images/tenant/logo_fin-aquafilter.jpg",
+              "backgroundImageUrl" : "tb-image;/api/images/tenant/logo_fin-aquafilter.png",
               "labels" : [ ]
             },
             "title" : "Label widget",
@@ -2539,6 +2539,201 @@
           "row" : 0,
           "col" : 0,
           "id" : "f350adab-e325-b480-03be-9d6053b069b7"
+        },
+        "662eb22d-2dfd-6cbc-8162-b7163d99f8a9" : {
+          "typeFullFqn" : "system.signal_strength",
+          "type" : "latest",
+          "sizeX" : 2.5,
+          "sizeY" : 2.5,
+          "config" : {
+            "datasources" : [ {
+              "type" : "device",
+              "name" : "",
+              "deviceId" : "3fb5f650-3579-11f0-a851-d98fa5765a83",
+              "dataKeys" : [ {
+                "name" : "wifi",
+                "type" : "timeseries",
+                "label" : "wifi",
+                "color" : "#2196f3",
+                "settings" : { },
+                "_hash" : 0.24367861117921763
+              } ],
+              "alarmFilterConfig" : {
+                "statusList" : [ "ACTIVE" ]
+              }
+            } ],
+            "timewindow" : {
+              "displayValue" : "",
+              "selectedTab" : 0,
+              "realtime" : {
+                "realtimeType" : 1,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "quickInterval" : "CURRENT_DAY",
+                "hideInterval" : false,
+                "hideLastInterval" : false,
+                "hideQuickInterval" : false
+              },
+              "history" : {
+                "historyType" : 0,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "fixedTimewindow" : {
+                  "startTimeMs" : 1754752713363,
+                  "endTimeMs" : 1754839113363
+                },
+                "quickInterval" : "CURRENT_DAY",
+                "hideInterval" : false,
+                "hideLastInterval" : false,
+                "hideFixedInterval" : false,
+                "hideQuickInterval" : false
+              },
+              "aggregation" : {
+                "type" : "AVG",
+                "limit" : 25000
+              }
+            },
+            "showTitle" : false,
+            "backgroundColor" : "rgba(0,0,0,0)",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "0",
+            "settings" : {
+              "layout" : "wifi",
+              "showDate" : false,
+              "dateFormat" : {
+                "format" : null,
+                "lastUpdateAgo" : true,
+                "custom" : false
+              },
+              "dateFont" : {
+                "family" : "Roboto",
+                "size" : 12,
+                "sizeUnit" : "px",
+                "style" : "normal",
+                "weight" : "500",
+                "lineHeight" : "16px"
+              },
+              "dateColor" : "rgba(0, 0, 0, 0.38)",
+              "activeBarsColor" : {
+                "color" : "rgba(92, 223, 144, 1)",
+                "type" : "range",
+                "rangeList" : {
+                  "advancedMode" : false,
+                  "range" : [ {
+                    "to" : -85,
+                    "color" : "rgba(227, 71, 71, 1)"
+                  }, {
+                    "from" : -85,
+                    "to" : -70,
+                    "color" : "rgba(255, 122, 0, 1)"
+                  }, {
+                    "from" : -70,
+                    "to" : -55,
+                    "color" : "rgba(246, 206, 67, 1)"
+                  }, {
+                    "from" : -55,
+                    "color" : "rgba(92, 223, 144, 1)"
+                  } ]
+                },
+                "colorFunction" : "var temperature = value;\nif (typeof temperature !== undefined) {\n  var percent = (temperature + 60)/120 * 100;\n  return tinycolor.mix('blue', 'red', percent).toHexString();\n}\nreturn 'blue';"
+              },
+              "inactiveBarsColor" : "rgba(224, 224, 224, 1)",
+              "noSignalRssiValue" : -100,
+              "showTooltip" : true,
+              "showTooltipValue" : true,
+              "tooltipValueFont" : {
+                "family" : "Roboto",
+                "size" : 13,
+                "sizeUnit" : "px",
+                "style" : "normal",
+                "weight" : "500",
+                "lineHeight" : "16px"
+              },
+              "tooltipValueColor" : "rgba(0,0,0,0.76)",
+              "showTooltipDate" : true,
+              "tooltipDateFormat" : {
+                "format" : null,
+                "lastUpdateAgo" : true,
+                "custom" : false
+              },
+              "tooltipDateFont" : {
+                "family" : "Roboto",
+                "size" : 13,
+                "sizeUnit" : "px",
+                "style" : "normal",
+                "weight" : "500",
+                "lineHeight" : "16px"
+              },
+              "tooltipDateColor" : "rgba(0,0,0,0.76)",
+              "tooltipBackgroundColor" : "rgba(255,255,255,0.72)",
+              "tooltipBackgroundBlur" : 3,
+              "background" : {
+                "type" : "color",
+                "color" : "rgba(0,0,0,0)",
+                "overlay" : {
+                  "enabled" : false,
+                  "color" : "rgba(255,255,255,0.72)",
+                  "blur" : 3
+                }
+              },
+              "padding" : "0"
+            },
+            "title" : "Signal strength",
+            "dropShadow" : false,
+            "enableFullscreen" : false,
+            "titleStyle" : {
+              "fontSize" : "16px",
+              "fontWeight" : 400
+            },
+            "units" : "dBm",
+            "decimals" : 0,
+            "useDashboardTimewindow" : true,
+            "showLegend" : false,
+            "widgetStyle" : { },
+            "actions" : { },
+            "configMode" : "advanced",
+            "displayTimewindow" : true,
+            "margin" : "0",
+            "borderRadius" : "0px",
+            "widgetCss" : "",
+            "pageSize" : 1024,
+            "noDataDisplayMessage" : "",
+            "showTitleIcon" : false,
+            "titleTooltip" : "",
+            "titleFont" : {
+              "size" : 16,
+              "sizeUnit" : "px",
+              "family" : "Roboto",
+              "weight" : "500",
+              "style" : "normal",
+              "lineHeight" : "24px"
+            },
+            "titleIcon" : "signal_cellular_alt",
+            "iconColor" : "rgba(0, 0, 0, 0.87)",
+            "iconSize" : "18px",
+            "timewindowStyle" : {
+              "showIcon" : true,
+              "iconSize" : "14px",
+              "icon" : "query_builder",
+              "iconPosition" : "left",
+              "font" : {
+                "size" : 12,
+                "sizeUnit" : "px",
+                "family" : null,
+                "weight" : null,
+                "style" : null,
+                "lineHeight" : "1"
+              },
+              "color" : null
+            },
+            "titleColor" : "rgba(0, 0, 0, 0.87)",
+            "enableDataExport" : false,
+            "resizable" : true,
+            "preserveAspectRatio" : false
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "662eb22d-2dfd-6cbc-8162-b7163d99f8a9"
         }
       },
       "states" : {
@@ -2812,12 +3007,20 @@
                       "col" : 32
                     },
                     "f350adab-e325-b480-03be-9d6053b069b7" : {
-                      "sizeX" : 27,
-                      "sizeY" : 17,
+                      "sizeX" : 19,
+                      "sizeY" : 12,
                       "preserveAspectRatio" : false,
                       "resizable" : true,
                       "row" : 1,
                       "col" : 0
+                    },
+                    "662eb22d-2dfd-6cbc-8162-b7163d99f8a9" : {
+                      "sizeX" : 9,
+                      "sizeY" : 7,
+                      "preserveAspectRatio" : false,
+                      "resizable" : true,
+                      "row" : 2,
+                      "col" : 42
                     }
                   }
                 }
