@@ -145,7 +145,7 @@
         "bccTemplate" : "",
         "subjectTemplate" : "Dispositivo: ${deviceType} fuera de rango.",
         "mailBodyType" : "true",
-        "bodyTemplate" : "El dispositivo ${deviceName} tiene la temperatura un valor de: $[temperatura] ºC. Está fuera de rago. Pongase en contacto con el servicio técnico. \n\nGracias.\n\n<img src=\"https://telemetria.aquafilter.es/api/images/public/vH1EHcE6N9Qa9sxUqHvgxBpLQYlDvZZb\" alt=\"pie_pagina_control.png\" />"
+        "bodyTemplate" : "El dispositivo ${deviceName} tiene la temperatura un valor de: $[temperatura] ºC. Está fuera de rago. Pongase en contacto con el servicio técnico. \n\nGracias.\n\n<img src=\"https://telemetria.aquafilter.es/api/images/public/iJ7IW7lkJNDzu6MgTXw1nwww1AeXPUZE\" alt=\"pie_pagina_control.png\" width=\"400\" />"
       },
       "configurationVersion" : 0,
       "createdTime" : 0,
