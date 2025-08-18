@@ -6717,12 +6717,12 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "b86ef710-3bfd-11f0-9584-abfdb9c61187",
+              "deviceId" : "df490e60-7c45-11f0-a9fc-718155394e0f",
               "dataKeys" : [ {
-                "name" : "temperatura",
+                "name" : "flujo",
                 "type" : "timeseries",
-                "label" : "Temperature",
-                "color" : "#2196f3",
+                "label" : "Conductividad",
+                "color" : "#6F113A",
                 "settings" : {
                   "yAxisId" : "default",
                   "showInLegend" : true,
@@ -6792,8 +6792,8 @@
                     "color" : ""
                   }
                 },
-                "_hash" : 0.3967041243982523,
-                "units" : "°C",
+                "_hash" : 0.28338168337441083,
+                "units" : "µS/cm",
                 "decimals" : 0
               } ],
               "alarmFilterConfig" : {
@@ -7606,18 +7606,18 @@
                   "col" : 123
                 },
                 "86caa4b0-72d3-718a-04b9-477908a02da6" : {
-                  "sizeX" : 40,
-                  "sizeY" : 34,
-                  "mobileHeight" : null,
-                  "row" : 34,
-                  "col" : 165
-                },
-                "4136e06e-ebf1-2111-58e6-db37b88f4548" : {
                   "sizeX" : 37,
                   "sizeY" : 34,
                   "mobileHeight" : null,
                   "row" : 34,
                   "col" : 205
+                },
+                "4136e06e-ebf1-2111-58e6-db37b88f4548" : {
+                  "sizeX" : 40,
+                  "sizeY" : 34,
+                  "mobileHeight" : null,
+                  "row" : 34,
+                  "col" : 165
                 }
               },
               "gridSettings" : {
