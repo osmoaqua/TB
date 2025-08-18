@@ -4914,40 +4914,40 @@
             "main" : {
               "widgets" : {
                 "7a820700-58c1-787b-b4f4-834e5967ac86" : {
-                  "sizeX" : 43,
+                  "sizeX" : 40,
                   "sizeY" : 33,
-                  "row" : 2,
-                  "col" : 9
+                  "row" : 1,
+                  "col" : 1
                 },
                 "4d53eac1-f379-7738-5573-2b06bf5a214d" : {
-                  "sizeX" : 42,
+                  "sizeX" : 41,
                   "sizeY" : 33,
-                  "row" : 2,
-                  "col" : 52
+                  "row" : 1,
+                  "col" : 41
                 },
                 "9f5ecb9f-a100-38c5-b505-34c9decd94ab" : {
                   "sizeX" : 41,
                   "sizeY" : 33,
-                  "row" : 2,
-                  "col" : 94
+                  "row" : 1,
+                  "col" : 82
                 },
                 "17fec95e-5267-2912-d1a9-21711178e74f" : {
                   "sizeX" : 42,
                   "sizeY" : 33,
-                  "row" : 2,
-                  "col" : 135
+                  "row" : 1,
+                  "col" : 123
                 },
                 "24928cae-bf9c-e043-f3b0-e4a7b7f03cab" : {
-                  "sizeX" : 43,
-                  "sizeY" : 31,
-                  "row" : 35,
-                  "col" : 9
+                  "sizeX" : 37,
+                  "sizeY" : 33,
+                  "row" : 1,
+                  "col" : 205
                 },
                 "3f6d66a1-37a3-672d-e9e2-cb320a8dd27c" : {
-                  "sizeX" : 42,
+                  "sizeX" : 40,
                   "sizeY" : 33,
-                  "row" : 2,
-                  "col" : 177
+                  "row" : 1,
+                  "col" : 165
                 }
               },
               "gridSettings" : {
