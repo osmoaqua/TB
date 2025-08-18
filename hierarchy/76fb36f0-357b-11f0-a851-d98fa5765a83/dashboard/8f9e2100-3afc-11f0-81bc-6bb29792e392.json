@@ -4914,49 +4914,56 @@
             "main" : {
               "widgets" : {
                 "7a820700-58c1-787b-b4f4-834e5967ac86" : {
-                  "sizeX" : 5,
-                  "sizeY" : 4,
-                  "row" : 0,
-                  "col" : 0
+                  "sizeX" : 43,
+                  "sizeY" : 33,
+                  "row" : 2,
+                  "col" : 9
                 },
                 "4d53eac1-f379-7738-5573-2b06bf5a214d" : {
-                  "sizeX" : 5,
-                  "sizeY" : 4,
-                  "row" : 0,
-                  "col" : 5
+                  "sizeX" : 42,
+                  "sizeY" : 33,
+                  "row" : 2,
+                  "col" : 52
                 },
                 "9f5ecb9f-a100-38c5-b505-34c9decd94ab" : {
-                  "sizeX" : 5,
-                  "sizeY" : 4,
-                  "row" : 0,
-                  "col" : 10
+                  "sizeX" : 41,
+                  "sizeY" : 33,
+                  "row" : 2,
+                  "col" : 94
                 },
                 "17fec95e-5267-2912-d1a9-21711178e74f" : {
-                  "sizeX" : 5,
-                  "sizeY" : 4,
-                  "row" : 0,
-                  "col" : 15
+                  "sizeX" : 42,
+                  "sizeY" : 33,
+                  "row" : 2,
+                  "col" : 135
                 },
                 "24928cae-bf9c-e043-f3b0-e4a7b7f03cab" : {
-                  "sizeX" : 5,
-                  "sizeY" : 4,
-                  "row" : 4,
-                  "col" : 0
+                  "sizeX" : 43,
+                  "sizeY" : 31,
+                  "row" : 35,
+                  "col" : 9
                 },
                 "3f6d66a1-37a3-672d-e9e2-cb320a8dd27c" : {
-                  "sizeX" : 5,
-                  "sizeY" : 4,
-                  "row" : 0,
-                  "col" : 20
+                  "sizeX" : 42,
+                  "sizeY" : 33,
+                  "row" : 2,
+                  "col" : 177
                 }
               },
               "gridSettings" : {
                 "layoutType" : "default",
                 "backgroundColor" : "#eeeeee",
-                "columns" : 24,
-                "margin" : 10,
-                "outerMargin" : true,
-                "backgroundSizeMode" : "100%"
+                "columns" : 240,
+                "margin" : 1,
+                "outerMargin" : false,
+                "backgroundSizeMode" : "100%",
+                "minColumns" : 240,
+                "viewFormat" : "grid",
+                "autoFillHeight" : false,
+                "rowHeight" : 70,
+                "backgroundImageUrl" : null,
+                "mobileAutoFillHeight" : false,
+                "mobileRowHeight" : 70
               }
             }
           }
