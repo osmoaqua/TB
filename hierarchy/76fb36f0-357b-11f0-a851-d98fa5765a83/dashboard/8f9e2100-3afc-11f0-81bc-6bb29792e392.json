@@ -4618,8 +4618,8 @@
               "selectedTab" : 0,
               "realtime" : {
                 "realtimeType" : 0,
-                "interval" : 60000,
-                "timewindowMs" : 3600000,
+                "interval" : 5000,
+                "timewindowMs" : 1800000,
                 "quickInterval" : "CURRENT_DAY",
                 "hideInterval" : false,
                 "hideLastInterval" : false,
@@ -5056,8 +5056,8 @@
               "selectedTab" : 0,
               "realtime" : {
                 "realtimeType" : 0,
-                "interval" : 60000,
-                "timewindowMs" : 3600000,
+                "interval" : 5000,
+                "timewindowMs" : 1800000,
                 "quickInterval" : "CURRENT_DAY",
                 "hideInterval" : false,
                 "hideLastInterval" : false,
@@ -6370,8 +6370,8 @@
               "selectedTab" : 0,
               "realtime" : {
                 "realtimeType" : 0,
-                "interval" : 60000,
-                "timewindowMs" : 3600000,
+                "interval" : 5000,
+                "timewindowMs" : 900000,
                 "quickInterval" : "CURRENT_DAY",
                 "hideInterval" : false,
                 "hideLastInterval" : false,
@@ -6528,10 +6528,10 @@
               },
               "yAxes" : {
                 "default" : {
-                  "units" : null,
-                  "decimals" : 0,
+                  "units" : "mV",
+                  "decimals" : 2,
                   "show" : true,
-                  "label" : "",
+                  "label" : "Redox",
                   "labelFont" : {
                     "family" : "Roboto",
                     "size" : 12,
@@ -6560,7 +6560,9 @@
                   "showSplitLines" : true,
                   "splitLinesColor" : "rgba(0, 0, 0, 0.12)",
                   "id" : "default",
-                  "order" : 0
+                  "order" : 0,
+                  "min" : 0,
+                  "max" : 1000
                 }
               },
               "noAggregationBarWidthSettings" : {
