@@ -6371,7 +6371,7 @@
               "realtime" : {
                 "realtimeType" : 0,
                 "interval" : 5000,
-                "timewindowMs" : 900000,
+                "timewindowMs" : 1800000,
                 "quickInterval" : "CURRENT_DAY",
                 "hideInterval" : false,
                 "hideLastInterval" : false,
@@ -7246,16 +7246,16 @@
                       "sizeY" : 38,
                       "preserveAspectRatio" : false,
                       "resizable" : true,
-                      "row" : 123,
-                      "col" : 67
+                      "row" : 130,
+                      "col" : 70
                     },
                     "2d4ea33e-219f-7a9b-fb0a-07ce6e4fffbd" : {
                       "sizeX" : 24,
                       "sizeY" : 38,
                       "preserveAspectRatio" : false,
                       "resizable" : true,
-                      "row" : 124,
-                      "col" : 38
+                      "row" : 130,
+                      "col" : 39
                     },
                     "13dcd14b-1e9e-4f37-bb68-78292567df24" : {
                       "sizeX" : 63,
