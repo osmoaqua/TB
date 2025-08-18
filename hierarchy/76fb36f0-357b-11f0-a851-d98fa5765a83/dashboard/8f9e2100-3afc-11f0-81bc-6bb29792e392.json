@@ -3740,12 +3740,12 @@
                       "col" : 160
                     },
                     "fab4bb25-370d-ebba-5b9f-1b38d7bdca7d" : {
-                      "sizeX" : 9,
-                      "sizeY" : 9,
+                      "sizeX" : 14,
+                      "sizeY" : 12,
                       "preserveAspectRatio" : false,
                       "resizable" : true,
-                      "row" : 37,
-                      "col" : 14
+                      "row" : 33,
+                      "col" : 15
                     }
                   }
                 }
