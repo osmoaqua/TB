@@ -3487,7 +3487,7 @@
               "performCheckStatus" : false,
               "retrieveValueMethod" : "timeseries",
               "checkStatusMethod" : "checkStatus",
-              "valueAttribute" : "ph",
+              "valueAttribute" : "flujo",
               "parseValueFunction" : "return data == 1;",
               "requestTimeout" : 500,
               "requestPersistent" : false,
