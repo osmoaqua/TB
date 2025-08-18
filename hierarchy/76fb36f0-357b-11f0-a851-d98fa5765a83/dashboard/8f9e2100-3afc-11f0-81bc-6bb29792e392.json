@@ -3440,7 +3440,7 @@
               "retrieveValueMethod" : "timeseries",
               "checkStatusMethod" : "checkStatus",
               "valueAttribute" : "value",
-              "parseValueFunction" : "return data >= 8 && data <= 8.5;",
+              "parseValueFunction" : "return data <= 8.5;",
               "requestTimeout" : 500,
               "requestPersistent" : false,
               "persistentPollingInterval" : 5000
