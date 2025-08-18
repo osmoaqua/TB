@@ -183,17 +183,10 @@
               "latestDataKeys" : [ {
                 "name" : "ph",
                 "type" : "timeseries",
-                "label" : "Promedio ph",
-                "color" : "#2196f3",
+                "label" : "ph",
+                "color" : "#4caf50",
                 "settings" : { },
-                "_hash" : 0.5008458162109617,
-                "aggregationType" : "AVG",
-                "units" : "pH",
-                "decimals" : 2,
-                "funcBody" : null,
-                "usePostProcessing" : null,
-                "postFuncBody" : null,
-                "comparisonEnabled" : null
+                "_hash" : 0.9498004496680584
               } ]
             } ],
             "showTitle" : true,
