@@ -17,14 +17,20 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "054f3f80-3579-11f0-a851-d98fa5765a83",
+              "deviceId" : "a81134f0-3bfd-11f0-9584-abfdb9c61187",
               "dataKeys" : [ {
                 "name" : "cloro",
                 "type" : "timeseries",
                 "label" : "cloro",
-                "color" : "#2196f3",
+                "color" : "#4caf50",
                 "settings" : { },
-                "_hash" : 0.796685268451149
+                "_hash" : 0.0013581169304256457,
+                "aggregationType" : null,
+                "units" : "mg/L",
+                "decimals" : 2,
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
@@ -35,7 +41,7 @@
                 "label" : "cloro 2",
                 "color" : "#4caf50",
                 "settings" : { },
-                "_hash" : 0.48290354223322096,
+                "_hash" : 0.5183215164018249,
                 "aggregationType" : "NONE",
                 "units" : "mg/L",
                 "decimals" : 2,
@@ -161,20 +167,14 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "ec8f0930-3578-11f0-a851-d98fa5765a83",
+              "deviceId" : "3363f980-3bfd-11f0-9584-abfdb9c61187",
               "dataKeys" : [ {
                 "name" : "ph",
                 "type" : "timeseries",
                 "label" : "ph 2",
                 "color" : "#4caf50",
                 "settings" : { },
-                "_hash" : 0.6836417628466502,
-                "aggregationType" : null,
-                "units" : "pH",
-                "decimals" : 2,
-                "funcBody" : null,
-                "usePostProcessing" : null,
-                "postFuncBody" : null
+                "_hash" : 0.6043996377493295
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
@@ -185,7 +185,7 @@
                 "label" : "ph",
                 "color" : "#4caf50",
                 "settings" : { },
-                "_hash" : 0.9498004496680584,
+                "_hash" : 0.4777497120405738,
                 "aggregationType" : "NONE",
                 "units" : "pH",
                 "decimals" : 2,
