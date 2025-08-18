@@ -186,7 +186,13 @@
                 "label" : "ph",
                 "color" : "#4caf50",
                 "settings" : { },
-                "_hash" : 0.9498004496680584
+                "_hash" : 0.9498004496680584,
+                "aggregationType" : "NONE",
+                "units" : "pH",
+                "decimals" : 2,
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
               } ]
             } ],
             "showTitle" : true,
