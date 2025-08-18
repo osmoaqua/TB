@@ -32,17 +32,16 @@
               "latestDataKeys" : [ {
                 "name" : "cloro",
                 "type" : "timeseries",
-                "label" : "Promedio cloro",
+                "label" : "cloro 2",
                 "color" : "#4caf50",
                 "settings" : { },
-                "_hash" : 0.04718941805678423,
-                "aggregationType" : "AVG",
-                "units" : null,
-                "decimals" : null,
+                "_hash" : 0.48290354223322096,
+                "aggregationType" : "NONE",
+                "units" : "mg/L",
+                "decimals" : 2,
                 "funcBody" : null,
                 "usePostProcessing" : null,
-                "postFuncBody" : null,
-                "comparisonEnabled" : null
+                "postFuncBody" : null
               } ]
             } ],
             "showTitle" : true,
@@ -333,17 +332,16 @@
               "latestDataKeys" : [ {
                 "name" : "temperatura",
                 "type" : "timeseries",
-                "label" : "Promedio temperatura",
-                "color" : "#F44336",
+                "label" : "temperatura",
+                "color" : "#4caf50",
                 "settings" : { },
-                "_hash" : 0.3490038080242346,
-                "aggregationType" : "AVG",
+                "_hash" : 0.4865337781549144,
+                "aggregationType" : "NONE",
                 "units" : "°C",
                 "decimals" : 2,
                 "funcBody" : null,
                 "usePostProcessing" : null,
-                "postFuncBody" : null,
-                "comparisonEnabled" : null
+                "postFuncBody" : null
               } ]
             } ],
             "showTitle" : true,
@@ -484,17 +482,16 @@
               "latestDataKeys" : [ {
                 "name" : "turbidez",
                 "type" : "timeseries",
-                "label" : "Promedio turbidez",
-                "color" : "#9C27B0",
+                "label" : "turbidez",
+                "color" : "#4caf50",
                 "settings" : { },
-                "_hash" : 0.8238388419148963,
-                "aggregationType" : "AVG",
+                "_hash" : 0.5097739606312316,
+                "aggregationType" : "NONE",
                 "units" : "NTU",
                 "decimals" : 2,
                 "funcBody" : null,
                 "usePostProcessing" : null,
-                "postFuncBody" : null,
-                "comparisonEnabled" : null
+                "postFuncBody" : null
               } ]
             } ],
             "showTitle" : true,
@@ -3849,7 +3846,7 @@
                       "sizeY" : 13,
                       "preserveAspectRatio" : false,
                       "resizable" : true,
-                      "row" : 106,
+                      "row" : 109,
                       "col" : 72
                     },
                     "c427aec3-5737-f1d4-8ab4-0a468fd9b2c1" : {
@@ -3857,7 +3854,7 @@
                       "sizeY" : 13,
                       "preserveAspectRatio" : false,
                       "resizable" : true,
-                      "row" : 105,
+                      "row" : 109,
                       "col" : 43
                     }
                   }
