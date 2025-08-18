@@ -3531,7 +3531,7 @@
                 "label" : "ph",
                 "color" : "#2196f3",
                 "settings" : { },
-                "_hash" : 0.28139973576125166
+                "_hash" : 0.48980934899182627
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
@@ -5494,8 +5494,8 @@
               "selectedTab" : 0,
               "realtime" : {
                 "realtimeType" : 0,
-                "interval" : 300000,
-                "timewindowMs" : 86400000,
+                "interval" : 5000,
+                "timewindowMs" : 900000,
                 "quickInterval" : "CURRENT_DAY",
                 "hideInterval" : false,
                 "hideLastInterval" : false,
