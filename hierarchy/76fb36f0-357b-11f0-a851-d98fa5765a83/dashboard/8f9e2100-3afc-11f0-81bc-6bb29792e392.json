@@ -3420,6 +3420,55 @@
           "row" : 0,
           "col" : 0,
           "id" : "fab4bb25-370d-ebba-5b9f-1b38d7bdca7d"
+        },
+        "a34effb9-42a0-8acd-4821-abdef9cb5bda" : {
+          "typeFullFqn" : "system.control_widgets.led_indicator",
+          "type" : "rpc",
+          "sizeX" : 2.5,
+          "sizeY" : 2.5,
+          "config" : {
+            "targetDeviceAliases" : [ ],
+            "showTitle" : false,
+            "backgroundColor" : "rgba(0,0,0,0)",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "0",
+            "settings" : {
+              "title" : "Bomba encendida",
+              "ledColor" : "#4caf50",
+              "initialValue" : true,
+              "performCheckStatus" : false,
+              "retrieveValueMethod" : "timeseries",
+              "checkStatusMethod" : "checkStatus",
+              "valueAttribute" : "value",
+              "parseValueFunction" : "return data >= 8 && data <= 8.5;",
+              "requestTimeout" : 500,
+              "requestPersistent" : false,
+              "persistentPollingInterval" : 5000
+            },
+            "title" : "Led indicator",
+            "dropShadow" : false,
+            "enableFullscreen" : false,
+            "widgetStyle" : { },
+            "titleStyle" : {
+              "fontSize" : "16px",
+              "fontWeight" : 400
+            },
+            "useDashboardTimewindow" : true,
+            "showLegend" : false,
+            "actions" : { },
+            "decimals" : 2,
+            "datasources" : [ ],
+            "targetDevice" : {
+              "type" : "device",
+              "deviceId" : "ec8f0930-3578-11f0-a851-d98fa5765a83"
+            },
+            "resizable" : true,
+            "preserveAspectRatio" : false,
+            "margin" : "0"
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "a34effb9-42a0-8acd-4821-abdef9cb5bda"
         }
       },
       "states" : {
@@ -3746,6 +3795,14 @@
                       "resizable" : true,
                       "row" : 33,
                       "col" : 15
+                    },
+                    "a34effb9-42a0-8acd-4821-abdef9cb5bda" : {
+                      "sizeX" : 19,
+                      "sizeY" : 17,
+                      "preserveAspectRatio" : false,
+                      "resizable" : true,
+                      "row" : 96,
+                      "col" : 154
                     }
                   }
                 }
