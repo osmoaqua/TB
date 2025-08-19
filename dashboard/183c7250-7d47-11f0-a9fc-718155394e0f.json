@@ -109,7 +109,7 @@
                     "dataToValue" : {
                       "type" : "NONE",
                       "dataToValueFunction" : "/* Should return boolean value */\nreturn data;",
-                      "compareToValue" : true
+                      "compareToValue" : 1
                     }
                   },
                   "flow" : {
@@ -135,7 +135,7 @@
                     "dataToValue" : {
                       "type" : "NONE",
                       "dataToValueFunction" : "/* Should return boolean value */\nreturn data;",
-                      "compareToValue" : true
+                      "compareToValue" : 1
                     }
                   },
                   "flowDirection" : {
@@ -191,7 +191,7 @@
                     }
                   },
                   "leak" : {
-                    "action" : "DO_NOTHING",
+                    "action" : "GET_TIME_SERIES",
                     "defaultValue" : false,
                     "executeRpc" : {
                       "method" : "getState",
@@ -200,11 +200,11 @@
                       "persistentPollingInterval" : 1000
                     },
                     "getAttribute" : {
-                      "key" : "state",
-                      "scope" : null
+                      "scope" : null,
+                      "key" : "state"
                     },
                     "getTimeSeries" : {
-                      "key" : "state"
+                      "key" : "flujo"
                     },
                     "getAlarmStatus" : {
                       "severityList" : null,
@@ -212,8 +212,8 @@
                     },
                     "dataToValue" : {
                       "type" : "NONE",
-                      "compareToValue" : true,
-                      "dataToValueFunction" : "/* Should return boolean value */\nreturn data;"
+                      "dataToValueFunction" : "/* Should return boolean value */\nreturn data;",
+                      "compareToValue" : true
                     }
                   }
                 },
@@ -224,17 +224,17 @@
               },
               "background" : {
                 "type" : "color",
-                "imageUrl" : null,
                 "color" : "rgba(255, 255, 255, 0)",
                 "overlay" : {
                   "enabled" : false,
                   "color" : "rgba(255,255,255,0.72)",
                   "blur" : 3
-                }
+                },
+                "imageUrl" : null
               },
               "padding" : "12px"
             },
-            "title" : "Extra long horizontal pipe",
+            "title" : "",
             "dropShadow" : false,
             "enableFullscreen" : false,
             "widgetStyle" : { },
@@ -286,10 +286,10 @@
                   "col" : 0
                 },
                 "8aa4ec33-1467-977a-122d-6343ce7b1cce" : {
-                  "sizeX" : 79,
-                  "sizeY" : 36,
-                  "row" : 59,
-                  "col" : 86
+                  "sizeX" : 51,
+                  "sizeY" : 21,
+                  "row" : 61,
+                  "col" : 85
                 }
               },
               "gridSettings" : {
