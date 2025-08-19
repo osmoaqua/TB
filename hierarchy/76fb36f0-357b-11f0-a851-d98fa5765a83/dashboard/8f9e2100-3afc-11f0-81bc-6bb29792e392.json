@@ -7796,7 +7796,7 @@
           "sizeX" : 1,
           "sizeY" : 2,
           "config" : {
-            "showTitle" : false,
+            "showTitle" : true,
             "backgroundColor" : "rgba(0,0,0,0)",
             "color" : "rgba(0, 0, 0, 0.87)",
             "padding" : "0",
@@ -7818,7 +7818,7 @@
                 "properties" : { }
               }
             },
-            "title" : "HP Long vertical connector",
+            "title" : "Agua de red",
             "dropShadow" : false,
             "enableFullscreen" : false,
             "widgetStyle" : { },
@@ -7840,7 +7840,7 @@
             "titleIcon" : "mdi:lightbulb-outline",
             "iconColor" : "rgba(0, 0, 0, 0.87)",
             "iconSize" : "24px",
-            "configMode" : "basic",
+            "configMode" : "advanced",
             "targetDevice" : {
               "type" : "device"
             },
@@ -7849,7 +7849,8 @@
             "margin" : "0",
             "datasources" : [ ],
             "resizable" : true,
-            "preserveAspectRatio" : true
+            "preserveAspectRatio" : true,
+            "enableDataExport" : true
           },
           "row" : 0,
           "col" : 0,
@@ -8258,8 +8259,8 @@
                       "sizeY" : 18,
                       "preserveAspectRatio" : true,
                       "resizable" : true,
-                      "row" : 71,
-                      "col" : 140
+                      "row" : 100,
+                      "col" : 141
                     }
                   }
                 }
