@@ -8375,7 +8375,7 @@
             "pageSize" : 1024,
             "noDataDisplayMessage" : "",
             "borderRadius" : "4px",
-            "configMode" : "basic",
+            "configMode" : "advanced",
             "actions" : {
               "click" : [ {
                 "id" : "e34cb1ef-1ca0-bf21-e04e-909f46f93344",
@@ -9017,7 +9017,7 @@
         }
       },
       "settings" : {
-        "stateControllerId" : "default",
+        "stateControllerId" : "entity",
         "showTitle" : false,
         "showDashboardsSelect" : true,
         "showEntitiesSelect" : true,
