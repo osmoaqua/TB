@@ -1884,8 +1884,8 @@
                       "persistentPollingInterval" : 1000
                     },
                     "getAttribute" : {
-                      "key" : "state",
-                      "scope" : null
+                      "scope" : null,
+                      "key" : "state"
                     },
                     "getTimeSeries" : {
                       "key" : "flujo"
@@ -1896,8 +1896,8 @@
                     },
                     "dataToValue" : {
                       "type" : "NONE",
-                      "compareToValue" : 1,
-                      "dataToValueFunction" : "/* Should return boolean value */\nreturn data;"
+                      "dataToValueFunction" : "/* Should return boolean value */\nreturn data;",
+                      "compareToValue" : 1
                     }
                   },
                   "flow" : {
@@ -1954,7 +1954,7 @@
                   },
                   "flowAnimationSpeed" : {
                     "action" : "DO_NOTHING",
-                    "defaultValue" : 2,
+                    "defaultValue" : 1,
                     "executeRpc" : {
                       "method" : "getState",
                       "requestTimeout" : 5000,
