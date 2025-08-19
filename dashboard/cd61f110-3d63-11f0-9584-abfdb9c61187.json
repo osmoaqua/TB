@@ -2412,7 +2412,7 @@
               "realtime" : {
                 "realtimeType" : 0,
                 "interval" : 1800000,
-                "timewindowMs" : 86400000,
+                "timewindowMs" : 3600000,
                 "quickInterval" : "CURRENT_DAY",
                 "hideInterval" : false,
                 "hideLastInterval" : false,
@@ -2433,7 +2433,7 @@
                 "hideQuickInterval" : false
               },
               "aggregation" : {
-                "type" : "AVG",
+                "type" : "NONE",
                 "limit" : 25000
               },
               "timezone" : null
