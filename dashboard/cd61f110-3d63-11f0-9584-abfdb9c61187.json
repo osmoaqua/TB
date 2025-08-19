@@ -3115,7 +3115,7 @@
             "titleIcon" : "thermostat",
             "iconColor" : "#1F6BDD",
             "useDashboardTimewindow" : false,
-            "displayTimewindow" : false,
+            "displayTimewindow" : true,
             "titleFont" : {
               "size" : 16,
               "sizeUnit" : "px",
