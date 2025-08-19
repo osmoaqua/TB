@@ -8255,12 +8255,12 @@
                       "col" : 21
                     },
                     "7a260841-7695-bc35-4f99-9c4b614ecf7b" : {
-                      "sizeX" : 9,
-                      "sizeY" : 18,
+                      "sizeX" : 16.5,
+                      "sizeY" : 33,
                       "preserveAspectRatio" : true,
                       "resizable" : true,
-                      "row" : 100,
-                      "col" : 141
+                      "row" : 73,
+                      "col" : 115
                     }
                   }
                 }
