@@ -7789,6 +7789,71 @@
           "row" : 0,
           "col" : 0,
           "id" : "121364ba-c3b9-4caf-083a-8747d5db3a10"
+        },
+        "7a260841-7695-bc35-4f99-9c4b614ecf7b" : {
+          "typeFullFqn" : "system.hp_long_vertical_connector",
+          "type" : "rpc",
+          "sizeX" : 1,
+          "sizeY" : 2,
+          "config" : {
+            "showTitle" : false,
+            "backgroundColor" : "rgba(0,0,0,0)",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "0",
+            "settings" : {
+              "background" : {
+                "type" : "color",
+                "imageUrl" : null,
+                "color" : "rgba(0,0,0,0)",
+                "overlay" : {
+                  "enabled" : false,
+                  "color" : "rgba(255,255,255,0.72)",
+                  "blur" : 3
+                }
+              },
+              "padding" : "0",
+              "scadaSymbolUrl" : "tb-image;/api/images/system/long-vertical-connector-hp.svg",
+              "scadaSymbolObjectSettings" : {
+                "behavior" : { },
+                "properties" : { }
+              }
+            },
+            "title" : "HP Long vertical connector",
+            "dropShadow" : false,
+            "enableFullscreen" : false,
+            "widgetStyle" : { },
+            "actions" : { },
+            "widgetCss" : "",
+            "noDataDisplayMessage" : "",
+            "titleFont" : {
+              "size" : 16,
+              "sizeUnit" : "px",
+              "family" : "Roboto",
+              "weight" : "500",
+              "style" : null,
+              "lineHeight" : "1.6"
+            },
+            "showTitleIcon" : false,
+            "titleTooltip" : "",
+            "titleStyle" : null,
+            "pageSize" : 1024,
+            "titleIcon" : "mdi:lightbulb-outline",
+            "iconColor" : "rgba(0, 0, 0, 0.87)",
+            "iconSize" : "24px",
+            "configMode" : "basic",
+            "targetDevice" : {
+              "type" : "device"
+            },
+            "titleColor" : null,
+            "borderRadius" : "0px",
+            "margin" : "0",
+            "datasources" : [ ],
+            "resizable" : true,
+            "preserveAspectRatio" : true
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "7a260841-7695-bc35-4f99-9c4b614ecf7b"
         }
       },
       "states" : {
@@ -8187,6 +8252,14 @@
                       "resizable" : true,
                       "row" : 70,
                       "col" : 21
+                    },
+                    "7a260841-7695-bc35-4f99-9c4b614ecf7b" : {
+                      "sizeX" : 9,
+                      "sizeY" : 18,
+                      "preserveAspectRatio" : true,
+                      "resizable" : true,
+                      "row" : 71,
+                      "col" : 140
                     }
                   }
                 }
