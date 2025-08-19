@@ -946,7 +946,7 @@
                 "properties" : { }
               }
             },
-            "title" : "Cloro",
+            "title" : "Biocida",
             "dropShadow" : false,
             "enableFullscreen" : false,
             "widgetStyle" : { },
@@ -1011,7 +1011,7 @@
                 "properties" : { }
               }
             },
-            "title" : "Antincrustante",
+            "title" : "Inhibidor",
             "dropShadow" : false,
             "enableFullscreen" : false,
             "widgetStyle" : { },
@@ -7523,6 +7523,72 @@
           "row" : 0,
           "col" : 0,
           "id" : "b30bef77-376c-943c-3c4c-9370c56a6fdd"
+        },
+        "2a0ab672-f044-c5a2-6f45-e7a94ccb68fe" : {
+          "typeFullFqn" : "tenant.flowmeter_svg2",
+          "type" : "rpc",
+          "sizeX" : 5,
+          "sizeY" : 10,
+          "config" : {
+            "showTitle" : false,
+            "backgroundColor" : "rgba(0,0,0,0)",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "0",
+            "settings" : {
+              "background" : {
+                "type" : "color",
+                "imageUrl" : null,
+                "color" : "rgba(0,0,0,0)",
+                "overlay" : {
+                  "enabled" : false,
+                  "color" : "rgba(255,255,255,0.72)",
+                  "blur" : 3
+                }
+              },
+              "padding" : "0",
+              "scadaSymbolUrl" : "tb-image;/api/images/tenant/Flowmeter.svg",
+              "scadaSymbolObjectSettings" : {
+                "behavior" : { },
+                "properties" : { }
+              }
+            },
+            "title" : "Flowmeter.svg",
+            "dropShadow" : false,
+            "enableFullscreen" : false,
+            "widgetStyle" : { },
+            "actions" : { },
+            "widgetCss" : "",
+            "noDataDisplayMessage" : "",
+            "titleFont" : {
+              "size" : 16,
+              "sizeUnit" : "px",
+              "family" : "Roboto",
+              "weight" : "500",
+              "style" : null,
+              "lineHeight" : "1.6"
+            },
+            "showTitleIcon" : false,
+            "titleTooltip" : "",
+            "titleStyle" : null,
+            "pageSize" : 1024,
+            "titleIcon" : "mdi:lightbulb-outline",
+            "iconColor" : "rgba(0, 0, 0, 0.87)",
+            "iconSize" : "24px",
+            "configMode" : "basic",
+            "targetDevice" : {
+              "type" : "device",
+              "deviceId" : "df490e60-7c45-11f0-a9fc-718155394e0f"
+            },
+            "titleColor" : null,
+            "borderRadius" : "0px",
+            "margin" : "0",
+            "datasources" : [ ],
+            "resizable" : true,
+            "preserveAspectRatio" : false
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "2a0ab672-f044-c5a2-6f45-e7a94ccb68fe"
         }
       },
       "states" : {
@@ -7889,6 +7955,14 @@
                       "resizable" : true,
                       "row" : 71,
                       "col" : 23
+                    },
+                    "2a0ab672-f044-c5a2-6f45-e7a94ccb68fe" : {
+                      "sizeX" : 16,
+                      "sizeY" : 16,
+                      "preserveAspectRatio" : false,
+                      "resizable" : true,
+                      "row" : 32,
+                      "col" : 115
                     }
                   }
                 }
