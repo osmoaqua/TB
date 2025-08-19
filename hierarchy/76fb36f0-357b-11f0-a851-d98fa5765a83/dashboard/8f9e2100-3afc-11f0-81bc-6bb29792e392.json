@@ -7378,89 +7378,6 @@
           "col" : 0,
           "id" : "9def8993-e79f-6719-a5b2-3feb6beee68d"
         },
-        "b30bef77-376c-943c-3c4c-9370c56a6fdd" : {
-          "typeFullFqn" : "system.cards.label_widget",
-          "type" : "latest",
-          "sizeX" : 4.5,
-          "sizeY" : 5,
-          "config" : {
-            "datasources" : [ {
-              "type" : "function",
-              "name" : "",
-              "dataKeys" : [ {
-                "name" : "f(x)",
-                "type" : "function",
-                "label" : "Random",
-                "color" : "#2196f3",
-                "settings" : { },
-                "_hash" : 0.8280029132596246,
-                "funcBody" : "var value = prevValue + Math.random() * 100 - 50;\nvar multiplier = Math.pow(10, 2 || 0);\nvar value = Math.round(value * multiplier) / multiplier;\nif (value < -1000) {\n\tvalue = -1000;\n} else if (value > 1000) {\n\tvalue = 1000;\n}\nreturn value;"
-              } ],
-              "alarmFilterConfig" : {
-                "statusList" : [ "ACTIVE" ]
-              }
-            } ],
-            "timewindow" : {
-              "displayValue" : "",
-              "selectedTab" : 0,
-              "realtime" : {
-                "realtimeType" : 1,
-                "interval" : 1000,
-                "timewindowMs" : 60000,
-                "quickInterval" : "CURRENT_DAY",
-                "hideInterval" : false,
-                "hideLastInterval" : false,
-                "hideQuickInterval" : false
-              },
-              "history" : {
-                "historyType" : 0,
-                "interval" : 1000,
-                "timewindowMs" : 60000,
-                "fixedTimewindow" : {
-                  "startTimeMs" : 1755533875986,
-                  "endTimeMs" : 1755620275986
-                },
-                "quickInterval" : "CURRENT_DAY",
-                "hideInterval" : false,
-                "hideLastInterval" : false,
-                "hideFixedInterval" : false,
-                "hideQuickInterval" : false
-              },
-              "aggregation" : {
-                "type" : "AVG",
-                "limit" : 25000
-              }
-            },
-            "showTitle" : false,
-            "backgroundColor" : "rgba(0,0,0,0)",
-            "color" : "rgba(0, 0, 0, 0.87)",
-            "padding" : "0",
-            "settings" : {
-              "backgroundImageUrl" : "tb-image;/api/images/tenant/desagüe.jpg",
-              "labels" : [ ]
-            },
-            "title" : "Label widget",
-            "dropShadow" : false,
-            "enableFullscreen" : false,
-            "titleStyle" : {
-              "fontSize" : "16px",
-              "fontWeight" : 400
-            },
-            "resizable" : true,
-            "preserveAspectRatio" : false,
-            "margin" : "0",
-            "useDashboardTimewindow" : true,
-            "displayTimewindow" : true,
-            "enableDataExport" : false,
-            "widgetStyle" : { },
-            "widgetCss" : "",
-            "pageSize" : 1024,
-            "noDataDisplayMessage" : ""
-          },
-          "row" : 0,
-          "col" : 0,
-          "id" : "b30bef77-376c-943c-3c4c-9370c56a6fdd"
-        },
         "2a0ab672-f044-c5a2-6f45-e7a94ccb68fe" : {
           "typeFullFqn" : "tenant.flowmeter_svg2",
           "type" : "rpc",
@@ -7787,6 +7704,91 @@
           "row" : 0,
           "col" : 0,
           "id" : "db6efd14-af5e-a4c6-63e3-3129f655d57a"
+        },
+        "121364ba-c3b9-4caf-083a-8747d5db3a10" : {
+          "typeFullFqn" : "system.cards.label_widget",
+          "type" : "latest",
+          "sizeX" : 4.5,
+          "sizeY" : 5,
+          "config" : {
+            "datasources" : [ {
+              "type" : "function",
+              "name" : "Desagüe",
+              "dataKeys" : [ {
+                "name" : "f(x)",
+                "type" : "function",
+                "label" : "Random",
+                "color" : "#2196f3",
+                "settings" : { },
+                "_hash" : 0.8280029132596246,
+                "funcBody" : "var value = prevValue + Math.random() * 100 - 50;\nvar multiplier = Math.pow(10, 2 || 0);\nvar value = Math.round(value * multiplier) / multiplier;\nif (value < -1000) {\n\tvalue = -1000;\n} else if (value > 1000) {\n\tvalue = 1000;\n}\nreturn value;"
+              } ],
+              "alarmFilterConfig" : {
+                "statusList" : [ "ACTIVE" ]
+              }
+            } ],
+            "timewindow" : {
+              "displayValue" : "",
+              "selectedTab" : 0,
+              "realtime" : {
+                "realtimeType" : 1,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "quickInterval" : "CURRENT_DAY",
+                "hideInterval" : false,
+                "hideLastInterval" : false,
+                "hideQuickInterval" : false
+              },
+              "history" : {
+                "historyType" : 0,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "fixedTimewindow" : {
+                  "startTimeMs" : 1755533875986,
+                  "endTimeMs" : 1755620275986
+                },
+                "quickInterval" : "CURRENT_DAY",
+                "hideInterval" : false,
+                "hideLastInterval" : false,
+                "hideFixedInterval" : false,
+                "hideQuickInterval" : false
+              },
+              "aggregation" : {
+                "type" : "AVG",
+                "limit" : 25000
+              }
+            },
+            "showTitle" : true,
+            "backgroundColor" : "rgba(0,0,0,0)",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "0",
+            "settings" : {
+              "backgroundImageUrl" : "tb-image;/api/images/tenant/desagüe.jpg",
+              "labels" : [ ]
+            },
+            "title" : "Desagüe",
+            "dropShadow" : false,
+            "enableFullscreen" : false,
+            "titleStyle" : {
+              "fontSize" : "16px",
+              "fontWeight" : 400
+            },
+            "resizable" : true,
+            "preserveAspectRatio" : false,
+            "margin" : "0",
+            "useDashboardTimewindow" : true,
+            "displayTimewindow" : true,
+            "enableDataExport" : false,
+            "widgetStyle" : { },
+            "widgetCss" : "",
+            "pageSize" : 1024,
+            "noDataDisplayMessage" : "",
+            "showTitleIcon" : false,
+            "titleTooltip" : ""
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "121364ba-c3b9-4caf-083a-8747d5db3a10"
         }
       },
       "states" : {
@@ -8067,12 +8069,12 @@
                       "col" : 125
                     },
                     "c58f3913-4c00-de3b-cf19-cfab1a862731" : {
-                      "sizeX" : 38,
+                      "sizeX" : 33,
                       "sizeY" : 37,
                       "preserveAspectRatio" : false,
                       "resizable" : true,
                       "row" : 118,
-                      "col" : 119
+                      "col" : 116
                     },
                     "8849e4a3-a8d7-0e0f-eb1f-451afb5648d0" : {
                       "sizeX" : 25,
@@ -8131,20 +8133,12 @@
                       "col" : 8
                     },
                     "9def8993-e79f-6719-a5b2-3feb6beee68d" : {
-                      "sizeX" : 8,
-                      "sizeY" : 8,
+                      "sizeX" : 15,
+                      "sizeY" : 16,
                       "preserveAspectRatio" : false,
                       "resizable" : true,
-                      "row" : 142,
-                      "col" : 158
-                    },
-                    "b30bef77-376c-943c-3c4c-9370c56a6fdd" : {
-                      "sizeX" : 8,
-                      "sizeY" : 8,
-                      "preserveAspectRatio" : false,
-                      "resizable" : true,
-                      "row" : 71,
-                      "col" : 23
+                      "row" : 130,
+                      "col" : 151
                     },
                     "2a0ab672-f044-c5a2-6f45-e7a94ccb68fe" : {
                       "sizeX" : 19,
@@ -8185,6 +8179,14 @@
                       "resizable" : true,
                       "row" : 109,
                       "col" : 132
+                    },
+                    "121364ba-c3b9-4caf-083a-8747d5db3a10" : {
+                      "sizeX" : 15,
+                      "sizeY" : 16,
+                      "preserveAspectRatio" : false,
+                      "resizable" : true,
+                      "row" : 70,
+                      "col" : 21
                     }
                   }
                 }
