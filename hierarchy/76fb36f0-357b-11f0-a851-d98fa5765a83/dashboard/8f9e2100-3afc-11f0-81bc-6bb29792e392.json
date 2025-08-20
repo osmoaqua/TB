@@ -167,19 +167,38 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "f5be8c10-7ddf-11f0-a9fc-718155394e0f",
+              "deviceId" : "bac656c0-7df7-11f0-a9fc-718155394e0f",
               "dataKeys" : [ {
-                "name" : "wifi",
+                "name" : "values",
                 "type" : "timeseries",
                 "label" : "wifi",
                 "color" : "#2196f3",
                 "settings" : { },
-                "_hash" : 0.16999989322828157
+                "_hash" : 0.7601308472285849,
+                "aggregationType" : null,
+                "units" : null,
+                "decimals" : 2,
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
               },
-              "latestDataKeys" : null
+              "latestDataKeys" : [ {
+                "name" : "values",
+                "type" : "timeseries",
+                "label" : "flujo",
+                "color" : "#4caf50",
+                "settings" : { },
+                "_hash" : 0.3105281798234075,
+                "aggregationType" : "NONE",
+                "units" : null,
+                "decimals" : 2,
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
+              } ]
             } ],
             "showTitle" : true,
             "backgroundColor" : "rgba(0,0,0,0)",
