@@ -1,0 +1,34 @@
+{
+  "entityType" : "CUSTOMER",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : "",
+      "allowWhiteLabeling" : true,
+      "homeDashboardId" : null,
+      "homeDashboardHideToolbar" : true
+    },
+    "address" : "Calle Rota 462",
+    "address2" : null,
+    "city" : "Casarrubios del Monte",
+    "country" : null,
+    "customMenuId" : null,
+    "customerId" : null,
+    "email" : "oscar3181@gmail.com",
+    "externalId" : null,
+    "id" : {
+      "entityType" : "CUSTOMER",
+      "id" : "763844b0-7dbf-11f0-a9fc-718155394e0f"
+    },
+    "name" : "Aqua",
+    "ownerId" : null,
+    "parentCustomerId" : null,
+    "phone" : "+34682060828",
+    "state" : "Toledo",
+    "title" : "Aqua",
+    "zip" : "45950"
+  },
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  },
+  "calculatedFields" : [ ]
+}
