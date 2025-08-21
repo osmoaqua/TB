@@ -17,17 +17,17 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "a81134f0-3bfd-11f0-9584-abfdb9c61187",
+              "deviceId" : "0b7f0d80-7ebd-11f0-a9fc-718155394e0f",
               "dataKeys" : [ {
                 "name" : "cloro",
                 "type" : "timeseries",
                 "label" : "cloro",
                 "color" : "#4caf50",
                 "settings" : { },
-                "_hash" : 0.0013581169304256457,
+                "_hash" : 0.6905197190940003,
                 "aggregationType" : null,
                 "units" : "mg/L",
-                "decimals" : 2,
+                "decimals" : null,
                 "funcBody" : null,
                 "usePostProcessing" : null,
                 "postFuncBody" : null
@@ -167,17 +167,17 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "bac656c0-7df7-11f0-a9fc-718155394e0f",
+              "deviceId" : "0b7f0d80-7ebd-11f0-a9fc-718155394e0f",
               "dataKeys" : [ {
-                "name" : "values",
+                "name" : "ph",
                 "type" : "timeseries",
-                "label" : "wifi",
-                "color" : "#2196f3",
+                "label" : "ph 2",
+                "color" : "#4caf50",
                 "settings" : { },
-                "_hash" : 0.7601308472285849,
+                "_hash" : 0.6125918822093511,
                 "aggregationType" : null,
-                "units" : null,
-                "decimals" : 2,
+                "units" : "pH",
+                "decimals" : null,
                 "funcBody" : null,
                 "usePostProcessing" : null,
                 "postFuncBody" : null
@@ -186,15 +186,15 @@
                 "statusList" : [ "ACTIVE" ]
               },
               "latestDataKeys" : [ {
-                "name" : "values",
+                "name" : "ph",
                 "type" : "timeseries",
-                "label" : "flujo",
-                "color" : "#4caf50",
+                "label" : "ph",
+                "color" : "#2196f3",
                 "settings" : { },
-                "_hash" : 0.3105281798234075,
+                "_hash" : 0.11006374344919978,
                 "aggregationType" : "NONE",
-                "units" : null,
-                "decimals" : 2,
+                "units" : "pH",
+                "decimals" : null,
                 "funcBody" : null,
                 "usePostProcessing" : null,
                 "postFuncBody" : null
@@ -331,7 +331,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "b86ef710-3bfd-11f0-9584-abfdb9c61187",
+              "deviceId" : "0b7f0d80-7ebd-11f0-a9fc-718155394e0f",
               "dataKeys" : [ {
                 "name" : "temperatura",
                 "type" : "timeseries",
@@ -481,7 +481,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "c82ea470-3bfd-11f0-9584-abfdb9c61187",
+              "deviceId" : "0b7f0d80-7ebd-11f0-a9fc-718155394e0f",
               "dataKeys" : [ {
                 "name" : "turbidez",
                 "type" : "timeseries",
