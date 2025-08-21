@@ -118,20 +118,34 @@
               "hideAggInterval" : false,
               "hideTimezone" : false,
               "selectedTab" : 1,
-              "history" : {
-                "historyType" : 2,
+              "realtime" : {
+                "realtimeType" : 0,
+                "interval" : 1000,
                 "timewindowMs" : 60000,
-                "interval" : 43200000,
+                "quickInterval" : "CURRENT_DAY",
+                "hideInterval" : false,
+                "hideLastInterval" : false,
+                "hideQuickInterval" : false
+              },
+              "history" : {
+                "historyType" : 0,
+                "interval" : 10000,
+                "timewindowMs" : 60000,
                 "fixedTimewindow" : {
                   "startTimeMs" : 1697382151041,
                   "endTimeMs" : 1697468551041
                 },
-                "quickInterval" : "CURRENT_MONTH_SO_FAR"
+                "quickInterval" : "CURRENT_MONTH_SO_FAR",
+                "hideInterval" : false,
+                "hideLastInterval" : false,
+                "hideFixedInterval" : false,
+                "hideQuickInterval" : false
               },
               "aggregation" : {
                 "type" : "AVG",
                 "limit" : 25000
-              }
+              },
+              "timezone" : null
             },
             "timewindowStyle" : {
               "showIcon" : false,
@@ -280,7 +294,7 @@
               "history" : {
                 "historyType" : 0,
                 "interval" : 10000,
-                "timewindowMs" : 60000,
+                "timewindowMs" : 120000,
                 "fixedTimewindow" : {
                   "startTimeMs" : 1697382151041,
                   "endTimeMs" : 1697468551041
@@ -432,20 +446,34 @@
               "hideAggInterval" : false,
               "hideTimezone" : false,
               "selectedTab" : 1,
-              "history" : {
-                "historyType" : 2,
+              "realtime" : {
+                "realtimeType" : 0,
+                "interval" : 1000,
                 "timewindowMs" : 60000,
-                "interval" : 43200000,
+                "quickInterval" : "CURRENT_DAY",
+                "hideInterval" : false,
+                "hideLastInterval" : false,
+                "hideQuickInterval" : false
+              },
+              "history" : {
+                "historyType" : 0,
+                "interval" : 10000,
+                "timewindowMs" : 60000,
                 "fixedTimewindow" : {
                   "startTimeMs" : 1697382151041,
                   "endTimeMs" : 1697468551041
                 },
-                "quickInterval" : "CURRENT_MONTH_SO_FAR"
+                "quickInterval" : "CURRENT_MONTH_SO_FAR",
+                "hideInterval" : false,
+                "hideLastInterval" : false,
+                "hideFixedInterval" : false,
+                "hideQuickInterval" : false
               },
               "aggregation" : {
                 "type" : "AVG",
                 "limit" : 25000
-              }
+              },
+              "timezone" : null
             },
             "timewindowStyle" : {
               "showIcon" : false,
@@ -582,20 +610,34 @@
               "hideAggInterval" : false,
               "hideTimezone" : false,
               "selectedTab" : 1,
-              "history" : {
-                "historyType" : 2,
+              "realtime" : {
+                "realtimeType" : 0,
+                "interval" : 1000,
                 "timewindowMs" : 60000,
-                "interval" : 43200000,
+                "quickInterval" : "CURRENT_DAY",
+                "hideInterval" : false,
+                "hideLastInterval" : false,
+                "hideQuickInterval" : false
+              },
+              "history" : {
+                "historyType" : 0,
+                "interval" : 10000,
+                "timewindowMs" : 60000,
                 "fixedTimewindow" : {
                   "startTimeMs" : 1697382151041,
                   "endTimeMs" : 1697468551041
                 },
-                "quickInterval" : "CURRENT_MONTH_SO_FAR"
+                "quickInterval" : "CURRENT_MONTH_SO_FAR",
+                "hideInterval" : false,
+                "hideLastInterval" : false,
+                "hideFixedInterval" : false,
+                "hideQuickInterval" : false
               },
               "aggregation" : {
                 "type" : "AVG",
                 "limit" : 25000
-              }
+              },
+              "timezone" : null
             },
             "timewindowStyle" : {
               "showIcon" : false,
@@ -1178,20 +1220,34 @@
               "hideAggInterval" : false,
               "hideTimezone" : false,
               "selectedTab" : 1,
-              "history" : {
-                "historyType" : 2,
+              "realtime" : {
+                "realtimeType" : 0,
+                "interval" : 1000,
                 "timewindowMs" : 60000,
-                "interval" : 43200000,
+                "quickInterval" : "CURRENT_DAY",
+                "hideInterval" : false,
+                "hideLastInterval" : false,
+                "hideQuickInterval" : false
+              },
+              "history" : {
+                "historyType" : 0,
+                "interval" : 10000,
+                "timewindowMs" : 60000,
                 "fixedTimewindow" : {
                   "startTimeMs" : 1697382151041,
                   "endTimeMs" : 1697468551041
                 },
-                "quickInterval" : "CURRENT_MONTH_SO_FAR"
+                "quickInterval" : "CURRENT_MONTH_SO_FAR",
+                "hideInterval" : false,
+                "hideLastInterval" : false,
+                "hideFixedInterval" : false,
+                "hideQuickInterval" : false
               },
               "aggregation" : {
                 "type" : "AVG",
                 "limit" : 25000
-              }
+              },
+              "timezone" : null
             },
             "timewindowStyle" : {
               "showIcon" : false,
@@ -7508,7 +7564,7 @@
             "datasources" : [ ],
             "targetDevice" : {
               "type" : "device",
-              "deviceId" : "df490e60-7c45-11f0-a9fc-718155394e0f"
+              "deviceId" : "0b7f0d80-7ebd-11f0-a9fc-718155394e0f"
             },
             "resizable" : true,
             "preserveAspectRatio" : false,
