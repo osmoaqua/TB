@@ -1077,14 +1077,14 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "3fb5f650-3579-11f0-a851-d98fa5765a83",
+              "deviceId" : "0b7f0d80-7ebd-11f0-a9fc-718155394e0f",
               "dataKeys" : [ {
-                "name" : "wifi",
+                "name" : "redox",
                 "type" : "timeseries",
-                "label" : "Conductividad",
-                "color" : "#4C72AF",
+                "label" : "redox",
+                "color" : "#2196f3",
                 "settings" : { },
-                "_hash" : 0.1891314007877376,
+                "_hash" : 0.3901909543159361,
                 "aggregationType" : null,
                 "units" : "µS/cm",
                 "decimals" : null,
@@ -1096,15 +1096,15 @@
                 "statusList" : [ "ACTIVE" ]
               },
               "latestDataKeys" : [ {
-                "name" : "wifi",
+                "name" : "redox",
                 "type" : "timeseries",
-                "label" : "conductividad",
-                "color" : "#4C65AF",
+                "label" : "redox 2",
+                "color" : "#4caf50",
                 "settings" : { },
-                "_hash" : 0.9776559888633016,
+                "_hash" : 0.5379278416556869,
                 "aggregationType" : "NONE",
                 "units" : "µS/cm",
-                "decimals" : 2,
+                "decimals" : null,
                 "funcBody" : null,
                 "usePostProcessing" : null,
                 "postFuncBody" : null
@@ -1667,7 +1667,7 @@
             "configMode" : "advanced",
             "targetDevice" : {
               "type" : "device",
-              "deviceId" : "df490e60-7c45-11f0-a9fc-718155394e0f"
+              "deviceId" : "0b7f0d80-7ebd-11f0-a9fc-718155394e0f"
             },
             "titleColor" : null,
             "borderRadius" : "0px",
@@ -1730,8 +1730,8 @@
                       "persistentPollingInterval" : 1000
                     },
                     "getAttribute" : {
-                      "scope" : null,
-                      "key" : "state"
+                      "key" : "state",
+                      "scope" : null
                     },
                     "getTimeSeries" : {
                       "key" : "flujo"
@@ -1742,8 +1742,8 @@
                     },
                     "dataToValue" : {
                       "type" : "NONE",
-                      "dataToValueFunction" : "/* Should return boolean value */\nreturn data;",
-                      "compareToValue" : 1
+                      "compareToValue" : 1,
+                      "dataToValueFunction" : "/* Should return boolean value */\nreturn data;"
                     }
                   },
                   "flowDirection" : {
@@ -1756,8 +1756,8 @@
                       "persistentPollingInterval" : 1000
                     },
                     "getAttribute" : {
-                      "scope" : null,
-                      "key" : "state"
+                      "key" : "state",
+                      "scope" : null
                     },
                     "getTimeSeries" : {
                       "key" : "state"
@@ -1768,8 +1768,8 @@
                     },
                     "dataToValue" : {
                       "type" : "NONE",
-                      "dataToValueFunction" : "/* Should return boolean value */\nreturn data;",
-                      "compareToValue" : true
+                      "compareToValue" : true,
+                      "dataToValueFunction" : "/* Should return boolean value */\nreturn data;"
                     }
                   },
                   "flowAnimationSpeed" : {
@@ -1867,7 +1867,7 @@
             "configMode" : "advanced",
             "targetDevice" : {
               "type" : "device",
-              "deviceId" : "df490e60-7c45-11f0-a9fc-718155394e0f"
+              "deviceId" : "0b7f0d80-7ebd-11f0-a9fc-718155394e0f"
             },
             "titleColor" : null,
             "borderRadius" : "0px",
@@ -3567,7 +3567,7 @@
             "datasources" : [ ],
             "targetDevice" : {
               "type" : "device",
-              "deviceId" : "df490e60-7c45-11f0-a9fc-718155394e0f"
+              "deviceId" : "0b7f0d80-7ebd-11f0-a9fc-718155394e0f"
             },
             "resizable" : true,
             "preserveAspectRatio" : false,
@@ -3665,7 +3665,7 @@
             "datasources" : [ ],
             "targetDevice" : {
               "type" : "device",
-              "deviceId" : "df490e60-7c45-11f0-a9fc-718155394e0f"
+              "deviceId" : "0b7f0d80-7ebd-11f0-a9fc-718155394e0f"
             },
             "resizable" : true,
             "preserveAspectRatio" : false,
