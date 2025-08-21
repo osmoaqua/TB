@@ -519,11 +519,11 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "0d9bc780-7e03-11f0-a9fc-718155394e0f",
+              "deviceId" : "0b7f0d80-7ebd-11f0-a9fc-718155394e0f",
               "dataKeys" : [ {
-                "name" : "values",
+                "name" : "ph",
                 "type" : "timeseries",
-                "label" : "values",
+                "label" : "ph",
                 "color" : "#2196f3",
                 "settings" : {
                   "yAxisId" : "default",
@@ -594,82 +594,13 @@
                     "color" : ""
                   }
                 },
-                "_hash" : 0.8270184971826248
-              }, {
-                "name" : "values",
-                "type" : "timeseries",
-                "label" : "values 2",
-                "color" : "#4caf50",
-                "settings" : {
-                  "yAxisId" : "default",
-                  "showInLegend" : true,
-                  "dataHiddenByDefault" : false,
-                  "type" : "line",
-                  "lineSettings" : {
-                    "showLine" : true,
-                    "step" : false,
-                    "stepType" : "start",
-                    "smooth" : false,
-                    "lineType" : "solid",
-                    "lineWidth" : 2,
-                    "showPoints" : false,
-                    "showPointLabel" : false,
-                    "pointLabelPosition" : "top",
-                    "pointLabelFont" : {
-                      "family" : "Roboto",
-                      "size" : 11,
-                      "sizeUnit" : "px",
-                      "style" : "normal",
-                      "weight" : "400",
-                      "lineHeight" : "1"
-                    },
-                    "pointLabelColor" : "rgba(0, 0, 0, 0.76)",
-                    "enablePointLabelBackground" : false,
-                    "pointLabelBackground" : "rgba(255,255,255,0.56)",
-                    "pointShape" : "emptyCircle",
-                    "pointSize" : 4,
-                    "fillAreaSettings" : {
-                      "type" : "none",
-                      "opacity" : 0.4,
-                      "gradient" : {
-                        "start" : 100,
-                        "end" : 0
-                      }
-                    }
-                  },
-                  "barSettings" : {
-                    "showBorder" : false,
-                    "borderWidth" : 2,
-                    "borderRadius" : 0,
-                    "showLabel" : false,
-                    "labelPosition" : "top",
-                    "labelFont" : {
-                      "family" : "Roboto",
-                      "size" : 11,
-                      "sizeUnit" : "px",
-                      "style" : "normal",
-                      "weight" : "400",
-                      "lineHeight" : "1"
-                    },
-                    "labelColor" : "rgba(0, 0, 0, 0.76)",
-                    "enableLabelBackground" : false,
-                    "labelBackground" : "rgba(255,255,255,0.56)",
-                    "backgroundSettings" : {
-                      "type" : "none",
-                      "opacity" : 0.4,
-                      "gradient" : {
-                        "start" : 100,
-                        "end" : 0
-                      }
-                    }
-                  },
-                  "comparisonSettings" : {
-                    "showValuesForComparison" : false,
-                    "comparisonValuesLabel" : "",
-                    "color" : ""
-                  }
-                },
-                "_hash" : 0.26835162117764444
+                "_hash" : 0.9882861305086105,
+                "aggregationType" : null,
+                "units" : "pH",
+                "decimals" : null,
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
@@ -694,10 +625,7 @@
                 "historyType" : 0,
                 "interval" : 1000,
                 "timewindowMs" : 60000,
-                "fixedTimewindow" : {
-                  "startTimeMs" : 1735643748107,
-                  "endTimeMs" : 1735730148107
-                },
+                "fixedTimewindow" : null,
                 "quickInterval" : "CURRENT_DAY",
                 "hideInterval" : false,
                 "hideLastInterval" : false,
@@ -705,7 +633,7 @@
                 "hideQuickInterval" : false
               },
               "aggregation" : {
-                "type" : "AVG",
+                "type" : "NONE",
                 "limit" : 25000
               },
               "timezone" : null
@@ -751,7 +679,7 @@
               },
               "yAxes" : {
                 "default" : {
-                  "units" : "mg/L",
+                  "units" : "pH",
                   "decimals" : 2,
                   "show" : true,
                   "label" : " ",
@@ -785,7 +713,7 @@
                   "id" : "default",
                   "order" : 0,
                   "min" : 0,
-                  "max" : 2.5
+                  "max" : 14
                 }
               },
               "thresholds" : [ ],
@@ -877,7 +805,8 @@
                 "showMax" : false,
                 "showAvg" : false,
                 "showTotal" : false,
-                "showLatest" : false
+                "showLatest" : false,
+                "valueFormat" : null
               },
               "showTooltip" : true,
               "tooltipTrigger" : "axis",
@@ -918,6 +847,7 @@
               },
               "tooltipDateColor" : "rgba(0, 0, 0, 0.76)",
               "tooltipDateInterval" : true,
+              "tooltipHideZeroValues" : null,
               "tooltipBackgroundColor" : "rgba(255, 255, 255, 0.76)",
               "tooltipBackgroundBlur" : 4,
               "animation" : {
@@ -1347,14 +1277,20 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "3363f980-3bfd-11f0-9584-abfdb9c61187",
+              "deviceId" : "0b7f0d80-7ebd-11f0-a9fc-718155394e0f",
               "dataKeys" : [ {
                 "name" : "ph",
                 "type" : "timeseries",
                 "label" : "ph",
                 "color" : "#2196f3",
                 "settings" : { },
-                "_hash" : 0.28139973576125166
+                "_hash" : 0.5325475376388727,
+                "aggregationType" : "NONE",
+                "units" : "pH",
+                "decimals" : 2,
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
@@ -1963,7 +1899,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "c82ea470-3bfd-11f0-9584-abfdb9c61187",
+              "deviceId" : "0b7f0d80-7ebd-11f0-a9fc-718155394e0f",
               "dataKeys" : [ {
                 "name" : "turbidez",
                 "type" : "timeseries",
@@ -2059,7 +1995,7 @@
               "realtime" : {
                 "realtimeType" : 0,
                 "interval" : 300000,
-                "timewindowMs" : 86400000,
+                "timewindowMs" : 18000000,
                 "quickInterval" : "CURRENT_DAY",
                 "hideInterval" : false,
                 "hideLastInterval" : false,
@@ -2069,10 +2005,7 @@
                 "historyType" : 0,
                 "interval" : 1000,
                 "timewindowMs" : 60000,
-                "fixedTimewindow" : {
-                  "startTimeMs" : 1733860928560,
-                  "endTimeMs" : 1733947328560
-                },
+                "fixedTimewindow" : null,
                 "quickInterval" : "CURRENT_DAY",
                 "hideInterval" : false,
                 "hideLastInterval" : false,
@@ -2080,7 +2013,7 @@
                 "hideQuickInterval" : false
               },
               "aggregation" : {
-                "type" : "AVG",
+                "type" : "NONE",
                 "limit" : 25000
               },
               "timezone" : null
