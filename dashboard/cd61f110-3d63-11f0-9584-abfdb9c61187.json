@@ -1188,14 +1188,14 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "a81134f0-3bfd-11f0-9584-abfdb9c61187",
+              "deviceId" : "a889f610-7ea6-11f0-a9fc-718155394e0f",
               "dataKeys" : [ {
-                "name" : "cloro",
+                "name" : "wifi",
                 "type" : "timeseries",
-                "label" : "cloro",
+                "label" : "wifi",
                 "color" : "#2196f3",
                 "settings" : { },
-                "_hash" : 0.478778869939366
+                "_hash" : 0.097626162432911
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
