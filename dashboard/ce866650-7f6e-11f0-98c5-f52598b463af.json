@@ -1711,22 +1711,192 @@
             "color" : "rgba(0, 0, 0, 0.87)",
             "padding" : "0",
             "settings" : {
+              "scadaSymbolUrl" : "tb-image;/api/images/system/elevated-tank.svg",
+              "scadaSymbolObjectSettings" : {
+                "behavior" : {
+                  "tankCapacity" : {
+                    "action" : "GET_ATTRIBUTE",
+                    "defaultValue" : null,
+                    "executeRpc" : {
+                      "method" : "getState",
+                      "requestTimeout" : 5000,
+                      "requestPersistent" : false,
+                      "persistentPollingInterval" : 1000
+                    },
+                    "getAttribute" : {
+                      "key" : "tankCapacity",
+                      "scope" : "SERVER_SCOPE"
+                    },
+                    "getTimeSeries" : {
+                      "key" : "state"
+                    },
+                    "getAlarmStatus" : {
+                      "severityList" : null,
+                      "typeList" : null
+                    },
+                    "dataToValue" : {
+                      "type" : "NONE",
+                      "compareToValue" : true,
+                      "dataToValueFunction" : "/* Should return boolean value */\nreturn data;"
+                    }
+                  },
+                  "currentVolume" : {
+                    "action" : "GET_TIME_SERIES",
+                    "defaultValue" : null,
+                    "executeRpc" : {
+                      "method" : "getState",
+                      "requestTimeout" : 5000,
+                      "requestPersistent" : false,
+                      "persistentPollingInterval" : 1000
+                    },
+                    "getAttribute" : {
+                      "scope" : null,
+                      "key" : "state"
+                    },
+                    "getTimeSeries" : {
+                      "key" : "temperatura"
+                    },
+                    "getAlarmStatus" : {
+                      "severityList" : null,
+                      "typeList" : null
+                    },
+                    "dataToValue" : {
+                      "type" : "NONE",
+                      "dataToValueFunction" : "/* Should return boolean value */\nreturn data;"
+                    }
+                  },
+                  "warning" : {
+                    "action" : "GET_ALARM_STATUS",
+                    "defaultValue" : false,
+                    "executeRpc" : {
+                      "method" : "getState",
+                      "requestTimeout" : 5000,
+                      "requestPersistent" : false,
+                      "persistentPollingInterval" : 1000
+                    },
+                    "getAttribute" : {
+                      "key" : "state",
+                      "scope" : null
+                    },
+                    "getTimeSeries" : {
+                      "key" : "state"
+                    },
+                    "getAlarmStatus" : {
+                      "severityList" : [ "MAJOR", "MINOR", "WARNING", "INDETERMINATE" ],
+                      "typeList" : null
+                    },
+                    "dataToValue" : {
+                      "type" : "NONE",
+                      "compareToValue" : true,
+                      "dataToValueFunction" : "/* Should return boolean value */\nreturn data;"
+                    }
+                  },
+                  "critical" : {
+                    "action" : "GET_ALARM_STATUS",
+                    "defaultValue" : false,
+                    "executeRpc" : {
+                      "method" : "getState",
+                      "requestTimeout" : 5000,
+                      "requestPersistent" : false,
+                      "persistentPollingInterval" : 1000
+                    },
+                    "getAttribute" : {
+                      "key" : "state",
+                      "scope" : null
+                    },
+                    "getTimeSeries" : {
+                      "key" : "state"
+                    },
+                    "getAlarmStatus" : {
+                      "severityList" : [ "CRITICAL" ],
+                      "typeList" : null
+                    },
+                    "dataToValue" : {
+                      "type" : "NONE",
+                      "compareToValue" : true,
+                      "dataToValueFunction" : "/* Should return boolean value */\nreturn data;"
+                    }
+                  },
+                  "criticalAnimation" : {
+                    "action" : "DO_NOTHING",
+                    "defaultValue" : false,
+                    "executeRpc" : {
+                      "method" : "getState",
+                      "requestTimeout" : 5000,
+                      "requestPersistent" : false,
+                      "persistentPollingInterval" : 1000
+                    },
+                    "getAttribute" : {
+                      "key" : "state",
+                      "scope" : null
+                    },
+                    "getTimeSeries" : {
+                      "key" : "state"
+                    },
+                    "getAlarmStatus" : {
+                      "severityList" : null,
+                      "typeList" : null
+                    },
+                    "dataToValue" : {
+                      "type" : "NONE",
+                      "compareToValue" : true,
+                      "dataToValueFunction" : "/* Should return boolean value */\nreturn data;"
+                    }
+                  },
+                  "click" : {
+                    "type" : "doNothing",
+                    "targetDashboardStateId" : null,
+                    "openRightLayout" : false,
+                    "setEntityId" : false,
+                    "stateEntityParamName" : null
+                  }
+                },
+                "properties" : {
+                  "tankColor" : "#E5E5E5",
+                  "fluidColor" : "#1EC1F480",
+                  "valueBox" : true,
+                  "valueBoxColor" : "#F3F3F3",
+                  "valueUnits" : "m3",
+                  "valueTextFont" : {
+                    "size" : 36,
+                    "sizeUnit" : "px",
+                    "family" : "Roboto",
+                    "weight" : "500",
+                    "style" : "normal"
+                  },
+                  "valueTextColor" : "#0000008A",
+                  "transparent" : false,
+                  "scale" : false,
+                  "scaleDisplayFormat" : true,
+                  "enableUnitScale" : false,
+                  "majorIntervals" : 10,
+                  "majorFont" : {
+                    "size" : 24,
+                    "sizeUnit" : "px",
+                    "family" : "Roboto",
+                    "weight" : "500",
+                    "style" : "normal"
+                  },
+                  "majorColor" : "#00000061",
+                  "majorWarningColor" : "#FAA405",
+                  "majorCriticalColor" : "#D12730",
+                  "minorIntervals" : 5,
+                  "minorColor" : "#0000001F",
+                  "minorWarningColor" : "#FAA405",
+                  "minorCriticalColor" : "#D12730"
+                }
+              },
               "background" : {
                 "type" : "color",
-                "imageUrl" : null,
                 "color" : "rgba(0,0,0,0)",
                 "overlay" : {
                   "enabled" : false,
                   "color" : "rgba(255,255,255,0.72)",
                   "blur" : 3
-                }
+                },
+                "imageUrl" : null
               },
-              "padding" : "0",
-              "scadaSymbolUrl" : "tb-image;/api/images/system/elevated-tank.svg",
-              "scadaSymbolObjectSettings" : {
-                "behavior" : { },
-                "properties" : { }
-              }
+              "padding" : "0"
             },
             "title" : "Elevated tank",
             "dropShadow" : false,
@@ -1752,7 +1922,8 @@
             "iconSize" : "24px",
             "configMode" : "advanced",
             "targetDevice" : {
-              "type" : "device"
+              "type" : "device",
+              "deviceId" : "0b7f0d80-7ebd-11f0-a9fc-718155394e0f"
             },
             "titleColor" : null,
             "borderRadius" : "0px",
