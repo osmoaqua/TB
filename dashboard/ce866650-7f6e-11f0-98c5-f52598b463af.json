@@ -2063,12 +2063,12 @@
                   "col" : 128
                 },
                 "371e5918-6961-c191-7afd-99973346be8e" : {
-                  "sizeX" : 161,
+                  "sizeX" : 121,
                   "sizeY" : 165,
                   "preserveAspectRatio" : false,
                   "resizable" : true,
-                  "row" : 0,
-                  "col" : 351
+                  "row" : 5,
+                  "col" : 352
                 }
               },
               "gridSettings" : {
