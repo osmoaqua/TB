@@ -241,6 +241,321 @@
           "row" : 0,
           "col" : 0,
           "id" : "60c31053-f0de-b192-f321-aaa539c294a7"
+        },
+        "0d9615e1-912c-d321-ecd7-69af2e06c227" : {
+          "typeFullFqn" : "system.small_right_motor_pump",
+          "type" : "rpc",
+          "sizeX" : 3,
+          "sizeY" : 2,
+          "config" : {
+            "showTitle" : false,
+            "backgroundColor" : "rgba(0,0,0,0)",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "0",
+            "settings" : {
+              "background" : {
+                "type" : "color",
+                "imageUrl" : null,
+                "color" : "rgba(0,0,0,0)",
+                "overlay" : {
+                  "enabled" : false,
+                  "color" : "rgba(255,255,255,0.72)",
+                  "blur" : 3
+                }
+              },
+              "padding" : "0",
+              "scadaSymbolUrl" : "tb-image;/api/images/system/small-right-motor-pump.svg",
+              "scadaSymbolObjectSettings" : {
+                "behavior" : {
+                  "running" : {
+                    "action" : "GET_TIME_SERIES",
+                    "defaultValue" : false,
+                    "executeRpc" : {
+                      "method" : "getState",
+                      "requestTimeout" : 5000,
+                      "requestPersistent" : false,
+                      "persistentPollingInterval" : 1000
+                    },
+                    "getAttribute" : {
+                      "scope" : "SHARED_SCOPE",
+                      "key" : "running"
+                    },
+                    "getTimeSeries" : {
+                      "key" : "flujo"
+                    },
+                    "getAlarmStatus" : {
+                      "severityList" : null,
+                      "typeList" : null
+                    },
+                    "dataToValue" : {
+                      "type" : "NONE",
+                      "dataToValueFunction" : "/* Should return boolean value */\nreturn data;",
+                      "compareToValue" : true
+                    }
+                  },
+                  "warning" : {
+                    "action" : "GET_ALARM_STATUS",
+                    "defaultValue" : false,
+                    "executeRpc" : {
+                      "method" : "getState",
+                      "requestTimeout" : 5000,
+                      "requestPersistent" : false,
+                      "persistentPollingInterval" : 1000
+                    },
+                    "getAttribute" : {
+                      "key" : "state",
+                      "scope" : null
+                    },
+                    "getTimeSeries" : {
+                      "key" : "state"
+                    },
+                    "getAlarmStatus" : {
+                      "severityList" : [ "MAJOR", "MINOR", "WARNING", "INDETERMINATE" ],
+                      "typeList" : null
+                    },
+                    "dataToValue" : {
+                      "type" : "NONE",
+                      "compareToValue" : true,
+                      "dataToValueFunction" : "/* Should return boolean value */\nreturn data;"
+                    }
+                  },
+                  "critical" : {
+                    "action" : "GET_ALARM_STATUS",
+                    "defaultValue" : false,
+                    "executeRpc" : {
+                      "method" : "getState",
+                      "requestTimeout" : 5000,
+                      "requestPersistent" : false,
+                      "persistentPollingInterval" : 1000
+                    },
+                    "getAttribute" : {
+                      "key" : "state",
+                      "scope" : null
+                    },
+                    "getTimeSeries" : {
+                      "key" : "state"
+                    },
+                    "getAlarmStatus" : {
+                      "severityList" : [ "CRITICAL" ],
+                      "typeList" : null
+                    },
+                    "dataToValue" : {
+                      "type" : "NONE",
+                      "compareToValue" : true,
+                      "dataToValueFunction" : "/* Should return boolean value */\nreturn data;"
+                    }
+                  },
+                  "criticalAnimation" : {
+                    "action" : "DO_NOTHING",
+                    "defaultValue" : false,
+                    "executeRpc" : {
+                      "method" : "getState",
+                      "requestTimeout" : 5000,
+                      "requestPersistent" : false,
+                      "persistentPollingInterval" : 1000
+                    },
+                    "getAttribute" : {
+                      "key" : "state",
+                      "scope" : null
+                    },
+                    "getTimeSeries" : {
+                      "key" : "state"
+                    },
+                    "getAlarmStatus" : {
+                      "severityList" : null,
+                      "typeList" : null
+                    },
+                    "dataToValue" : {
+                      "type" : "NONE",
+                      "compareToValue" : true,
+                      "dataToValueFunction" : "/* Should return boolean value */\nreturn data;"
+                    }
+                  },
+                  "click" : {
+                    "type" : "doNothing",
+                    "targetDashboardStateId" : null,
+                    "openRightLayout" : false,
+                    "setEntityId" : false,
+                    "stateEntityParamName" : null,
+                    "openInSeparateDialog" : false,
+                    "openInPopover" : false
+                  }
+                },
+                "properties" : {
+                  "runningColor" : "#1C943E",
+                  "stoppedColor" : "#696969",
+                  "warningColor" : "#FAA405",
+                  "criticalColor" : "#D12730"
+                }
+              }
+            },
+            "title" : "Small right motor pump",
+            "dropShadow" : false,
+            "enableFullscreen" : false,
+            "widgetStyle" : { },
+            "actions" : { },
+            "widgetCss" : "",
+            "noDataDisplayMessage" : "",
+            "titleFont" : {
+              "size" : 16,
+              "sizeUnit" : "px",
+              "family" : "Roboto",
+              "weight" : "500",
+              "style" : null,
+              "lineHeight" : "1.6"
+            },
+            "showTitleIcon" : false,
+            "titleTooltip" : "",
+            "titleStyle" : null,
+            "pageSize" : 1024,
+            "titleIcon" : "mdi:lightbulb-outline",
+            "iconColor" : "rgba(0, 0, 0, 0.87)",
+            "iconSize" : "24px",
+            "configMode" : "advanced",
+            "targetDevice" : {
+              "type" : "device",
+              "deviceId" : "0b7f0d80-7ebd-11f0-a9fc-718155394e0f"
+            },
+            "titleColor" : null,
+            "borderRadius" : "0px",
+            "margin" : "0",
+            "datasources" : [ ],
+            "resizable" : true,
+            "preserveAspectRatio" : true
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "0d9615e1-912c-d321-ecd7-69af2e06c227"
+        },
+        "a899da7e-3074-bfd0-df90-f2f00ff40f8f" : {
+          "typeFullFqn" : "system.long_horizontal_pipe",
+          "type" : "rpc",
+          "sizeX" : 2,
+          "sizeY" : 1,
+          "config" : {
+            "showTitle" : false,
+            "backgroundColor" : "rgba(0,0,0,0)",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "0",
+            "settings" : {
+              "background" : {
+                "type" : "color",
+                "imageUrl" : null,
+                "color" : "rgba(0,0,0,0)",
+                "overlay" : {
+                  "enabled" : false,
+                  "color" : "rgba(255,255,255,0.72)",
+                  "blur" : 3
+                }
+              },
+              "padding" : "0",
+              "scadaSymbolUrl" : "tb-image;/api/images/system/long-horizontal-pipe.svg",
+              "scadaSymbolObjectSettings" : {
+                "behavior" : { },
+                "properties" : { }
+              }
+            },
+            "title" : "Long horizontal pipe",
+            "dropShadow" : false,
+            "enableFullscreen" : false,
+            "widgetStyle" : { },
+            "actions" : { },
+            "widgetCss" : "",
+            "noDataDisplayMessage" : "",
+            "titleFont" : {
+              "size" : 16,
+              "sizeUnit" : "px",
+              "family" : "Roboto",
+              "weight" : "500",
+              "style" : null,
+              "lineHeight" : "1.6"
+            },
+            "showTitleIcon" : false,
+            "titleTooltip" : "",
+            "titleStyle" : null,
+            "pageSize" : 1024,
+            "titleIcon" : "mdi:lightbulb-outline",
+            "iconColor" : "rgba(0, 0, 0, 0.87)",
+            "iconSize" : "24px",
+            "configMode" : "basic",
+            "targetDevice" : {
+              "type" : "device"
+            },
+            "titleColor" : null,
+            "borderRadius" : "0px",
+            "margin" : "0",
+            "datasources" : [ ],
+            "resizable" : true,
+            "preserveAspectRatio" : true
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "a899da7e-3074-bfd0-df90-f2f00ff40f8f"
+        },
+        "bd88b0af-51de-1338-7158-c898f228b8af" : {
+          "typeFullFqn" : "system.long_vertical_pipe",
+          "type" : "rpc",
+          "sizeX" : 1,
+          "sizeY" : 2,
+          "config" : {
+            "showTitle" : false,
+            "backgroundColor" : "rgba(0,0,0,0)",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "0",
+            "settings" : {
+              "background" : {
+                "type" : "color",
+                "imageUrl" : null,
+                "color" : "rgba(0,0,0,0)",
+                "overlay" : {
+                  "enabled" : false,
+                  "color" : "rgba(255,255,255,0.72)",
+                  "blur" : 3
+                }
+              },
+              "padding" : "0",
+              "scadaSymbolUrl" : "tb-image;/api/images/system/long-vertical-pipe.svg",
+              "scadaSymbolObjectSettings" : {
+                "behavior" : { },
+                "properties" : { }
+              }
+            },
+            "title" : "Long vertical pipe",
+            "dropShadow" : false,
+            "enableFullscreen" : false,
+            "widgetStyle" : { },
+            "actions" : { },
+            "widgetCss" : "",
+            "noDataDisplayMessage" : "",
+            "titleFont" : {
+              "size" : 16,
+              "sizeUnit" : "px",
+              "family" : "Roboto",
+              "weight" : "500",
+              "style" : null,
+              "lineHeight" : "1.6"
+            },
+            "showTitleIcon" : false,
+            "titleTooltip" : "",
+            "titleStyle" : null,
+            "pageSize" : 1024,
+            "titleIcon" : "mdi:lightbulb-outline",
+            "iconColor" : "rgba(0, 0, 0, 0.87)",
+            "iconSize" : "24px",
+            "configMode" : "basic",
+            "targetDevice" : {
+              "type" : "device"
+            },
+            "titleColor" : null,
+            "borderRadius" : "0px",
+            "margin" : "0",
+            "datasources" : [ ],
+            "resizable" : true,
+            "preserveAspectRatio" : true
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "bd88b0af-51de-1338-7158-c898f228b8af"
         }
       },
       "states" : {
@@ -251,20 +566,44 @@
             "main" : {
               "widgets" : {
                 "60c31053-f0de-b192-f321-aaa539c294a7" : {
-                  "sizeX" : 43,
-                  "sizeY" : 39,
-                  "row" : 6,
-                  "col" : 11
+                  "sizeX" : 122,
+                  "sizeY" : 112,
+                  "row" : 12,
+                  "col" : 22
+                },
+                "0d9615e1-912c-d321-ecd7-69af2e06c227" : {
+                  "sizeX" : 42,
+                  "sizeY" : 28,
+                  "preserveAspectRatio" : true,
+                  "resizable" : true,
+                  "row" : 90,
+                  "col" : 172
+                },
+                "a899da7e-3074-bfd0-df90-f2f00ff40f8f" : {
+                  "sizeX" : 28,
+                  "sizeY" : 14,
+                  "preserveAspectRatio" : true,
+                  "resizable" : true,
+                  "row" : 104,
+                  "col" : 144
+                },
+                "bd88b0af-51de-1338-7158-c898f228b8af" : {
+                  "sizeX" : 16,
+                  "sizeY" : 32,
+                  "preserveAspectRatio" : true,
+                  "resizable" : true,
+                  "row" : 58,
+                  "col" : 171
                 }
               },
               "gridSettings" : {
                 "layoutType" : "scada",
                 "backgroundColor" : "#eeeeee",
-                "columns" : 504,
+                "columns" : 1008,
                 "margin" : 10,
                 "outerMargin" : true,
                 "backgroundSizeMode" : "contain",
-                "minColumns" : 240,
+                "minColumns" : 500,
                 "viewFormat" : "grid",
                 "autoFillHeight" : false,
                 "rowHeight" : 70,
