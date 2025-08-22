@@ -1,0 +1,26 @@
+{
+  "entityType" : "DASHBOARD",
+  "entity" : {
+    "title" : "Osmosis inversa",
+    "image" : null,
+    "mobileHide" : false,
+    "mobileOrder" : null,
+    "configuration" : {
+      "description" : "circuito estandar de OI"
+    },
+    "name" : "Osmosis inversa",
+    "resources" : null,
+    "assignedCustomers" : null,
+    "customerId" : null,
+    "externalId" : null,
+    "id" : {
+      "entityType" : "DASHBOARD",
+      "id" : "0f7e0c00-7f77-11f0-98c5-f52598b463af"
+    },
+    "ownerId" : null
+  },
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  },
+  "calculatedFields" : [ ]
+}
