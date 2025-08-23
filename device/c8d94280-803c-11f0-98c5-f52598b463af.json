@@ -29,7 +29,7 @@
       "id" : "c8d94280-803c-11f0-98c5-f52598b463af"
     },
     "label" : "",
-    "name" : "Ph_curas",
+    "name" : "Ph_padretoni",
     "ownerId" : null,
     "softwareId" : null,
     "type" : "Paneles ph cloro"
@@ -53,24 +53,24 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastActivityTime",
-      "lastUpdateTs" : 1755965934311,
-      "longValue" : 1755965932069,
+      "lastUpdateTs" : 1755965958313,
+      "longValue" : 1755965957973,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastConnectTime",
-      "lastUpdateTs" : 1755965931921,
-      "longValue" : 1755965931921,
+      "lastUpdateTs" : 1755965957835,
+      "longValue" : 1755965957835,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastDisconnectTime",
-      "lastUpdateTs" : 1755965932072,
-      "longValue" : 1755965932072,
+      "lastUpdateTs" : 1755965957986,
+      "longValue" : 1755965957986,
       "strValue" : null
     } ],
     "SHARED_SCOPE" : [ ]
