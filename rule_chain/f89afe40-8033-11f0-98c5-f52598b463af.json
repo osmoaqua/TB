@@ -15,7 +15,7 @@
       "entityType" : "RULE_CHAIN",
       "id" : "f89afe40-8033-11f0-98c5-f52598b463af"
     },
-    "name" : "envio_mail_por_alarma_ph_DEFINITIVO",
+    "name" : "envio_mail_por_alarma_desconectado",
     "root" : false,
     "type" : "CORE"
   },
