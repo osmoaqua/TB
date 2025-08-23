@@ -73,7 +73,7 @@
       },
       "configuration" : {
         "scriptLang" : "JS",
-        "jsScript" : "var turbidez = parseFloat(msg.turbidez);\r\nvar s = (metadata.shared_send || \"\").toString().toLowerCase();\r\nreturn (turbidez > 4 || turbidez < 0.1) && s !== \"true\";\r\n",
+        "jsScript" : "var turbidez = parseFloat(msg.turbidez);\r\nvar s = (metadata.shared_sendturbidez || \"\").toString().toLowerCase();\r\nreturn (turbidez > 4 || turbidez < 0.1) && s !== \"true\";\r\n",
         "tbelScript" : ""
       },
       "configurationVersion" : 0,
@@ -201,7 +201,7 @@
         "tellFailureIfAbsent" : true,
         "fetchTo" : "METADATA",
         "clientAttributeNames" : [ ],
-        "sharedAttributeNames" : [ "send" ],
+        "sharedAttributeNames" : [ "sendturbidez" ],
         "serverAttributeNames" : [ ],
         "latestTsKeyNames" : [ ],
         "getLatestValueWithTs" : false
@@ -263,7 +263,7 @@
       },
       "configuration" : {
         "scriptLang" : "JS",
-        "jsScript" : "if (msg.turbidez > 4 || msg.turbidez < 0.1) {\r\n    msg.send = true;\r\n\r\n}\r\n\r\n\r\n\r\nreturn {\r\n    msg: msg,\r\n    msgType: \"POST_ATTRIBUTES_REQUEST\"\r\n};\r\n",
+        "jsScript" : "if (msg.turbidez > 4 || msg.turbidez < 0.1) {\r\n    msg.sendturbidez = true;\r\n\r\n}\r\n\r\n\r\n\r\nreturn {\r\n    msg: msg,\r\n    msgType: \"POST_ATTRIBUTES_REQUEST\"\r\n};\r\n",
         "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
       },
       "configurationVersion" : 0,
@@ -323,7 +323,7 @@
       },
       "configuration" : {
         "scriptLang" : "JS",
-        "jsScript" : "var turbidez = parseFloat(msg.turbidez);\r\nif (turbidez < 4 && turbidez > 0.1) {\r\n    msg.send = false;\r\n    return {\r\n        msg: msg,\r\n        msgType: \"POST_ATTRIBUTES_REQUEST\"\r\n    };\r\n} else {\r\n    return null;\r\n}\r\n",
+        "jsScript" : "var turbidez = parseFloat(msg.turbidez);\r\nif (turbidez < 4 && turbidez > 0.1) {\r\n    msg.sendturbidez = false;\r\n    return {\r\n        msg: msg,\r\n        msgType: \"POST_ATTRIBUTES_REQUEST\"\r\n    };\r\n} else {\r\n    return null;\r\n}\r\n",
         "tbelScript" : ""
       },
       "configurationVersion" : 0,
