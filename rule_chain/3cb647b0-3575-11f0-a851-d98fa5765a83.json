@@ -77,14 +77,14 @@
       },
       "configuration" : {
         "scriptLang" : "JS",
-        "jsScript" : "var ph = parseFloat(msg.ph);\r\nvar s = (metadata.shared_send || \"\").toString().toLowerCase();\r\nreturn (ph > 8.6 ||( ph < 7 && ph < 0.0)) && s !== \"true\";\r\n",
+        "jsScript" : "var ph = parseFloat(msg.ph);\r\nvar s = (metadata.shared_sendph || \"\").toString().toLowerCase();\r\nreturn (ph > 8.6 ||( ph < 7 && ph < 0.0)) && s !== \"true\";\r\n",
         "tbelScript" : ""
       },
       "configurationVersion" : 0,
       "createdTime" : 0,
       "debugSettings" : {
         "allEnabled" : false,
-        "allEnabledUntil" : 1754859438375,
+        "allEnabledUntil" : 1755937507270,
         "failuresEnabled" : false
       },
       "externalId" : null,
