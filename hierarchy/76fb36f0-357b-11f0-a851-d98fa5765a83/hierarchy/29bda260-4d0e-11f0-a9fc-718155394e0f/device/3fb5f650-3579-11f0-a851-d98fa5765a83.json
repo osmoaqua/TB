@@ -1,0 +1,85 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "gateway" : false,
+      "overwriteActivityTime" : false,
+      "description" : ""
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "29bda260-4d0e-11f0-a9fc-718155394e0f"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "78901c90-7dad-11f0-a9fc-718155394e0f"
+    },
+    "externalId" : {
+      "entityType" : "DEVICE",
+      "id" : "3fb5f650-3579-11f0-a851-d98fa5765a83"
+    },
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "3fb5f650-3579-11f0-a851-d98fa5765a83"
+    },
+    "label" : "wifi_peñafiel",
+    "name" : "wifi_peñafiel",
+    "ownerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "29bda260-4d0e-11f0-a9fc-718155394e0f"
+    },
+    "softwareId" : null,
+    "type" : "Paneles ph cloro"
+  },
+  "credentials" : {
+    "credentialsId" : "eiuf35xk6pa6ofqmchtg",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : true,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1755965424783,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1755968373312,
+      "longValue" : 1755968370467,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastConnectTime",
+      "lastUpdateTs" : 1755968370088,
+      "longValue" : 1755968370088,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastDisconnectTime",
+      "lastUpdateTs" : 1755968370491,
+      "longValue" : 1755968370491,
+      "strValue" : null
+    } ],
+    "SHARED_SCOPE" : [ ]
+  },
+  "calculatedFields" : [ ]
+}
