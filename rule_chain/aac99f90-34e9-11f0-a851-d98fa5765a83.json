@@ -38,6 +38,10 @@
       "toIndex" : 14,
       "type" : "Success"
     }, {
+      "fromIndex" : 0,
+      "toIndex" : 15,
+      "type" : "Success"
+    }, {
       "fromIndex" : 2,
       "toIndex" : 0,
       "type" : "Post telemetry"
@@ -429,6 +433,29 @@
         "id" : "132fd730-357a-11f0-a851-d98fa5765a83"
       },
       "name" : "temperatura",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1243,
+        "layoutY" : 506
+      },
+      "configuration" : {
+        "forwardMsgToDefaultRuleChain" : false,
+        "ruleChainId" : "f89afe40-8033-11f0-98c5-f52598b463af"
+      },
+      "configurationVersion" : 1,
+      "createdTime" : 0,
+      "debugSettings" : null,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "4b8111d0-8034-11f0-98c5-f52598b463af"
+      },
+      "name" : "desconectado",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
