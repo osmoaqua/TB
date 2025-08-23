@@ -17,7 +17,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "0b7f0d80-7ebd-11f0-a9fc-718155394e0f",
+              "deviceId" : "c3f86910-803e-11f0-98c5-f52598b463af",
               "dataKeys" : [ {
                 "name" : "cloro",
                 "type" : "timeseries",
@@ -181,7 +181,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "0b7f0d80-7ebd-11f0-a9fc-718155394e0f",
+              "deviceId" : "c3f86910-803e-11f0-98c5-f52598b463af",
               "dataKeys" : [ {
                 "name" : "ph",
                 "type" : "timeseries",
@@ -345,7 +345,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "0b7f0d80-7ebd-11f0-a9fc-718155394e0f",
+              "deviceId" : "c3f86910-803e-11f0-98c5-f52598b463af",
               "dataKeys" : [ {
                 "name" : "temperatura",
                 "type" : "timeseries",
@@ -509,7 +509,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "0b7f0d80-7ebd-11f0-a9fc-718155394e0f",
+              "deviceId" : "c3f86910-803e-11f0-98c5-f52598b463af",
               "dataKeys" : [ {
                 "name" : "turbidez",
                 "type" : "timeseries",
@@ -1119,7 +1119,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "0b7f0d80-7ebd-11f0-a9fc-718155394e0f",
+              "deviceId" : "c3f86910-803e-11f0-98c5-f52598b463af",
               "dataKeys" : [ {
                 "name" : "redox",
                 "type" : "timeseries",
@@ -1458,7 +1458,7 @@
             "configMode" : "basic",
             "targetDevice" : {
               "type" : "device",
-              "deviceId" : "3fb5f650-3579-11f0-a851-d98fa5765a83"
+              "deviceId" : "c3f86910-803e-11f0-98c5-f52598b463af"
             },
             "titleColor" : null,
             "borderRadius" : "0px",
@@ -1723,7 +1723,7 @@
             "configMode" : "advanced",
             "targetDevice" : {
               "type" : "device",
-              "deviceId" : "0b7f0d80-7ebd-11f0-a9fc-718155394e0f"
+              "deviceId" : "c3f86910-803e-11f0-98c5-f52598b463af"
             },
             "titleColor" : null,
             "borderRadius" : "0px",
@@ -1923,7 +1923,7 @@
             "configMode" : "advanced",
             "targetDevice" : {
               "type" : "device",
-              "deviceId" : "0b7f0d80-7ebd-11f0-a9fc-718155394e0f"
+              "deviceId" : "c3f86910-803e-11f0-98c5-f52598b463af"
             },
             "titleColor" : null,
             "borderRadius" : "0px",
@@ -2205,7 +2205,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "3fb5f650-3579-11f0-a851-d98fa5765a83",
+              "deviceId" : "c3f86910-803e-11f0-98c5-f52598b463af",
               "dataKeys" : [ {
                 "name" : "wifi",
                 "type" : "timeseries",
@@ -3039,7 +3039,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "3fb5f650-3579-11f0-a851-d98fa5765a83",
+              "deviceId" : "c3f86910-803e-11f0-98c5-f52598b463af",
               "dataKeys" : [ {
                 "name" : "active",
                 "type" : "attribute",
@@ -3623,7 +3623,7 @@
             "datasources" : [ ],
             "targetDevice" : {
               "type" : "device",
-              "deviceId" : "0b7f0d80-7ebd-11f0-a9fc-718155394e0f"
+              "deviceId" : "c3f86910-803e-11f0-98c5-f52598b463af"
             },
             "resizable" : true,
             "preserveAspectRatio" : false,
@@ -3721,7 +3721,7 @@
             "datasources" : [ ],
             "targetDevice" : {
               "type" : "device",
-              "deviceId" : "0b7f0d80-7ebd-11f0-a9fc-718155394e0f"
+              "deviceId" : "c3f86910-803e-11f0-98c5-f52598b463af"
             },
             "resizable" : true,
             "preserveAspectRatio" : false,
@@ -7564,7 +7564,7 @@
             "datasources" : [ ],
             "targetDevice" : {
               "type" : "device",
-              "deviceId" : "0b7f0d80-7ebd-11f0-a9fc-718155394e0f"
+              "deviceId" : "c3f86910-803e-11f0-98c5-f52598b463af"
             },
             "resizable" : true,
             "preserveAspectRatio" : false,
@@ -8321,7 +8321,8 @@
             "iconSize" : "24px",
             "configMode" : "advanced",
             "targetDevice" : {
-              "type" : "device"
+              "type" : "device",
+              "deviceId" : "c3f86910-803e-11f0-98c5-f52598b463af"
             },
             "titleColor" : null,
             "borderRadius" : "0px",
