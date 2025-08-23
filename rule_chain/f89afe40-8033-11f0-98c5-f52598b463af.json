@@ -54,7 +54,7 @@
       },
       "configuration" : {
         "scriptLang" : "JS",
-        "jsScript" : "return (metadata.active).toString().toLowerCase() !== \"true\";\r\n\r\n",
+        "jsScript" : "return metadata.active !== true;\r\n\r\n\r\n\r\n",
         "tbelScript" : ""
       },
       "configurationVersion" : 0,
