@@ -29,6 +29,10 @@
       "toIndex" : 5,
       "type" : "True"
     }, {
+      "fromIndex" : 0,
+      "toIndex" : 7,
+      "type" : "True"
+    }, {
       "fromIndex" : 2,
       "toIndex" : 1,
       "type" : "Success"
@@ -49,12 +53,12 @@
     "nodes" : [ {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 310,
-        "layoutY" : 465
+        "layoutX" : 312,
+        "layoutY" : 490
       },
       "configuration" : {
         "scriptLang" : "JS",
-        "jsScript" : "// Solo atributos de servidor y solo si viene la clave 'active'\r\nvar esServer = metadata && metadata.scope === 'SERVER_SCOPE';\r\nvar tieneActive = Object.prototype.hasOwnProperty.call(msg, 'active');\r\n\r\n// Pasa solo si 'active' ha quedado en false\r\nreturn esServer && tieneActive && msg.active === false;\r\n\r\n\r\n\r\n\r\n",
+        "jsScript" : "// Tomamos atributo servidor 'active'\r\nvar active = (metadata && metadata.active === true);\r\n\r\n// Tomamos atributo compartido 'send'\r\nvar send = (metadata.shared_send || \"\").toString().toLowerCase();\r\n\r\n// Devuelve true solo si active es false y aún no se ha enviado\r\nreturn (active === false) && (send !== \"true\");\r\n\r\n\r\n\r\n\r\n\r\n",
         "tbelScript" : ""
       },
       "configurationVersion" : 0,
@@ -148,8 +152,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 643,
-        "layoutY" : 431
+        "layoutX" : 687,
+        "layoutY" : 479
       },
       "configuration" : {
         "detailsList" : [ "EMAIL" ],
@@ -207,8 +211,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 567,
-        "layoutY" : 701
+        "layoutX" : 682,
+        "layoutY" : 673
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -272,6 +276,30 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.telemetry.TbMsgTimeseriesNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 582,
+        "layoutY" : 247
+      },
+      "configuration" : {
+        "scriptLang" : "TBEL",
+        "jsScript" : "return {msg: msg, metadata: metadata, msgType: msgType};",
+        "tbelScript" : "msg.send = true;\r\nreturn {\r\n    msg: msg,\r\n    msgType: \"POST_ATTRIBUTES_REQUEST\"\r\n};\r\n"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugSettings" : null,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "d9a33b50-8039-11f0-98c5-f52598b463af"
+      },
+      "name" : "send desconectado",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
     } ],
     "ruleChainConnections" : null
   },
