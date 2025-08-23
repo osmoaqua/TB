@@ -54,7 +54,7 @@
       },
       "configuration" : {
         "scriptLang" : "JS",
-        "jsScript" : "\r\n\r\n\r\n\r\n",
+        "jsScript" : "// Solo atributos de servidor y solo si viene la clave 'active'\r\nvar esServer = metadata && metadata.scope === 'SERVER_SCOPE';\r\nvar tieneActive = Object.prototype.hasOwnProperty.call(msg, 'active');\r\n\r\n// Pasa solo si 'active' ha quedado en false\r\nreturn esServer && tieneActive && msg.active === false;\r\n\r\n\r\n\r\n\r\n",
         "tbelScript" : ""
       },
       "configurationVersion" : 0,
