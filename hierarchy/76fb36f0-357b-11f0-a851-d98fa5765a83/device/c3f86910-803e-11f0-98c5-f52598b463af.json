@@ -1,0 +1,160 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "lastConnectedGateway" : "27435cf0-803a-11f0-98c5-f52598b463af"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "76fb36f0-357b-11f0-a851-d98fa5765a83"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "78901c90-7dad-11f0-a9fc-718155394e0f"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "c3f86910-803e-11f0-98c5-f52598b463af"
+    },
+    "label" : null,
+    "name" : "Aquafilter600",
+    "ownerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "76fb36f0-357b-11f0-a851-d98fa5765a83"
+    },
+    "softwareId" : null,
+    "type" : "Paneles ph cloro"
+  },
+  "credentials" : {
+    "credentialsId" : "SZhuG4PONFeDbyRPYgPF",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : true,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1755966751319,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1755968466315,
+      "longValue" : 1755968466254,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastConnectTime",
+      "lastUpdateTs" : 1755966751319,
+      "longValue" : 1755966751319,
+      "strValue" : null
+    } ],
+    "SHARED_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : 0.01,
+      "jsonValue" : null,
+      "key" : "cloro",
+      "lastUpdateTs" : 1755968466424,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "flujo",
+      "lastUpdateTs" : 1755968466424,
+      "longValue" : 1,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 8.12,
+      "jsonValue" : null,
+      "key" : "ph",
+      "lastUpdateTs" : 1755968466424,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "redox",
+      "lastUpdateTs" : 1755968466424,
+      "longValue" : 355,
+      "strValue" : null
+    }, {
+      "booleanValue" : true,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "sendcloro",
+      "lastUpdateTs" : 1755966841819,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "sendph",
+      "lastUpdateTs" : 1755968466423,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : true,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "sendtemperatura",
+      "lastUpdateTs" : 1755966871743,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "sendturbidez",
+      "lastUpdateTs" : 1755968466424,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 35.81,
+      "jsonValue" : null,
+      "key" : "temperatura",
+      "lastUpdateTs" : 1755968466424,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 0.179,
+      "jsonValue" : null,
+      "key" : "turbidez",
+      "lastUpdateTs" : 1755968466424,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "wifi",
+      "lastUpdateTs" : 1755968466424,
+      "longValue" : -53,
+      "strValue" : null
+    } ]
+  },
+  "calculatedFields" : [ ]
+}
