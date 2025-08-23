@@ -534,7 +534,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "054f3f80-3579-11f0-a851-d98fa5765a83",
+              "deviceId" : "27176af0-803a-11f0-98c5-f52598b463af",
               "dataKeys" : [ {
                 "name" : "cloro",
                 "type" : "timeseries",
@@ -1194,7 +1194,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "054f3f80-3579-11f0-a851-d98fa5765a83",
+              "deviceId" : "27176af0-803a-11f0-98c5-f52598b463af",
               "dataKeys" : [ {
                 "name" : "cloro",
                 "type" : "timeseries",
@@ -1555,7 +1555,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "315033a0-3579-11f0-a851-d98fa5765a83",
+              "deviceId" : "27272260-803a-11f0-98c5-f52598b463af",
               "dataKeys" : [ {
                 "name" : "turbidez",
                 "type" : "timeseries",
@@ -1715,7 +1715,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "1dd37e40-3579-11f0-a851-d98fa5765a83",
+              "deviceId" : "27243c30-803a-11f0-98c5-f52598b463af",
               "dataKeys" : [ {
                 "name" : "temperatura",
                 "type" : "timeseries",
@@ -1969,7 +1969,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "315033a0-3579-11f0-a851-d98fa5765a83",
+              "deviceId" : "27272260-803a-11f0-98c5-f52598b463af",
               "dataKeys" : [ {
                 "name" : "turbidez",
                 "type" : "timeseries",
@@ -2439,7 +2439,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "1dd37e40-3579-11f0-a851-d98fa5765a83",
+              "deviceId" : "27243c30-803a-11f0-98c5-f52598b463af",
               "dataKeys" : [ {
                 "name" : "temperatura",
                 "type" : "timeseries",
