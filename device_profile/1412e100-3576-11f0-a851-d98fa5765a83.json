@@ -25,49 +25,7 @@
     "image" : null,
     "name" : "wifi",
     "profileData" : {
-      "alarms" : [ {
-        "alarmType" : "Wifi desconectado",
-        "clearRule" : null,
-        "createRules" : {
-          "CRITICAL" : {
-            "alarmDetails" : null,
-            "condition" : {
-              "condition" : [ {
-                "key" : {
-                  "key" : "active",
-                  "type" : "ATTRIBUTE"
-                },
-                "predicate" : {
-                  "type" : "BOOLEAN",
-                  "operation" : "NOT_EQUAL",
-                  "value" : {
-                    "defaultValue" : true,
-                    "dynamicValue" : null,
-                    "userValue" : null
-                  }
-                },
-                "value" : null,
-                "valueType" : "BOOLEAN"
-              } ],
-              "spec" : {
-                "type" : "SIMPLE"
-              }
-            },
-            "dashboardId" : null,
-            "schedule" : {
-              "type" : "ANY_TIME",
-              "dynamicValue" : null,
-              "type" : "ANY_TIME"
-            }
-          }
-        },
-        "id" : "e797579b-c36c-dfe5-ed4e-0bfa5af58cd4",
-        "propagate" : false,
-        "propagateRelationTypes" : null,
-        "propagateToOwner" : true,
-        "propagateToOwnerHierarchy" : false,
-        "propagateToTenant" : true
-      } ],
+      "alarms" : [ ],
       "configuration" : {
         "type" : "DEFAULT"
       },
