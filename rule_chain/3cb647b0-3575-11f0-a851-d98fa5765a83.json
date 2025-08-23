@@ -63,10 +63,6 @@
       "fromIndex" : 10,
       "toIndex" : 4,
       "type" : "Success"
-    }, {
-      "fromIndex" : 10,
-      "toIndex" : 11,
-      "type" : "Success"
     } ],
     "firstNodeIndex" : 10,
     "nodes" : [ {
@@ -415,42 +411,6 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.telemetry.TbMsgTimeseriesNode"
-    }, {
-      "additionalInfo" : {
-        "description" : "Ia",
-        "layoutX" : 200,
-        "layoutY" : 547
-      },
-      "configuration" : {
-        "modelId" : {
-          "entityType" : "AI_MODEL",
-          "id" : "c4136840-7ed7-11f0-98c5-f52598b463af"
-        },
-        "systemPrompt" : "You are a helpful AI assistant. Your primary function is to process the user's request and respond with a valid JSON object. Do not include any text, explanations, or markdown formatting before or after the JSON output.",
-        "userPrompt" : "Oscar",
-        "responseFormat" : {
-          "type" : "TEXT"
-        },
-        "timeoutSeconds" : 60,
-        "forceAck" : true
-      },
-      "configurationVersion" : 0,
-      "createdTime" : 0,
-      "debugSettings" : {
-        "allEnabled" : false,
-        "allEnabledUntil" : 1755815774864,
-        "failuresEnabled" : false
-      },
-      "externalId" : null,
-      "id" : {
-        "entityType" : "RULE_NODE",
-        "id" : "0b1568b0-7edd-11f0-98c5-f52598b463af"
-      },
-      "name" : "Ia",
-      "queueName" : null,
-      "ruleChainId" : null,
-      "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.ai.TbAiNode"
     } ],
     "ruleChainConnections" : null
   },
