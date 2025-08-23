@@ -263,7 +263,7 @@
       },
       "configuration" : {
         "scriptLang" : "JS",
-        "jsScript" : "if (msg.ph > 8 || msg.ph < 7) {\r\n    msg.sendph = true;\r\n\r\n}\r\n\r\n\r\n\r\nreturn {\r\n    msg: msg,\r\n    msgType: \"POST_ATTRIBUTES_REQUEST\"\r\n};\r\n",
+        "jsScript" : "if (msg.ph > 8.6 || msg.ph < 7) {\r\n    msg.sendph = true;\r\n\r\n}\r\n\r\n\r\n\r\nreturn {\r\n    msg: msg,\r\n    msgType: \"POST_ATTRIBUTES_REQUEST\"\r\n};\r\n",
         "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
       },
       "configurationVersion" : 0,
