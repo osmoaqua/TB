@@ -44,13 +44,7 @@
                 "valueType" : "BOOLEAN"
               } ],
               "spec" : {
-                "type" : "DURATION",
-                "predicate" : {
-                  "defaultValue" : 1,
-                  "dynamicValue" : null,
-                  "userValue" : null
-                },
-                "unit" : "MINUTES"
+                "type" : "SIMPLE"
               }
             },
             "dashboardId" : null,
