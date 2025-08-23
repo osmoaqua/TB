@@ -124,9 +124,9 @@
         "toTemplate" : "${customer_email}",
         "ccTemplate" : "control@aquafilter.es",
         "bccTemplate" : "",
-        "subjectTemplate" : "Dispositivo: ${deviceType} fuera de rango.",
+        "subjectTemplate" : "Dispositivo: ${deviceType} descoenctado.",
         "mailBodyType" : "true",
-        "bodyTemplate" : "<p>\nEl dispositivo ${deviceName} tiene el pH con un valor de: $[ph].  \nEstá fuera de rango. Póngase en contacto con el servicio técnico.  \n</p>\n\n<p>Gracias.</p>\n\n<img src=\"https://telemetria.aquafilter.es/api/images/public/iJ7IW7lkJNDzu6MgTXw1nwww1AeXPUZE\" alt=\"pie_pagina_control.png\" width=\"500\" />\n"
+        "bodyTemplate" : "<p>\nEl dispositivo ${deviceName} está desconectado.\n\nPóngase en contacto con el servicio técnico.  \n</p>\n\n<p>Gracias.</p>\n\n<p>      </p>\n\n<img src=\"https://telemetria.aquafilter.es/api/images/public/iJ7IW7lkJNDzu6MgTXw1nwww1AeXPUZE\" alt=\"pie_pagina_control.png\" width=\"500\" />\n"
       },
       "configurationVersion" : 0,
       "createdTime" : 0,
