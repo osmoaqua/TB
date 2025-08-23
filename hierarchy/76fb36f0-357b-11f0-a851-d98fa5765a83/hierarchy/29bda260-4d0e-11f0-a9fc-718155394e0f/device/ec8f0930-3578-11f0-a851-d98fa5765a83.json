@@ -1,0 +1,125 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "gateway" : false,
+      "overwriteActivityTime" : false,
+      "description" : ""
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "29bda260-4d0e-11f0-a9fc-718155394e0f"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "78901c90-7dad-11f0-a9fc-718155394e0f"
+    },
+    "externalId" : {
+      "entityType" : "DEVICE",
+      "id" : "ec8f0930-3578-11f0-a851-d98fa5765a83"
+    },
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "ec8f0930-3578-11f0-a851-d98fa5765a83"
+    },
+    "label" : "ph_peñafiel",
+    "name" : "ph_peñafiel",
+    "ownerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "29bda260-4d0e-11f0-a9fc-718155394e0f"
+    },
+    "softwareId" : null,
+    "type" : "Paneles ph cloro"
+  },
+  "credentials" : {
+    "credentialsId" : "i330yy2719y3pt4oc05b",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : true,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1755965311952,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1755806260037,
+      "longValue" : 1755806260036,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1755968439302,
+      "longValue" : 1755968439074,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastConnectTime",
+      "lastUpdateTs" : 1755968438824,
+      "longValue" : 1755968438824,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastDisconnectTime",
+      "lastUpdateTs" : 1755968439076,
+      "longValue" : 1755968439076,
+      "strValue" : null
+    } ],
+    "SHARED_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : 4.670574608380875,
+      "jsonValue" : null,
+      "key" : "latitude",
+      "lastUpdateTs" : 1747771928736,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : -40.67120755362193,
+      "jsonValue" : null,
+      "key" : "longitude",
+      "lastUpdateTs" : 1747771937311,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 8.313,
+      "jsonValue" : null,
+      "key" : "ph",
+      "lastUpdateTs" : 1755968439090,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "sendph",
+      "lastUpdateTs" : 1755968439090,
+      "longValue" : null,
+      "strValue" : null
+    } ]
+  },
+  "calculatedFields" : [ ]
+}
