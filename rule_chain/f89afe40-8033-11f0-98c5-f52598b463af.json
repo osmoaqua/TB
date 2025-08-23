@@ -58,7 +58,7 @@
       },
       "configuration" : {
         "scriptLang" : "JS",
-        "jsScript" : "// Tomamos atributo servidor 'active'\r\nvar active = (metadata && metadata.active === true);\r\n\r\n// Tomamos atributo compartido 'send'\r\nvar send = (metadata.shared_send || \"\").toString().toLowerCase();\r\n\r\n// Devuelve true solo si active es false y aún no se ha enviado\r\nreturn (active === false) && (send !== \"true\");\r\n\r\n\r\n\r\n\r\n\r\n",
+        "jsScript" : "\r\n\r\n\r\n\r\n\r\n\r\n",
         "tbelScript" : ""
       },
       "configurationVersion" : 0,
