@@ -54,7 +54,7 @@
       },
       "configuration" : {
         "scriptLang" : "JS",
-        "jsScript" : "return metadata.active !== false;\r\n\r\n\r\n\r\n",
+        "jsScript" : "\r\n\r\n\r\n\r\n",
         "tbelScript" : ""
       },
       "configurationVersion" : 0,
