@@ -263,7 +263,7 @@
       },
       "configuration" : {
         "scriptLang" : "JS",
-        "jsScript" : "if (msg.cloro > 0.8 || msg.cloro < 0.1) {\r\n    msg.send = true;\r\n\r\n}\r\n\r\n\r\n\r\nreturn {\r\n    msg: msg,\r\n    msgType: \"POST_ATTRIBUTES_REQUEST\"\r\n};\r\n",
+        "jsScript" : "if (msg.cloro > 0.8 || msg.cloro < 0.1) {\r\n    msg.sendcloro = true;\r\n\r\n}\r\n\r\n\r\n\r\nreturn {\r\n    msg: msg,\r\n    msgType: \"POST_ATTRIBUTES_REQUEST\"\r\n};\r\n",
         "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
       },
       "configurationVersion" : 0,
@@ -323,7 +323,7 @@
       },
       "configuration" : {
         "scriptLang" : "JS",
-        "jsScript" : "var cloro = parseFloat(msg.cloro);\r\nif (cloro < 2.5 && cloro > 0.1) {\r\n    msg.send = false;\r\n    return {\r\n        msg: msg,\r\n        msgType: \"POST_ATTRIBUTES_REQUEST\"\r\n    };\r\n} else {\r\n    return null;\r\n}\r\n",
+        "jsScript" : "var cloro = parseFloat(msg.cloro);\r\nif (cloro < 2.5 && cloro > 0.1) {\r\n    msg.sendcloro = false;\r\n    return {\r\n        msg: msg,\r\n        msgType: \"POST_ATTRIBUTES_REQUEST\"\r\n    };\r\n} else {\r\n    return null;\r\n}\r\n",
         "tbelScript" : ""
       },
       "configurationVersion" : 0,
