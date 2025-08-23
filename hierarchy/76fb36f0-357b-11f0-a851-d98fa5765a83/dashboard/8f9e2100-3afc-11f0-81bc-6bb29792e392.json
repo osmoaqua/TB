@@ -2613,7 +2613,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "3fb5f650-3579-11f0-a851-d98fa5765a83",
+              "deviceId" : "c3f86910-803e-11f0-98c5-f52598b463af",
               "dataKeys" : [ {
                 "name" : "wifi",
                 "type" : "timeseries",
@@ -2696,7 +2696,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "3fb5f650-3579-11f0-a851-d98fa5765a83",
+              "deviceId" : "c3f86910-803e-11f0-98c5-f52598b463af",
               "dataKeys" : [ {
                 "name" : "wifi",
                 "type" : "timeseries",
