@@ -2613,7 +2613,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "c3f86910-803e-11f0-98c5-f52598b463af",
+              "deviceId" : "13a61540-8100-11f0-98c5-f52598b463af",
               "dataKeys" : [ {
                 "name" : "wifi",
                 "type" : "timeseries",
@@ -2696,7 +2696,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "c3f86910-803e-11f0-98c5-f52598b463af",
+              "deviceId" : "13a61540-8100-11f0-98c5-f52598b463af",
               "dataKeys" : [ {
                 "name" : "wifi",
                 "type" : "timeseries",
@@ -8602,8 +8602,8 @@
                       "col" : 0
                     },
                     "662eb22d-2dfd-6cbc-8162-b7163d99f8a9" : {
-                      "sizeX" : 9,
-                      "sizeY" : 7,
+                      "sizeX" : 14,
+                      "sizeY" : 10,
                       "preserveAspectRatio" : false,
                       "resizable" : true,
                       "row" : 3,
