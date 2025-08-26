@@ -19,10 +19,10 @@
               "name" : "",
               "deviceId" : "8f60d8b0-80ff-11f0-98c5-f52598b463af",
               "dataKeys" : [ {
-                "name" : "ph",
+                "name" : "cloro",
                 "type" : "timeseries",
-                "label" : "ph",
-                "color" : "#2196f3",
+                "label" : "cloro",
+                "color" : "#F321EE",
                 "settings" : {
                   "yAxisId" : "default",
                   "showInLegend" : true,
@@ -92,7 +92,13 @@
                     "color" : ""
                   }
                 },
-                "_hash" : 0.45641398387206644
+                "_hash" : 0.7034788901658501,
+                "aggregationType" : null,
+                "units" : null,
+                "decimals" : null,
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
@@ -1118,14 +1124,14 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "a889f610-7ea6-11f0-a9fc-718155394e0f",
+              "deviceId" : "8f60d8b0-80ff-11f0-98c5-f52598b463af",
               "dataKeys" : [ {
-                "name" : "wifi",
+                "name" : "cloro",
                 "type" : "timeseries",
-                "label" : "wifi",
+                "label" : "cloro",
                 "color" : "#2196f3",
                 "settings" : { },
-                "_hash" : 0.097626162432911
+                "_hash" : 0.7775370562024562
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
@@ -1277,7 +1283,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "0b7f0d80-7ebd-11f0-a9fc-718155394e0f",
+              "deviceId" : "8f60d8b0-80ff-11f0-98c5-f52598b463af",
               "dataKeys" : [ {
                 "name" : "ph",
                 "type" : "timeseries",
@@ -1485,7 +1491,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "c82ea470-3bfd-11f0-9584-abfdb9c61187",
+              "deviceId" : "8f60d8b0-80ff-11f0-98c5-f52598b463af",
               "dataKeys" : [ {
                 "name" : "turbidez",
                 "type" : "timeseries",
@@ -1645,7 +1651,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "b86ef710-3bfd-11f0-9584-abfdb9c61187",
+              "deviceId" : "8f60d8b0-80ff-11f0-98c5-f52598b463af",
               "dataKeys" : [ {
                 "name" : "temperatura",
                 "type" : "timeseries",
@@ -3384,12 +3390,12 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "d5ab8dc0-3bfd-11f0-9584-abfdb9c61187",
+              "deviceId" : "8f60d8b0-80ff-11f0-98c5-f52598b463af",
               "dataKeys" : [ {
                 "name" : "wifi",
                 "type" : "timeseries",
                 "label" : "wifi",
-                "color" : "#2196f3",
+                "color" : "#8BC34A",
                 "settings" : { },
                 "_hash" : 0.8687802906091969
               } ],
@@ -3799,7 +3805,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "a87642e0-3bfe-11f0-9584-abfdb9c61187",
+              "deviceId" : "8f60d8b0-80ff-11f0-98c5-f52598b463af",
               "dataKeys" : [ {
                 "name" : "redox",
                 "type" : "timeseries",
