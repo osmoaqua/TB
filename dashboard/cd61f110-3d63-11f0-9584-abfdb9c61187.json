@@ -3140,7 +3140,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "d5ab8dc0-3bfd-11f0-9584-abfdb9c61187",
+              "deviceId" : "8f60d8b0-80ff-11f0-98c5-f52598b463af",
               "dataKeys" : [ {
                 "name" : "wifi",
                 "type" : "timeseries",
