@@ -2721,7 +2721,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "b86ef710-3bfd-11f0-9584-abfdb9c61187",
+              "deviceId" : "8f60d8b0-80ff-11f0-98c5-f52598b463af",
               "dataKeys" : [ {
                 "name" : "temperatura",
                 "type" : "timeseries",
