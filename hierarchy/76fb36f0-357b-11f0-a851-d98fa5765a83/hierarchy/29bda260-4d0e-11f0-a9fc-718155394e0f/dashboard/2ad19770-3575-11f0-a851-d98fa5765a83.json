@@ -2853,7 +2853,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "27243c30-803a-11f0-98c5-f52598b463af",
+              "deviceId" : "8f60d8b0-80ff-11f0-98c5-f52598b463af",
               "filterId" : null,
               "dataKeys" : [ {
                 "name" : "temperatura",
@@ -2861,13 +2861,7 @@
                 "label" : "temperatura",
                 "color" : "#2196f3",
                 "settings" : { },
-                "_hash" : 0.3648452290630788,
-                "aggregationType" : null,
-                "units" : "°C",
-                "decimals" : 2,
-                "funcBody" : null,
-                "usePostProcessing" : null,
-                "postFuncBody" : null
+                "_hash" : 0.6763287228209115
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
@@ -2880,9 +2874,23 @@
               "selectedTab" : 0,
               "realtime" : {
                 "realtimeType" : 0,
-                "timewindowMs" : 60000,
+                "interval" : 300000,
+                "timewindowMs" : 86400000,
                 "quickInterval" : "CURRENT_DAY",
-                "interval" : 1000
+                "hideInterval" : false,
+                "hideLastInterval" : false,
+                "hideQuickInterval" : false
+              },
+              "history" : {
+                "historyType" : 0,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "fixedTimewindow" : null,
+                "quickInterval" : "CURRENT_DAY",
+                "hideInterval" : false,
+                "hideLastInterval" : false,
+                "hideFixedInterval" : false,
+                "hideQuickInterval" : false
               },
               "aggregation" : {
                 "type" : "AVG",
