@@ -1910,12 +1910,26 @@
               "selectedTab" : 0,
               "realtime" : {
                 "realtimeType" : 0,
-                "timewindowMs" : 60000,
+                "interval" : 1000,
+                "timewindowMs" : 86400000,
                 "quickInterval" : "CURRENT_DAY",
-                "interval" : 1000
+                "hideInterval" : false,
+                "hideLastInterval" : false,
+                "hideQuickInterval" : false
+              },
+              "history" : {
+                "historyType" : 0,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "fixedTimewindow" : null,
+                "quickInterval" : "CURRENT_DAY",
+                "hideInterval" : false,
+                "hideLastInterval" : false,
+                "hideFixedInterval" : false,
+                "hideQuickInterval" : false
               },
               "aggregation" : {
-                "type" : "AVG",
+                "type" : "NONE",
                 "limit" : 25000
               },
               "timezone" : null
@@ -2239,8 +2253,8 @@
                   "sizeX" : 16,
                   "sizeY" : 10,
                   "mobileHeight" : null,
-                  "row" : 25,
-                  "col" : 0
+                  "row" : 14,
+                  "col" : 26
                 }
               },
               "gridSettings" : {
