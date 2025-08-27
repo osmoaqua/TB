@@ -68,8 +68,8 @@
     "nodes" : [ {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 310,
-        "layoutY" : 465
+        "layoutX" : 266,
+        "layoutY" : 439
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -151,7 +151,7 @@
       "createdTime" : 0,
       "debugSettings" : {
         "allEnabled" : false,
-        "allEnabledUntil" : 1755969663812,
+        "allEnabledUntil" : 1756290000760,
         "failuresEnabled" : false
       },
       "externalId" : null,
