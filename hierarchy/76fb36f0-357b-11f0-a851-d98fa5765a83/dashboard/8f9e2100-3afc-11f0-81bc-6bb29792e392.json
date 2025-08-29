@@ -8289,13 +8289,15 @@
             "configMode" : "advanced",
             "actions" : {
               "click" : [ {
-                "id" : "e34cb1ef-1ca0-bf21-e04e-909f46f93344",
                 "name" : "onClick",
                 "icon" : "more_horiz",
+                "useShowWidgetActionFunction" : null,
+                "showWidgetActionFunction" : "return true;",
                 "type" : "custom",
-                "customFunction" : "$('.tb-dashboard-page').toggleClass('dark');",
+                "customFunction" : "parent.$('.tb-dashboard-page').toggleClass('dark');\r\n",
                 "openInSeparateDialog" : false,
-                "openInPopover" : false
+                "openInPopover" : false,
+                "id" : "e34cb1ef-1ca0-bf21-e04e-909f46f93344"
               } ]
             }
           },
