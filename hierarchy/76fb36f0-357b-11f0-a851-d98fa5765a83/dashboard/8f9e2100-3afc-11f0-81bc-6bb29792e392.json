@@ -17,7 +17,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "13a61540-8100-11f0-98c5-f52598b463af",
+              "deviceId" : "27176af0-803a-11f0-98c5-f52598b463af",
               "dataKeys" : [ {
                 "name" : "cloro",
                 "type" : "timeseries",
@@ -181,7 +181,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "13a61540-8100-11f0-98c5-f52598b463af",
+              "deviceId" : "ec8f0930-3578-11f0-a851-d98fa5765a83",
               "dataKeys" : [ {
                 "name" : "ph",
                 "type" : "timeseries",
@@ -345,7 +345,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "13a61540-8100-11f0-98c5-f52598b463af",
+              "deviceId" : "27243c30-803a-11f0-98c5-f52598b463af",
               "dataKeys" : [ {
                 "name" : "temperatura",
                 "type" : "timeseries",
@@ -509,7 +509,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "13a61540-8100-11f0-98c5-f52598b463af",
+              "deviceId" : "27272260-803a-11f0-98c5-f52598b463af",
               "dataKeys" : [ {
                 "name" : "turbidez",
                 "type" : "timeseries",
@@ -1119,7 +1119,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "13a61540-8100-11f0-98c5-f52598b463af",
+              "deviceId" : "8f60d8b0-80ff-11f0-98c5-f52598b463af",
               "dataKeys" : [ {
                 "name" : "redox",
                 "type" : "timeseries",
