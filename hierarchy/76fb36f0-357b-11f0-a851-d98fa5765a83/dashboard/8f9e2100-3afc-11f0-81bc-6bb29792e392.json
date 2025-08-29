@@ -9664,7 +9664,7 @@
         "hideToolbar" : false,
         "showFilters" : true,
         "showUpdateDashboardImage" : true,
-        "dashboardCss" : ""
+        "dashboardCss" : ".tb-dashboard-page.dark tb-dashboard > div {\r\n    background-color: #0A1F36 !important;\r\n}\r\n\r\n.tb-dashboard-page.dark .tb-widget-container > .tb-widget {\r\n    background: #0D2743 !important;\r\n    color: rgba(255, 255, 255, 0.87) !important;\r\n}\r\n\r\n.tb-dashboard-page.dark .tb-widget-container > .tb-widget svg tspan {\r\n    fill: rgba(255, 255, 255, 0.87) !important;\r\n}\r\n"
       }
     },
     "name" : "Torre",
