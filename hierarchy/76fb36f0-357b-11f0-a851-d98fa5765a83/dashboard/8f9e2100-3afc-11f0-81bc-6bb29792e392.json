@@ -8294,7 +8294,7 @@
                 "useShowWidgetActionFunction" : null,
                 "showWidgetActionFunction" : "return true;",
                 "type" : "custom",
-                "customFunction" : "// SCADA -> Acción personalizada (onClick)\r\nconst doc = (window.parent && window.parent.document) ? window.parent.document : null;\r\nif (!doc || !doc.body) return;\r\n\r\n// Compatibilidad con nombres de clase según versión\r\nconst body = doc.body;\r\nconst isDark = body.classList.contains('tb-dark') || body.classList.contains('tb-theme-dark');\r\n\r\nbody.classList.toggle('tb-dark', !isDark);\r\nbody.classList.toggle('tb-light', isDark);\r\nbody.classList.toggle('tb-theme-dark', !isDark);\r\nbody.classList.toggle('tb-theme-light', isDark);\r\n\r\n",
+                "customFunction" : "const doc = window.parent.document;\r\nconst body = doc.body;\r\nconst isDark = body.classList.contains('tb-dark');\r\n\r\nbody.classList.toggle('tb-dark', !isDark);\r\nbody.classList.toggle('tb-light', isDark);\r\n\r\n\r\n",
                 "openInSeparateDialog" : false,
                 "openInPopover" : false,
                 "id" : "e34cb1ef-1ca0-bf21-e04e-909f46f93344"
