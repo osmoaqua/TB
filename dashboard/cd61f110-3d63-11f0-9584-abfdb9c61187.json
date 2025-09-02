@@ -494,7 +494,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "8f60d8b0-80ff-11f0-98c5-f52598b463af",
+              "deviceId" : "f5be1ad0-8359-11f0-98c5-f52598b463af",
               "dataKeys" : [ {
                 "name" : "ph",
                 "type" : "timeseries",
@@ -2721,7 +2721,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "8f60d8b0-80ff-11f0-98c5-f52598b463af",
+              "deviceId" : "f5be1ad0-8359-11f0-98c5-f52598b463af",
               "dataKeys" : [ {
                 "name" : "temperatura",
                 "type" : "timeseries",
@@ -3140,7 +3140,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "8f60d8b0-80ff-11f0-98c5-f52598b463af",
+              "deviceId" : "f5be1ad0-8359-11f0-98c5-f52598b463af",
               "dataKeys" : [ {
                 "name" : "wifi",
                 "type" : "timeseries",
