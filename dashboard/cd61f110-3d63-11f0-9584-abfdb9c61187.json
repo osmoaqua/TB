@@ -1627,7 +1627,7 @@
                 "label" : "temperatura",
                 "color" : "#2196f3",
                 "settings" : { },
-                "_hash" : 0.5453638204764897
+                "_hash" : 0.26483010798891604
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
