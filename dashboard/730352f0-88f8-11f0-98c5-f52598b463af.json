@@ -4628,6 +4628,72 @@
           "row" : 0,
           "col" : 0,
           "id" : "b63b2413-a704-e67c-ee39-e6acdbb26625"
+        },
+        "b9209831-22f2-820d-81c1-fb438b012840" : {
+          "typeFullFqn" : "tenant.torre7",
+          "type" : "rpc",
+          "sizeX" : 13,
+          "sizeY" : 13,
+          "config" : {
+            "showTitle" : false,
+            "backgroundColor" : "rgba(0,0,0,0)",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "0",
+            "settings" : {
+              "background" : {
+                "type" : "color",
+                "imageUrl" : null,
+                "color" : "rgba(0,0,0,0)",
+                "overlay" : {
+                  "enabled" : false,
+                  "color" : "rgba(255,255,255,0.72)",
+                  "blur" : 3
+                }
+              },
+              "padding" : "0",
+              "scadaSymbolUrl" : "tb-image;/api/images/tenant/torre.svg",
+              "scadaSymbolObjectSettings" : {
+                "behavior" : { },
+                "properties" : { }
+              }
+            },
+            "title" : "torre",
+            "dropShadow" : false,
+            "enableFullscreen" : false,
+            "widgetStyle" : { },
+            "actions" : { },
+            "widgetCss" : "",
+            "noDataDisplayMessage" : "",
+            "titleFont" : {
+              "size" : 16,
+              "sizeUnit" : "px",
+              "family" : "Roboto",
+              "weight" : "500",
+              "style" : null,
+              "lineHeight" : "1.6"
+            },
+            "showTitleIcon" : false,
+            "titleTooltip" : "",
+            "titleStyle" : null,
+            "pageSize" : 1024,
+            "titleIcon" : "mdi:lightbulb-outline",
+            "iconColor" : "rgba(0, 0, 0, 0.87)",
+            "iconSize" : "24px",
+            "configMode" : "advanced",
+            "targetDevice" : {
+              "type" : "device",
+              "deviceId" : "f5be1ad0-8359-11f0-98c5-f52598b463af"
+            },
+            "titleColor" : null,
+            "borderRadius" : "0px",
+            "margin" : "0",
+            "datasources" : [ ],
+            "resizable" : true,
+            "preserveAspectRatio" : false
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "b9209831-22f2-820d-81c1-fb438b012840"
         }
       },
       "states" : {
@@ -4636,15 +4702,24 @@
           "root" : true,
           "layouts" : {
             "main" : {
-              "widgets" : { },
+              "widgets" : {
+                "b9209831-22f2-820d-81c1-fb438b012840" : {
+                  "sizeX" : 58,
+                  "sizeY" : 60,
+                  "preserveAspectRatio" : false,
+                  "resizable" : true,
+                  "row" : 6,
+                  "col" : 29
+                }
+              },
               "gridSettings" : {
                 "layoutType" : "scada",
                 "backgroundColor" : "#eeeeee",
-                "columns" : 24,
+                "columns" : 1008,
                 "margin" : 10,
                 "outerMargin" : false,
                 "backgroundSizeMode" : "contain",
-                "minColumns" : 24,
+                "minColumns" : 240,
                 "viewFormat" : "grid",
                 "autoFillHeight" : false,
                 "rowHeight" : 70,
