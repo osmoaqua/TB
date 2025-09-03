@@ -1,10 +1,10 @@
 {
   "entityType" : "DASHBOARD",
   "entity" : {
-    "title" : "Torre",
-    "image" : null,
+    "title" : "Torre_2",
+    "image" : "tb-image;/api/images/tenant/aquafilterSVG conletras.svg",
     "mobileHide" : false,
-    "mobileOrder" : null,
+    "mobileOrder" : 1,
     "configuration" : {
       "description" : "",
       "widgets" : {
@@ -4985,7 +4985,7 @@
         "dashboardCss" : "\r\n\r\n"
       }
     },
-    "name" : "Torre",
+    "name" : "Torre_2",
     "resources" : null,
     "assignedCustomers" : null,
     "customerId" : null,
