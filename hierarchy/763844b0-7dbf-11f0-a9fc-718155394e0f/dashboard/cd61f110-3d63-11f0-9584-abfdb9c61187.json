@@ -4340,8 +4340,11 @@
             "actions" : {
               "headerButton" : [ {
                 "name" : "Modo oscuro",
-                "icon" : "lightbulb",
-                "useShowWidgetActionFunction" : null,
+                "buttonType" : "icon",
+                "icon" : "dark_mode",
+                "buttonColor" : "rgba(0, 0, 0, 0.87)",
+                "customButtonStyle" : { },
+                "useShowWidgetActionFunction" : false,
                 "showWidgetActionFunction" : "return true;",
                 "type" : "custom",
                 "customFunction" : "$('.tb-dashboard-page').toggleClass('dark');",
