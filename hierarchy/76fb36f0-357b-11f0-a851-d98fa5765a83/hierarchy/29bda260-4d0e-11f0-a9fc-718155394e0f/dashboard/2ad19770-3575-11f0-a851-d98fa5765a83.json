@@ -17,7 +17,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "ec8f0930-3578-11f0-a851-d98fa5765a83",
+              "deviceId" : "ec03a540-8cb0-11f0-a183-ed93958ce7de",
               "dataKeys" : [ {
                 "name" : "ph",
                 "type" : "timeseries",
@@ -514,7 +514,7 @@
             "datasources" : [ ],
             "targetDevice" : {
               "type" : "device",
-              "deviceId" : "27243c30-803a-11f0-98c5-f52598b463af"
+              "deviceId" : "ec03a540-8cb0-11f0-a183-ed93958ce7de"
             },
             "enableDataExport" : true,
             "widgetCss" : "",
@@ -534,7 +534,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "27176af0-803a-11f0-98c5-f52598b463af",
+              "deviceId" : "ec03a540-8cb0-11f0-a183-ed93958ce7de",
               "dataKeys" : [ {
                 "name" : "cloro",
                 "type" : "timeseries",
@@ -1174,7 +1174,7 @@
             "datasources" : [ ],
             "targetDevice" : {
               "type" : "device",
-              "deviceId" : "ec8f0930-3578-11f0-a851-d98fa5765a83"
+              "deviceId" : "ec03a540-8cb0-11f0-a183-ed93958ce7de"
             },
             "enableDataExport" : true,
             "widgetCss" : "",
@@ -1194,7 +1194,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "27176af0-803a-11f0-98c5-f52598b463af",
+              "deviceId" : "ec03a540-8cb0-11f0-a183-ed93958ce7de",
               "dataKeys" : [ {
                 "name" : "cloro",
                 "type" : "timeseries",
@@ -1353,7 +1353,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "ec8f0930-3578-11f0-a851-d98fa5765a83",
+              "deviceId" : "ec03a540-8cb0-11f0-a183-ed93958ce7de",
               "dataKeys" : [ {
                 "name" : "ph",
                 "type" : "timeseries",
@@ -1555,7 +1555,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "27272260-803a-11f0-98c5-f52598b463af",
+              "deviceId" : "ec03a540-8cb0-11f0-a183-ed93958ce7de",
               "dataKeys" : [ {
                 "name" : "turbidez",
                 "type" : "timeseries",
@@ -1715,7 +1715,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "27243c30-803a-11f0-98c5-f52598b463af",
+              "deviceId" : "ec03a540-8cb0-11f0-a183-ed93958ce7de",
               "dataKeys" : [ {
                 "name" : "temperatura",
                 "type" : "timeseries",
@@ -1899,7 +1899,7 @@
             "datasources" : [ ],
             "targetDevice" : {
               "type" : "device",
-              "deviceId" : "27272260-803a-11f0-98c5-f52598b463af"
+              "deviceId" : "ec03a540-8cb0-11f0-a183-ed93958ce7de"
             },
             "enableDataExport" : true,
             "widgetCss" : "",
@@ -1949,7 +1949,7 @@
             "datasources" : [ ],
             "targetDevice" : {
               "type" : "device",
-              "deviceId" : "27243c30-803a-11f0-98c5-f52598b463af"
+              "deviceId" : "ec03a540-8cb0-11f0-a183-ed93958ce7de"
             },
             "enableDataExport" : true,
             "widgetCss" : "",
@@ -1969,7 +1969,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "27272260-803a-11f0-98c5-f52598b463af",
+              "deviceId" : "ec03a540-8cb0-11f0-a183-ed93958ce7de",
               "dataKeys" : [ {
                 "name" : "turbidez",
                 "type" : "timeseries",
@@ -2439,7 +2439,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "27243c30-803a-11f0-98c5-f52598b463af",
+              "deviceId" : "ec03a540-8cb0-11f0-a183-ed93958ce7de",
               "dataKeys" : [ {
                 "name" : "temperatura",
                 "type" : "timeseries",
