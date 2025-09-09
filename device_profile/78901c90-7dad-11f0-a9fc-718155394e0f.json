@@ -27,7 +27,7 @@
         "clearRule" : null,
         "createRules" : {
           "CRITICAL" : {
-            "alarmDetails" : null,
+            "alarmDetails" : "El dispositivo se ha desconectado. Revíselo o póngase en contacto con el SAT.",
             "condition" : {
               "condition" : [ {
                 "key" : {
@@ -47,7 +47,12 @@
                 "valueType" : "BOOLEAN"
               } ],
               "spec" : {
-                "type" : "SIMPLE"
+                "type" : "REPEATING",
+                "predicate" : {
+                  "defaultValue" : 5,
+                  "dynamicValue" : null,
+                  "userValue" : null
+                }
               }
             },
             "dashboardId" : null,
