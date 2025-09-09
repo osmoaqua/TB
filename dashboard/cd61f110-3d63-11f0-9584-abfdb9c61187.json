@@ -113,7 +113,7 @@
               "realtime" : {
                 "realtimeType" : 0,
                 "interval" : 300000,
-                "timewindowMs" : 3600000,
+                "timewindowMs" : 900000,
                 "quickInterval" : "CURRENT_DAY",
                 "hideInterval" : false,
                 "hideLastInterval" : false,
@@ -379,7 +379,10 @@
             "actions" : {
               "headerButton" : [ {
                 "name" : "Modo oscuro",
-                "icon" : "lightbulb",
+                "buttonType" : "icon",
+                "icon" : "dark_mode",
+                "buttonColor" : "rgba(0, 0, 0, 0.87)",
+                "customButtonStyle" : { },
                 "useShowWidgetActionFunction" : null,
                 "showWidgetActionFunction" : "return true;",
                 "type" : "custom",
@@ -590,7 +593,7 @@
               "realtime" : {
                 "realtimeType" : 0,
                 "interval" : 600000,
-                "timewindowMs" : 7200000,
+                "timewindowMs" : 900000,
                 "quickInterval" : "CURRENT_DAY",
                 "hideInterval" : false,
                 "hideLastInterval" : false,
@@ -2234,7 +2237,10 @@
             "actions" : {
               "headerButton" : [ {
                 "name" : "Modo oscuro",
-                "icon" : "lightbulb",
+                "buttonType" : "icon",
+                "icon" : "dark_mode",
+                "buttonColor" : "rgba(0, 0, 0, 0.87)",
+                "customButtonStyle" : { },
                 "useShowWidgetActionFunction" : null,
                 "showWidgetActionFunction" : "return true;",
                 "type" : "custom",
