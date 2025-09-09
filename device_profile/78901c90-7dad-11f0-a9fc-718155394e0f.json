@@ -23,7 +23,7 @@
     "name" : "Paneles ph cloro",
     "profileData" : {
       "alarms" : [ {
-        "alarmType" : "Desacrovado",
+        "alarmType" : "Desactivado",
         "clearRule" : null,
         "createRules" : {
           "CRITICAL" : {
