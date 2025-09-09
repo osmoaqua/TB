@@ -3,8 +3,8 @@
   "entity" : {
     "title" : "Panel_ph_cloro_redox_temp_wifi",
     "image" : "tb-image;/api/images/tenant/panel_ph_cloro_wifi_dashboard_image.png",
-    "mobileHide" : true,
-    "mobileOrder" : null,
+    "mobileHide" : false,
+    "mobileOrder" : 1,
     "configuration" : {
       "description" : "Medida de cloro y ph",
       "widgets" : {
@@ -17,7 +17,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "8f60d8b0-80ff-11f0-98c5-f52598b463af",
+              "deviceId" : "b87fa2c0-8da8-11f0-a183-ed93958ce7de",
               "dataKeys" : [ {
                 "name" : "cloro",
                 "type" : "timeseries",
@@ -474,7 +474,7 @@
             "datasources" : [ ],
             "targetDevice" : {
               "type" : "device",
-              "deviceId" : "8f60d8b0-80ff-11f0-98c5-f52598b463af"
+              "deviceId" : "b87fa2c0-8da8-11f0-a183-ed93958ce7de"
             },
             "enableDataExport" : true,
             "widgetCss" : "",
@@ -494,7 +494,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "f5be1ad0-8359-11f0-98c5-f52598b463af",
+              "deviceId" : "b87fa2c0-8da8-11f0-a183-ed93958ce7de",
               "dataKeys" : [ {
                 "name" : "ph",
                 "type" : "timeseries",
@@ -1073,7 +1073,7 @@
             "datasources" : [ ],
             "targetDevice" : {
               "type" : "device",
-              "deviceId" : "8f60d8b0-80ff-11f0-98c5-f52598b463af"
+              "deviceId" : "b87fa2c0-8da8-11f0-a183-ed93958ce7de"
             },
             "enableDataExport" : true,
             "widgetCss" : "",
@@ -1093,7 +1093,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "8f60d8b0-80ff-11f0-98c5-f52598b463af",
+              "deviceId" : "b87fa2c0-8da8-11f0-a183-ed93958ce7de",
               "dataKeys" : [ {
                 "name" : "cloro",
                 "type" : "timeseries",
@@ -1252,7 +1252,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "8f60d8b0-80ff-11f0-98c5-f52598b463af",
+              "deviceId" : "b87fa2c0-8da8-11f0-a183-ed93958ce7de",
               "dataKeys" : [ {
                 "name" : "ph",
                 "type" : "timeseries",
@@ -1460,7 +1460,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "8f60d8b0-80ff-11f0-98c5-f52598b463af",
+              "deviceId" : "b87fa2c0-8da8-11f0-a183-ed93958ce7de",
               "dataKeys" : [ {
                 "name" : "turbidez",
                 "type" : "timeseries",
@@ -1620,7 +1620,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "f5be1ad0-8359-11f0-98c5-f52598b463af",
+              "deviceId" : "b87fa2c0-8da8-11f0-a183-ed93958ce7de",
               "dataKeys" : [ {
                 "name" : "temperatura",
                 "type" : "timeseries",
@@ -1804,7 +1804,7 @@
             "datasources" : [ ],
             "targetDevice" : {
               "type" : "device",
-              "deviceId" : "8f60d8b0-80ff-11f0-98c5-f52598b463af"
+              "deviceId" : "b87fa2c0-8da8-11f0-a183-ed93958ce7de"
             },
             "enableDataExport" : true,
             "widgetCss" : "",
@@ -1854,7 +1854,7 @@
             "datasources" : [ ],
             "targetDevice" : {
               "type" : "device",
-              "deviceId" : "8f60d8b0-80ff-11f0-98c5-f52598b463af"
+              "deviceId" : "b87fa2c0-8da8-11f0-a183-ed93958ce7de"
             },
             "enableDataExport" : true,
             "widgetCss" : "",
@@ -1874,7 +1874,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "f5be1ad0-8359-11f0-98c5-f52598b463af",
+              "deviceId" : "b87fa2c0-8da8-11f0-a183-ed93958ce7de",
               "dataKeys" : [ {
                 "name" : "turbidez",
                 "type" : "timeseries",
@@ -2299,7 +2299,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "8f60d8b0-80ff-11f0-98c5-f52598b463af",
+              "deviceId" : "b87fa2c0-8da8-11f0-a183-ed93958ce7de",
               "dataKeys" : [ {
                 "name" : "temperatura",
                 "type" : "timeseries",
@@ -2656,7 +2656,10 @@
             "actions" : {
               "headerButton" : [ {
                 "name" : "Modo oscuro",
-                "icon" : "lightbulb",
+                "buttonType" : "icon",
+                "icon" : "dark_mode",
+                "buttonColor" : "rgba(0, 0, 0, 0.87)",
+                "customButtonStyle" : { },
                 "useShowWidgetActionFunction" : null,
                 "showWidgetActionFunction" : "return true;",
                 "type" : "custom",
@@ -3356,7 +3359,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "8f60d8b0-80ff-11f0-98c5-f52598b463af",
+              "deviceId" : "b87fa2c0-8da8-11f0-a183-ed93958ce7de",
               "dataKeys" : [ {
                 "name" : "wifi",
                 "type" : "timeseries",
@@ -3771,7 +3774,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "8f60d8b0-80ff-11f0-98c5-f52598b463af",
+              "deviceId" : "b87fa2c0-8da8-11f0-a183-ed93958ce7de",
               "dataKeys" : [ {
                 "name" : "redox",
                 "type" : "timeseries",
@@ -3960,7 +3963,7 @@
             "datasources" : [ ],
             "targetDevice" : {
               "type" : "device",
-              "deviceId" : "8f60d8b0-80ff-11f0-98c5-f52598b463af"
+              "deviceId" : "b87fa2c0-8da8-11f0-a183-ed93958ce7de"
             },
             "enableDataExport" : true,
             "widgetCss" : "",
@@ -3980,7 +3983,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "f5be1ad0-8359-11f0-98c5-f52598b463af",
+              "deviceId" : "b87fa2c0-8da8-11f0-a183-ed93958ce7de",
               "dataKeys" : [ {
                 "name" : "redox",
                 "type" : "timeseries",
@@ -4076,7 +4079,7 @@
               "realtime" : {
                 "realtimeType" : 0,
                 "interval" : 60000,
-                "timewindowMs" : 900000,
+                "timewindowMs" : 345600000,
                 "quickInterval" : "CURRENT_DAY",
                 "hideInterval" : false,
                 "hideLastInterval" : false,
@@ -4340,8 +4343,11 @@
             "actions" : {
               "headerButton" : [ {
                 "name" : "Modo oscuro",
-                "icon" : "lightbulb",
-                "useShowWidgetActionFunction" : null,
+                "buttonType" : "icon",
+                "icon" : "dark_mode",
+                "buttonColor" : "rgba(0, 0, 0, 0.87)",
+                "customButtonStyle" : { },
+                "useShowWidgetActionFunction" : false,
                 "showWidgetActionFunction" : "return true;",
                 "type" : "custom",
                 "customFunction" : "$('.tb-dashboard-page').toggleClass('dark');",
@@ -4780,7 +4786,10 @@
     "name" : "Panel_ph_cloro_redox_temp_wifi",
     "resources" : null,
     "assignedCustomers" : null,
-    "customerId" : null,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
     "externalId" : null,
     "id" : {
       "entityType" : "DASHBOARD",
