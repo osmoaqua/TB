@@ -17,8 +17,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "3fb5f650-3579-11f0-a851-d98fa5765a83",
-              "entityAliasId" : null,
+              "deviceId" : "ec03a540-8cb0-11f0-a183-ed93958ce7de",
               "filterId" : null,
               "dataKeys" : [ {
                 "name" : "latitude",
@@ -5370,7 +5369,7 @@
                 "1b2f27be-0024-7036-ea0c-cc0d91ae4372" : {
                   "sizeX" : 24,
                   "sizeY" : 12,
-                  "row" : 0,
+                  "row" : 2,
                   "col" : 0
                 }
               },
