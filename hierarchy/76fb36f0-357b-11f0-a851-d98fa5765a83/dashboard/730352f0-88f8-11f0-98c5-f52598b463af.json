@@ -74,14 +74,9 @@
             "color" : "rgba(0, 0, 0, 0.87)",
             "padding" : "8px",
             "settings" : {
-              "provider" : "here",
-              "mapProviderHere" : "HERE.normalDay",
-              "credentials" : {
-                "useV3" : true,
-                "app_id" : "AhM6TzD9ThyK78CT3ptx",
-                "app_code" : "p6NPiITB3Vv0GMUFnkLOOg",
-                "apiKey" : "kVXykxAfZ6LS4EbCTO02soFVfjA7HoBzNVVH9u7nzoE"
-              },
+              "provider" : "openstreet-map",
+              "mapProvider" : "OpenStreetMap.HOT",
+              "useCustomProvider" : false,
               "latKeyName" : "latitude",
               "lngKeyName" : "longitude",
               "xPosKeyName" : "xPos",
