@@ -7,7 +7,7 @@
     "defaultQueueName" : null,
     "defaultRuleChainId" : {
       "entityType" : "RULE_CHAIN",
-      "id" : "aac99f90-34e9-11f0-a851-d98fa5765a83"
+      "id" : "28a865f0-52ad-11f0-a9fc-718155394e0f"
     },
     "description" : "Default device profile",
     "externalId" : {
