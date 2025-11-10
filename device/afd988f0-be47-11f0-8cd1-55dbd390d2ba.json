@@ -18,7 +18,7 @@
     },
     "deviceProfileId" : {
       "entityType" : "DEVICE_PROFILE",
-      "id" : "78901c90-7dad-11f0-a9fc-718155394e0f"
+      "id" : "aba1fe30-34e9-11f0-a851-d98fa5765a83"
     },
     "externalId" : null,
     "firmwareId" : null,
@@ -30,7 +30,7 @@
     "name" : "frioCubit",
     "ownerId" : null,
     "softwareId" : null,
-    "type" : "Paneles ph cloro"
+    "type" : "default"
   },
   "credentials" : {
     "credentialsId" : "KRnbX4zVTApMbtZaWL92",
@@ -38,7 +38,39 @@
     "credentialsValue" : null
   },
   "attributes" : {
-    "SERVER_SCOPE" : [ ],
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : true,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1762787795070,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1762788491993,
+      "longValue" : 1762788491993,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastConnectTime",
+      "lastUpdateTs" : 1762788491993,
+      "longValue" : 1762788491993,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastDisconnectTime",
+      "lastUpdateTs" : 1762788490961,
+      "longValue" : 1762788490961,
+      "strValue" : null
+    } ],
     "SHARED_SCOPE" : [ ]
   },
   "calculatedFields" : [ ]
